@@ -72,6 +72,25 @@
     "notes": "賞金総額100万ドルの大規模国際大会。本戦各日の開始時刻は未確認のため終日予定として登録。"
   },
   {
+    "id": "sf6-update-yasmine-2026-08-03",
+    "title": "【アップデート】ストリートファイター6 ヤスミン配信",
+    "category": "sf6",
+    "persons": [],
+    "start": "2026-08-03",
+    "end": "2026-08-04",
+    "allDay": true,
+    "location": "オンライン",
+    "url": "https://store.captown.capcom.com/en/blogs/news/0000032",
+    "sourceUrls": [
+      "https://store.captown.capcom.com/en/blogs/news/0000032",
+      "https://store.captown.capcom.com/en/products/1540999-jp"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-23T18:00:00+09:00",
+    "notes": "Year 4追加キャラクター第1弾「ヤスミン」の配信予定日。具体的な配信開始時刻とメンテナンス時間は未発表のため終日予定として登録。"
+  },
+  {
     "id": "streamer-the-k4sen-con-2026-day1",
     "title": "The k4sen Con 2026 DAY1",
     "category": "streamer",
