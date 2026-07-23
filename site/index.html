@@ -7,28 +7,68 @@
   <title>Streamer Event Calendar</title>
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
   <style>
-    :root { color-scheme: light dark; --bg:#f5f6f8; --panel:#fff; --text:#17191c; --muted:#667085; --line:#e4e7ec; --accent:#3157d5; }
-    @media (prefers-color-scheme:dark){:root{--bg:#111318;--panel:#1b1e24;--text:#f3f4f6;--muted:#a7adb8;--line:#30343c;--accent:#8ca5ff}}
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
-    header{padding:24px 16px 14px;max-width:1120px;margin:auto} h1{margin:0 0 6px;font-size:clamp(1.45rem,4vw,2.1rem)} p{margin:0;color:var(--muted)}
-    main{max-width:1120px;margin:auto;padding:0 16px 36px}.toolbar,.calendar-wrap{background:var(--panel);border:1px solid var(--line);border-radius:14px}
-    .toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:12px;margin-bottom:14px}.toolbar label{display:flex;align-items:center;gap:6px}.links{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px}
-    a.button{display:inline-block;padding:8px 11px;border:1px solid var(--line);border-radius:9px;color:var(--text);text-decoration:none;background:var(--panel)}a.button:hover{border-color:var(--accent)}
-    .calendar-wrap{padding:12px}.status{padding:10px;color:var(--muted);font-size:.92rem}.fc .fc-button-primary{background:var(--accent);border-color:var(--accent)}
-    .fc .fc-toolbar-title{font-size:1.25rem}.fc-event{cursor:pointer}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.9rem;margin-top:10px}.dot{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:5px}.streamer{background:#6d5bd0}.sf6{background:#d04f4f}
-    dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text);max-width:620px;width:calc(100% - 32px);padding:20px}dialog::backdrop{background:#0008}.detail-row{margin:10px 0;color:var(--muted)}.detail-row strong{color:var(--text)}
-    @media(max-width:680px){.links{margin-left:0;width:100%}.fc .fc-toolbar{display:grid;gap:8px}.fc .fc-toolbar-chunk{text-align:center}.calendar-wrap{padding:7px}}
+    :root {
+      color-scheme: light dark;
+      --bg:#f5f6f8; --panel:#fff; --text:#17191c; --muted:#5b6472; --line:#d7dce3;
+      --accent:#2347b9; --accent-text:#fff; --selected:#dbe6ff; --selected-text:#10245f;
+      --streamer:#5a43c7; --sf6:#bd2f3f; --event-text:#fff;
+    }
+    @media (prefers-color-scheme:dark){
+      :root{
+        --bg:#111318; --panel:#1b1e24; --text:#f3f4f6; --muted:#b7bdc8; --line:#3b414b;
+        --accent:#9bb0ff; --accent-text:#111318; --selected:#34426d; --selected-text:#fff;
+        --streamer:#8d78ff; --sf6:#ff6677; --event-text:#111318;
+      }
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+    header{padding:24px 16px 14px;max-width:1120px;margin:auto}
+    h1{margin:0 0 6px;font-size:clamp(1.45rem,4vw,2.1rem)}
+    p{margin:0;color:var(--muted)}
+    main{max-width:1120px;margin:auto;padding:0 16px 36px}
+    .toolbar,.calendar-wrap,.notice{background:var(--panel);border:1px solid var(--line);border-radius:14px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:12px;margin-bottom:10px}
+    .toolbar label{display:flex;align-items:center;gap:7px;font-weight:600}
+    input[type=checkbox]{width:18px;height:18px;accent-color:var(--accent)}
+    .links{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px}
+    a.button,button{display:inline-block;padding:9px 12px;border:1px solid var(--line);border-radius:9px;color:var(--text);text-decoration:none;background:var(--panel);font:inherit;font-weight:600;cursor:pointer}
+    a.button:hover,button:hover{border-color:var(--accent)}
+    a.button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}
+    .notice{padding:12px 14px;margin-bottom:14px;color:var(--muted);font-size:.92rem;line-height:1.6}
+    .notice strong{color:var(--text)}
+    .calendar-wrap{padding:12px}
+    .status{padding:10px;color:var(--muted);font-size:.92rem}
+    .fc .fc-button-primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}
+    .fc .fc-button-primary:not(:disabled):hover,.fc .fc-button-primary:not(:disabled).fc-button-active{filter:brightness(.9);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 30%,transparent)}
+    .fc .fc-toolbar-title{font-size:1.25rem}
+    .fc-event{cursor:pointer;color:var(--event-text)!important;font-weight:700;border-width:2px}
+    .fc-event:focus,.fc-event:hover{outline:3px solid color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:1px}
+    .fc .fc-day-today{background:var(--selected)!important;color:var(--selected-text)}
+    .fc .fc-highlight{background:color-mix(in srgb,var(--accent) 25%,transparent)!important}
+    .legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.9rem;margin-top:10px}
+    .dot{width:11px;height:11px;border-radius:50%;display:inline-block;margin-right:5px;border:1px solid #0003}
+    .streamer{background:var(--streamer)}.sf6{background:var(--sf6)}
+    dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text);max-width:620px;width:calc(100% - 32px);padding:20px}
+    dialog::backdrop{background:#0008}
+    .detail-row{margin:10px 0;color:var(--muted)}.detail-row strong{color:var(--text)}
+    @media(max-width:680px){.links{margin-left:0;width:100%}.links .button{flex:1;text-align:center}.fc .fc-toolbar{display:grid;gap:8px}.fc .fc-toolbar-chunk{text-align:center}.calendar-wrap{padding:7px}}
   </style>
 </head>
 <body>
 <header><h1>Streamer Event Calendar</h1><p>配信者の出演イベントと、ストリートファイター6の主要大会をまとめています。</p></header>
 <main>
   <section class="toolbar">
-    <label><input type="checkbox" id="show-streamer" checked> 配信者イベント</label>
-    <label><input type="checkbox" id="show-sf6" checked> SF6大会</label>
+    <label><input type="checkbox" id="show-streamer" checked> 配信者イベントを表示</label>
+    <label><input type="checkbox" id="show-sf6" checked> SF6大会を表示</label>
     <div class="links">
-      <a class="button" href="calendar.ics">すべて購読</a><a class="button" href="streamers.ics">配信者のみ</a><a class="button" href="sf6.ics">SF6のみ</a>
+      <a class="button primary" href="webcal://mmiyaji.github.io/streamer-event-calendar/calendar.ics">すべてを継続購読</a>
+      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/streamers.ics">配信者のみ継続購読</a>
+      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/sf6.ics">SF6のみ継続購読</a>
     </div>
+  </section>
+  <section class="notice">
+    <strong>継続購読について：</strong> 上のボタンは、対応端末で「照会するカレンダー」として登録します。登録後は端末側が定期的に更新を確認します。即時更新ではありません。<br>
+    単発で現在の予定だけを取り込みたい場合は、<a href="calendar.ics">すべてのICSを開く</a>、<a href="streamers.ics">配信者ICSを開く</a>、<a href="sf6.ics">SF6 ICSを開く</a>をご利用ください。
   </section>
   <section class="calendar-wrap"><div id="calendar"></div><div id="status" class="status">読み込み中です…</div></section>
   <div class="legend"><span><i class="dot streamer"></i>配信者イベント</span><span><i class="dot sf6"></i>SF6大会</span></div>
@@ -36,10 +76,11 @@
 <dialog id="detail"><h2 id="detail-title"></h2><div id="detail-body"></div><form method="dialog"><button>閉じる</button></form></dialog>
 <script>
 let allEvents=[]; let calendar;
-const colorFor=c=>c==='sf6'?'#d04f4f':'#6d5bd0';
+const css=getComputedStyle(document.documentElement);
+const colorFor=c=>c==='sf6'?css.getPropertyValue('--sf6').trim():css.getPropertyValue('--streamer').trim();
 const visible=e=>(e.extendedProps.category==='streamer'&&document.querySelector('#show-streamer').checked)||(e.extendedProps.category==='sf6'&&document.querySelector('#show-sf6').checked);
-function detail(info){const e=info.event,p=e.extendedProps,d=document.querySelector('#detail');document.querySelector('#detail-title').textContent=e.title;const rows=[];rows.push(`<div class="detail-row"><strong>日時:</strong> ${e.start?.toLocaleString('ja-JP')||'未定'}${e.end?' ～ '+e.end.toLocaleString('ja-JP'):''}</div>`);if(p.persons?.length)rows.push(`<div class="detail-row"><strong>出演:</strong> ${p.persons.join('、')}</div>`);if(p.location)rows.push(`<div class="detail-row"><strong>場所:</strong> ${p.location}</div>`);if(p.notes)rows.push(`<div class="detail-row"><strong>補足:</strong> ${p.notes}</div>`);if(p.url)rows.push(`<div class="detail-row"><a class="button" href="${p.url}" target="_blank" rel="noopener">公式情報を開く</a></div>`);document.querySelector('#detail-body').innerHTML=rows.join('');d.showModal();}
-async function init(){try{const r=await fetch('events.json',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const raw=await r.json();allEvents=raw.filter(e=>['high','medium'].includes(e.confidence)&&e.status!=='cancelled').map(e=>({id:e.id,title:(e.confidence==='medium'?'【予定】':'')+e.title,start:e.start,end:e.end,allDay:e.allDay,backgroundColor:colorFor(e.category),borderColor:colorFor(e.category),extendedProps:e}));calendar=new FullCalendar.Calendar(document.querySelector('#calendar'),{locale:'ja',initialView:innerWidth<680?'listMonth':'dayGridMonth',height:'auto',headerToolbar:{left:'prev,next today',center:'title',right:'dayGridMonth,listMonth'},events:(i,s)=>s(allEvents.filter(visible)),eventClick:detail});calendar.render();document.querySelector('#status').textContent=allEvents.length?`${allEvents.length}件のイベントを掲載しています。`:'現在、掲載中のイベントはありません。';document.querySelectorAll('input[type=checkbox]').forEach(x=>x.addEventListener('change',()=>calendar.refetchEvents()));}catch(err){document.querySelector('#status').textContent='イベントデータを読み込めませんでした。';console.error(err)}}
+function detail(info){const e=info.event,p=e.extendedProps,d=document.querySelector('#detail');document.querySelector('#detail-title').textContent=e.title;const rows=[];rows.push(`<div class="detail-row"><strong>日時:</strong> ${e.start?.toLocaleString('ja-JP')||'未定'}${e.end?' ～ '+e.end.toLocaleString('ja-JP'):''}</div>`);if(p.persons?.length)rows.push(`<div class="detail-row"><strong>出演:</strong> ${p.persons.join('、')}</div>`);if(p.location)rows.push(`<div class="detail-row"><strong>場所:</strong> ${p.location}</div>`);if(p.notes)rows.push(`<div class="detail-row"><strong>補足:</strong> ${p.notes}</div>`);if(p.url)rows.push(`<div class="detail-row"><a class="button" href="${p.url}" target="_blank" rel="noopener">情報元を開く</a></div>`);document.querySelector('#detail-body').innerHTML=rows.join('');d.showModal();}
+async function init(){try{const r=await fetch('events.json',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const raw=await r.json();allEvents=raw.filter(e=>['high','medium'].includes(e.confidence)&&e.status!=='cancelled').map(e=>({id:e.id,title:(e.confidence==='medium'?'【予定】':'')+e.title,start:e.start,end:e.end,allDay:e.allDay,backgroundColor:colorFor(e.category),borderColor:colorFor(e.category),textColor:getComputedStyle(document.documentElement).getPropertyValue('--event-text').trim(),extendedProps:e}));calendar=new FullCalendar.Calendar(document.querySelector('#calendar'),{locale:'ja',initialView:innerWidth<680?'listMonth':'dayGridMonth',height:'auto',headerToolbar:{left:'prev,next today',center:'title',right:'dayGridMonth,listMonth'},buttonText:{today:'今日',month:'月',list:'一覧'},events:(i,s)=>s(allEvents.filter(visible)),eventClick:detail,eventDidMount:i=>i.el.setAttribute('aria-label',i.event.title)});calendar.render();document.querySelector('#status').textContent=allEvents.length?`${allEvents.length}件のイベントを掲載しています。`:'現在、掲載中のイベントはありません。';document.querySelectorAll('input[type=checkbox]').forEach(x=>x.addEventListener('change',()=>calendar.refetchEvents()));}catch(err){document.querySelector('#status').textContent='イベントデータを読み込めませんでした。';console.error(err)}}
 init();
 </script>
 </body>
