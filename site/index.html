@@ -3,132 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="配信者の出演情報とストリートファイター6主要大会のカレンダー">
-  <title>Streamer Event Calendar</title>
+  <meta name="description" content="配信者の出演情報、ストリートファイター6主要大会、Shadowverse: Worlds Beyondの大会・アップデート予定をまとめたカレンダー">
+  <title>Event Calendar</title>
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
   <style>
-    :root {
-      color-scheme: light dark;
-      --bg:#eef1f5; --panel:#ffffff; --text:#111827; --muted:#4b5563; --line:#cbd2dc;
-      --accent:#1d4ed8; --accent-hover:#1e40af; --accent-text:#ffffff;
-      --selected-bg:#dbeafe; --selected-border:#2563eb; --selected-text:#172554;
-      --today-bg:#fff4cc; --today-text:#4a3400;
-      --warning-bg:#fff8dc; --warning-border:#d69e2e; --warning-text:#4a3400;
-      --streamer:#4c2ea8; --streamer-border:#331c7a;
-      --sf6:#a61b2b; --sf6-border:#74121e;
-      --event-text:#ffffff; --focus:#f59e0b;
-    }
-    @media (prefers-color-scheme:dark){
-      :root{
-        --bg:#0b0f16; --panel:#161b24; --text:#f8fafc; --muted:#c3cad5; --line:#46505f;
-        --accent:#8da8ff; --accent-hover:#afc0ff; --accent-text:#0b1020;
-        --selected-bg:#263d77; --selected-border:#9db4ff; --selected-text:#ffffff;
-        --today-bg:#4a3c12; --today-text:#fff4c2;
-        --warning-bg:#342c12; --warning-border:#d8ab45; --warning-text:#fff1b8;
-        --streamer:#6848d8; --streamer-border:#a996ff;
-        --sf6:#c73548; --sf6-border:#ff9aaa;
-        --event-text:#ffffff; --focus:#ffd166;
-      }
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
-    header{padding:24px 16px 14px;max-width:1120px;margin:auto}
-    h1{margin:0 0 6px;font-size:clamp(1.45rem,4vw,2.1rem)}
-    p{margin:0;color:var(--muted)}
-    main{max-width:1120px;margin:auto;padding:0 16px 24px}
-    .toolbar,.calendar-wrap,.notice,.caution{background:var(--panel);border:1px solid var(--line);border-radius:14px}
-    .toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px;margin-bottom:10px}
-    .filter-option{display:flex;align-items:center;gap:8px;padding:9px 12px;border:2px solid var(--line);border-radius:999px;font-weight:700;color:var(--muted);background:var(--panel);cursor:pointer;transition:background .15s,border-color .15s,color .15s,box-shadow .15s}
-    .filter-option:hover{border-color:var(--accent)}
-    .filter-option:has(input:checked){background:var(--selected-bg);border-color:var(--selected-border);color:var(--selected-text);box-shadow:0 0 0 2px color-mix(in srgb,var(--selected-border) 18%,transparent)}
-    .filter-option input{width:18px;height:18px;margin:0;accent-color:var(--accent)}
-    .filter-option input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
-    .links{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px}
-    a.button,button{display:inline-block;padding:9px 12px;border:2px solid var(--line);border-radius:9px;color:var(--text);text-decoration:none;background:var(--panel);font:inherit;font-weight:700;cursor:pointer}
-    a.button:hover,button:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,var(--panel))}
-    a.button:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
-    a.button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}
-    a.button.primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}
-    .notice{padding:12px 14px;margin-bottom:14px;color:var(--muted);font-size:.92rem;line-height:1.6}
-    .notice strong{color:var(--text)}
-    .notice a,.caution a,footer a{color:var(--accent);font-weight:700}
-    .caution{padding:14px 16px;margin-top:14px;background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text);font-size:.92rem;line-height:1.65}
-    .caution strong{display:block;margin-bottom:4px;color:var(--warning-text)}
-    .caution ul{margin:6px 0 0;padding-left:1.25rem}
-    .calendar-wrap{padding:12px}
-    .status{padding:10px;color:var(--muted);font-size:.92rem}
-    .fc{--fc-border-color:var(--line);--fc-page-bg-color:var(--panel);--fc-neutral-bg-color:color-mix(in srgb,var(--panel) 88%,var(--bg));--fc-list-event-hover-bg-color:var(--selected-bg)}
-    .fc .fc-button-primary{background:var(--panel);border:2px solid var(--line);color:var(--text);font-weight:700;box-shadow:none}
-    .fc .fc-button-primary:not(:disabled):hover{background:var(--selected-bg);border-color:var(--selected-border);color:var(--selected-text)}
-    .fc .fc-button-primary:not(:disabled).fc-button-active{background:var(--accent);border-color:var(--accent);color:var(--accent-text);box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 25%,transparent)}
-    .fc .fc-button-primary:focus{box-shadow:0 0 0 3px var(--focus)}
-    .fc .fc-toolbar-title{font-size:1.25rem}
-    .fc .fc-col-header-cell-cushion,.fc .fc-daygrid-day-number,.fc .fc-list-day-text,.fc .fc-list-day-side-text{color:var(--text);font-weight:700;text-decoration:none}
-    .fc-event{cursor:pointer;color:var(--event-text)!important;font-weight:800;border-width:2px;text-shadow:0 1px 1px #0007}
-    .fc-event:hover{filter:brightness(1.12)}
-    .fc-event:focus{outline:3px solid var(--focus);outline-offset:2px}
-    .fc .fc-day-today{background:var(--today-bg)!important;color:var(--today-text)}
-    .fc .fc-day-today .fc-daygrid-day-number{color:var(--today-text);text-decoration:underline;text-decoration-thickness:2px}
-    .fc .fc-highlight{background:color-mix(in srgb,var(--accent) 35%,transparent)!important;outline:2px solid var(--selected-border);outline-offset:-2px}
-    .legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--text);font-size:.9rem;margin-top:10px;font-weight:700}
-    .legend span{display:inline-flex;align-items:center;padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}
-    .dot{width:13px;height:13px;border-radius:50%;display:inline-block;margin-right:7px;border:2px solid #fff;box-shadow:0 0 0 1px #0006}
-    .streamer{background:var(--streamer)}.sf6{background:var(--sf6)}
-    footer{max-width:1120px;margin:0 auto;padding:20px 16px 32px;color:var(--muted);font-size:.9rem;text-align:center}
-    .footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 16px;margin-bottom:8px}
-    dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text);max-width:620px;width:calc(100% - 32px);padding:20px}
-    dialog::backdrop{background:#0009}
-    .detail-row{margin:10px 0;color:var(--muted)}.detail-row strong{color:var(--text)}
+    :root{color-scheme:light dark;--bg:#eef1f5;--panel:#fff;--text:#111827;--muted:#4b5563;--line:#cbd2dc;--accent:#1d4ed8;--accent-hover:#1e40af;--accent-text:#fff;--selected-bg:#dbeafe;--selected-border:#2563eb;--selected-text:#172554;--today-bg:#fff4cc;--today-text:#4a3400;--warning-bg:#fff8dc;--warning-border:#d69e2e;--warning-text:#4a3400;--streamer:#4c2ea8;--streamer-border:#331c7a;--sf6:#a61b2b;--sf6-border:#74121e;--shadowverse:#08756a;--shadowverse-border:#064e46;--event-text:#fff;--focus:#f59e0b}
+    @media(prefers-color-scheme:dark){:root{--bg:#0b0f16;--panel:#161b24;--text:#f8fafc;--muted:#c3cad5;--line:#46505f;--accent:#8da8ff;--accent-hover:#afc0ff;--accent-text:#0b1020;--selected-bg:#263d77;--selected-border:#9db4ff;--selected-text:#fff;--today-bg:#4a3c12;--today-text:#fff4c2;--warning-bg:#342c12;--warning-border:#d8ab45;--warning-text:#fff1b8;--streamer:#6848d8;--streamer-border:#a996ff;--sf6:#c73548;--sf6-border:#ff9aaa;--shadowverse:#0f8f82;--shadowverse-border:#65e4d6;--event-text:#fff;--focus:#ffd166}}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}header{padding:24px 16px 14px;max-width:1120px;margin:auto}h1{margin:0 0 6px;font-size:clamp(1.45rem,4vw,2.1rem)}p{margin:0;color:var(--muted)}main{max-width:1120px;margin:auto;padding:0 16px 24px}.toolbar,.calendar-wrap,.notice,.caution{background:var(--panel);border:1px solid var(--line);border-radius:14px}.toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:12px;margin-bottom:10px}.filter-option{display:flex;align-items:center;gap:8px;padding:9px 12px;border:2px solid var(--line);border-radius:999px;font-weight:700;color:var(--muted);background:var(--panel);cursor:pointer}.filter-option:hover{border-color:var(--accent)}.filter-option:has(input:checked){background:var(--selected-bg);border-color:var(--selected-border);color:var(--selected-text);box-shadow:0 0 0 2px color-mix(in srgb,var(--selected-border) 18%,transparent)}.filter-option input{width:18px;height:18px;margin:0;accent-color:var(--accent)}.filter-option input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}.links{margin-left:auto;display:flex;flex-wrap:wrap;gap:8px}a.button,button{display:inline-block;padding:9px 12px;border:2px solid var(--line);border-radius:9px;color:var(--text);text-decoration:none;background:var(--panel);font:inherit;font-weight:700;cursor:pointer}a.button:hover,button:hover{border-color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,var(--panel))}a.button:focus-visible,button:focus-visible{outline:3px solid var(--focus);outline-offset:2px}a.button.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}a.button.primary:hover{background:var(--accent-hover);border-color:var(--accent-hover)}.notice{padding:12px 14px;margin-bottom:14px;color:var(--muted);font-size:.92rem;line-height:1.6}.notice strong{color:var(--text)}.notice a,.caution a,footer a{color:var(--accent);font-weight:700}.caution{padding:14px 16px;margin-top:14px;background:var(--warning-bg);border-color:var(--warning-border);color:var(--warning-text);font-size:.92rem;line-height:1.65}.caution strong{display:block;margin-bottom:4px}.caution ul{margin:6px 0 0;padding-left:1.25rem}.calendar-wrap{padding:12px}.status{padding:10px;color:var(--muted);font-size:.92rem}.fc{--fc-border-color:var(--line);--fc-page-bg-color:var(--panel);--fc-neutral-bg-color:color-mix(in srgb,var(--panel) 88%,var(--bg));--fc-list-event-hover-bg-color:var(--selected-bg)}.fc .fc-button-primary{background:var(--panel);border:2px solid var(--line);color:var(--text);font-weight:700;box-shadow:none}.fc .fc-button-primary:not(:disabled):hover{background:var(--selected-bg);border-color:var(--selected-border);color:var(--selected-text)}.fc .fc-button-primary:not(:disabled).fc-button-active{background:var(--accent);border-color:var(--accent);color:var(--accent-text)}.fc .fc-toolbar-title{font-size:1.25rem}.fc .fc-col-header-cell-cushion,.fc .fc-daygrid-day-number,.fc .fc-list-day-text,.fc .fc-list-day-side-text{color:var(--text);font-weight:700;text-decoration:none}.fc-event{cursor:pointer;color:var(--event-text)!important;font-weight:800;border-width:2px;text-shadow:0 1px 1px #0007}.fc-event:hover{filter:brightness(1.12)}.fc-event:focus{outline:3px solid var(--focus);outline-offset:2px}.fc .fc-day-today{background:var(--today-bg)!important;color:var(--today-text)}.legend{display:flex;gap:10px;flex-wrap:wrap;color:var(--text);font-size:.9rem;margin-top:10px;font-weight:700}.legend span{display:inline-flex;align-items:center;padding:5px 9px;border:1px solid var(--line);border-radius:999px;background:var(--panel)}.dot{width:13px;height:13px;border-radius:50%;display:inline-block;margin-right:7px;border:2px solid #fff;box-shadow:0 0 0 1px #0006}.streamer{background:var(--streamer)}.sf6{background:var(--sf6)}.shadowverse{background:var(--shadowverse)}footer{max-width:1120px;margin:0 auto;padding:20px 16px 32px;color:var(--muted);font-size:.9rem;text-align:center}.footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 16px;margin-bottom:8px}dialog{border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--text);max-width:620px;width:calc(100% - 32px);padding:20px}dialog::backdrop{background:#0009}.detail-row{margin:10px 0;color:var(--muted)}.detail-row strong{color:var(--text)}
     @media(max-width:680px){.links{margin-left:0;width:100%}.links .button{flex:1;text-align:center;min-width:140px}.filter-option{flex:1;justify-content:center}.fc .fc-toolbar{display:grid;gap:8px}.fc .fc-toolbar-chunk{text-align:center}.calendar-wrap{padding:7px}}
   </style>
 </head>
 <body>
-<header><h1>Streamer Event Calendar</h1><p>配信者の出演イベントと、ストリートファイター6の主要大会をまとめています。</p></header>
+<header><h1>Event Calendar</h1><p>配信者イベント、SF6主要大会、Shadowverse: Worlds Beyondの大会・アップデート予定をまとめています。</p></header>
 <main>
   <section class="toolbar">
-    <label class="filter-option"><input type="checkbox" id="show-streamer" checked> 配信者イベントを表示</label>
-    <label class="filter-option"><input type="checkbox" id="show-sf6" checked> SF6大会を表示</label>
+    <label class="filter-option"><input type="checkbox" id="show-streamer" checked> 配信者</label>
+    <label class="filter-option"><input type="checkbox" id="show-sf6" checked> SF6</label>
+    <label class="filter-option"><input type="checkbox" id="show-shadowverse" checked> シャドバWB</label>
     <div class="links">
       <a class="button primary" href="webcal://mmiyaji.github.io/streamer-event-calendar/calendar.ics">すべてを継続購読</a>
-      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/streamers.ics">配信者のみ継続購読</a>
-      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/sf6.ics">SF6のみ継続購読</a>
+      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/streamers.ics">配信者</a>
+      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/sf6.ics">SF6</a>
+      <a class="button" href="webcal://mmiyaji.github.io/streamer-event-calendar/shadowverse-wb.ics">シャドバWB</a>
     </div>
   </section>
-  <section class="notice">
-    <strong>継続購読について：</strong> 上のボタンは、対応端末で「照会するカレンダー」として登録します。登録後は端末側が定期的に更新を確認します。即時更新ではありません。<br>
-    単発で現在の予定だけを取り込みたい場合は、<a href="calendar.ics">すべてのICSを開く</a>、<a href="streamers.ics">配信者ICSを開く</a>、<a href="sf6.ics">SF6 ICSを開く</a>をご利用ください。
-  </section>
+  <section class="notice"><strong>継続購読について：</strong> 対応端末では「照会するカレンダー」として登録され、端末側が定期的に更新を確認します。単発取り込みは <a href="calendar.ics">全ICS</a>、<a href="streamers.ics">配信者</a>、<a href="sf6.ics">SF6</a>、<a href="shadowverse-wb.ics">シャドバWB</a> を利用してください。</section>
   <section class="calendar-wrap"><div id="calendar"></div><div id="status" class="status">読み込み中です…</div></section>
-  <div class="legend"><span><i class="dot streamer"></i>配信者イベント</span><span><i class="dot sf6"></i>SF6大会</span></div>
-  <section class="caution" aria-labelledby="caution-title">
-    <strong id="caution-title">ご利用上の注意</strong>
-    <ul>
-      <li>個人が無償で運営しており、掲載情報の正確性・完全性・最新性を保証しません。必ず公式情報も確認してください。</li>
-      <li>情報の収集・整理・要約等に生成AIを利用する場合があり、誤認識や更新漏れが含まれる可能性があります。</li>
-      <li>本サービスは予告なく仕様変更、一時停止、非公開化または終了する場合があります。</li>
-      <li>カレンダーの更新頻度や通知は、端末およびカレンダーサービスに依存します。</li>
-    </ul>
-    詳細は<a href="terms.html">利用規約</a>と<a href="privacy.html">プライバシーポリシー</a>をご確認ください。
-  </section>
+  <div class="legend"><span><i class="dot streamer"></i>配信者</span><span><i class="dot sf6"></i>SF6</span><span><i class="dot shadowverse"></i>シャドバWB</span></div>
+  <section class="caution" aria-labelledby="caution-title"><strong id="caution-title">ご利用上の注意</strong><ul><li>個人が無償で運営しており、掲載情報の正確性・完全性・最新性を保証しません。必ず公式情報も確認してください。</li><li>情報の収集・整理・要約等に生成AIを利用する場合があります。</li><li>本サービスは予告なく仕様変更、一時停止、非公開化または終了する場合があります。</li><li>カレンダーの更新頻度や通知は端末およびカレンダーサービスに依存します。</li></ul>詳細は<a href="terms.html">利用規約</a>と<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</section>
 </main>
-<footer>
-  <nav class="footer-links" aria-label="フッターナビゲーション">
-    <a href="terms.html">利用規約</a>
-    <a href="privacy.html">プライバシーポリシー</a>
-    <a href="https://github.com/mmiyaji/streamer-event-calendar" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://github.com/mmiyaji/streamer-event-calendar/issues" target="_blank" rel="noopener">情報修正・お問い合わせ</a>
-  </nav>
-  <div>© 2026 Streamer Event Calendar — 個人運営・非公式</div>
-</footer>
+<footer><nav class="footer-links" aria-label="フッターナビゲーション"><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a><a href="https://github.com/mmiyaji/streamer-event-calendar" target="_blank" rel="noopener">GitHub</a><a href="https://github.com/mmiyaji/streamer-event-calendar/issues" target="_blank" rel="noopener">情報修正・お問い合わせ</a></nav><div>© 2026 Event Calendar — 個人運営・非公式</div></footer>
 <dialog id="detail"><h2 id="detail-title"></h2><div id="detail-body"></div><form method="dialog"><button>閉じる</button></form></dialog>
 <script>
-let allEvents=[]; let calendar;
-const css=getComputedStyle(document.documentElement);
-const colorFor=c=>c==='sf6'?css.getPropertyValue('--sf6').trim():css.getPropertyValue('--streamer').trim();
-const borderFor=c=>c==='sf6'?css.getPropertyValue('--sf6-border').trim():css.getPropertyValue('--streamer-border').trim();
-const visible=e=>(e.extendedProps.category==='streamer'&&document.querySelector('#show-streamer').checked)||(e.extendedProps.category==='sf6'&&document.querySelector('#show-sf6').checked);
-function detail(info){const e=info.event,p=e.extendedProps,d=document.querySelector('#detail');document.querySelector('#detail-title').textContent=e.title;const rows=[];rows.push(`<div class="detail-row"><strong>日時:</strong> ${e.start?.toLocaleString('ja-JP')||'未定'}${e.end?' ～ '+e.end.toLocaleString('ja-JP'):''}</div>`);if(p.persons?.length)rows.push(`<div class="detail-row"><strong>出演:</strong> ${p.persons.join('、')}</div>`);if(p.location)rows.push(`<div class="detail-row"><strong>場所:</strong> ${p.location}</div>`);if(p.notes)rows.push(`<div class="detail-row"><strong>補足:</strong> ${p.notes}</div>`);if(p.url)rows.push(`<div class="detail-row"><a class="button" href="${p.url}" target="_blank" rel="noopener">情報元を開く</a></div>`);document.querySelector('#detail-body').innerHTML=rows.join('');d.showModal();}
-async function init(){try{const r=await fetch('events.json',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const raw=await r.json();allEvents=raw.filter(e=>['high','medium'].includes(e.confidence)&&e.status!=='cancelled').map(e=>({id:e.id,title:(e.confidence==='medium'?'【予定】':'')+e.title,start:e.start,end:e.end,allDay:e.allDay,backgroundColor:colorFor(e.category),borderColor:borderFor(e.category),textColor:getComputedStyle(document.documentElement).getPropertyValue('--event-text').trim(),extendedProps:e}));calendar=new FullCalendar.Calendar(document.querySelector('#calendar'),{locale:'ja',initialView:innerWidth<680?'listMonth':'dayGridMonth',height:'auto',headerToolbar:{left:'prev,next today',center:'title',right:'dayGridMonth,listMonth'},buttonText:{today:'今日',month:'月',list:'一覧'},events:(i,s)=>s(allEvents.filter(visible)),eventClick:detail,eventDidMount:i=>i.el.setAttribute('aria-label',i.event.title)});calendar.render();document.querySelector('#status').textContent=allEvents.length?`${allEvents.length}件のイベントを掲載しています。`:'現在、掲載中のイベントはありません。';document.querySelectorAll('input[type=checkbox]').forEach(x=>x.addEventListener('change',()=>calendar.refetchEvents()));}catch(err){document.querySelector('#status').textContent='イベントデータを読み込めませんでした。';console.error(err)}}
+let allEvents=[];let calendar;const css=getComputedStyle(document.documentElement);
+const colorFor=c=>c==='sf6'?css.getPropertyValue('--sf6').trim():c==='shadowverse_wb'?css.getPropertyValue('--shadowverse').trim():css.getPropertyValue('--streamer').trim();
+const borderFor=c=>c==='sf6'?css.getPropertyValue('--sf6-border').trim():c==='shadowverse_wb'?css.getPropertyValue('--shadowverse-border').trim():css.getPropertyValue('--streamer-border').trim();
+const visible=e=>{const c=e.extendedProps.category;return(c==='streamer'&&document.querySelector('#show-streamer').checked)||(c==='sf6'&&document.querySelector('#show-sf6').checked)||(c==='shadowverse_wb'&&document.querySelector('#show-shadowverse').checked)};
+function detail(info){const e=info.event,p=e.extendedProps,d=document.querySelector('#detail');document.querySelector('#detail-title').textContent=e.title;const rows=[];rows.push(`<div class="detail-row"><strong>日時:</strong> ${e.start?.toLocaleString('ja-JP')||'未定'}${e.end?' ～ '+e.end.toLocaleString('ja-JP'):''}</div>`);if(p.persons?.length)rows.push(`<div class="detail-row"><strong>出演:</strong> ${p.persons.join('、')}</div>`);if(p.location)rows.push(`<div class="detail-row"><strong>場所:</strong> ${p.location}</div>`);if(p.notes)rows.push(`<div class="detail-row"><strong>補足:</strong> ${p.notes}</div>`);if(p.url)rows.push(`<div class="detail-row"><a class="button" href="${p.url}" target="_blank" rel="noopener">情報元を開く</a></div>`);document.querySelector('#detail-body').innerHTML=rows.join('');d.showModal()}
+async function init(){try{const r=await fetch('events.json',{cache:'no-store'});if(!r.ok)throw new Error('HTTP '+r.status);const raw=await r.json();allEvents=raw.filter(e=>['high','medium'].includes(e.confidence)&&e.status!=='cancelled').map(e=>({id:e.id,title:(e.confidence==='medium'?'【予定】':'')+e.title,start:e.start,end:e.end,allDay:e.allDay,backgroundColor:colorFor(e.category),borderColor:borderFor(e.category),textColor:css.getPropertyValue('--event-text').trim(),extendedProps:e}));calendar=new FullCalendar.Calendar(document.querySelector('#calendar'),{locale:'ja',initialView:innerWidth<680?'listMonth':'dayGridMonth',height:'auto',headerToolbar:{left:'prev,next today',center:'title',right:'dayGridMonth,listMonth'},buttonText:{today:'今日',month:'月',list:'一覧'},events:(i,s)=>s(allEvents.filter(visible)),eventClick:detail,eventDidMount:i=>i.el.setAttribute('aria-label',i.event.title)});calendar.render();document.querySelector('#status').textContent=allEvents.length?`${allEvents.length}件のイベントを掲載しています。`:'現在、掲載中のイベントはありません。';document.querySelectorAll('input[type=checkbox]').forEach(x=>x.addEventListener('change',()=>calendar.refetchEvents()))}catch(err){document.querySelector('#status').textContent='イベントデータを読み込めませんでした。';console.error(err)}}
 init();
 </script>
 </body>
