@@ -6,6 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 EVENTS_PATH = ROOT / "data" / "events.json"
+SHADOWVERSE_EVENTS_PATH = ROOT / "data" / "shadowverse_wb_events.json"
 SITE_DIR = ROOT / "site"
 DIST_DIR = ROOT / "dist"
 
@@ -72,10 +73,16 @@ def write_ics(path: Path, events: list[dict], name: str) -> None:
     path.write_text("\r\n".join(lines) + "\r\n", encoding="utf-8")
 
 
-def main() -> None:
-    events = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
+def load_events(path: Path) -> list[dict]:
+    events = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(events, list):
-        raise ValueError("data/events.json must contain a JSON array")
+        raise ValueError(f"{path} must contain a JSON array")
+    return events
+
+
+def main() -> None:
+    events = load_events(EVENTS_PATH) + load_events(SHADOWVERSE_EVENTS_PATH)
+    events.sort(key=lambda event: event["start"])
 
     if DIST_DIR.exists():
         shutil.rmtree(DIST_DIR)
@@ -87,7 +94,10 @@ def main() -> None:
             shutil.copytree(item, target)
         else:
             shutil.copy2(item, target)
-    shutil.copy2(EVENTS_PATH, DIST_DIR / "events.json")
+    (DIST_DIR / "events.json").write_text(
+        json.dumps(events, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
     public = [e for e in events if e.get("confidence") in {"high", "medium"}]
     write_ics(DIST_DIR / "calendar.ics", public, "Streamer, SF6 & Shadowverse WB Events")
