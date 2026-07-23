@@ -78,7 +78,15 @@
 {
   "id": "unique-event-id",
   "title": "イベント名",
-  "category": "shadowverse_wb",
+  "category": "sf6",
+  "type": "tournament",
+  "game": "sf6",
+  "priority": "major",
+  "source": "official",
+  "official": true,
+  "region": "jp",
+  "tags": ["cpt", "premier"],
+  "verified_at": "2026-07-24T18:00:00+09:00",
   "persons": [],
   "start": "2026-08-01T13:00:00+09:00",
   "end": "2026-08-01T18:00:00+09:00",
@@ -88,9 +96,21 @@
   "sourceUrls": ["https://example.com/announcement"],
   "status": "confirmed",
   "confidence": "high",
-  "lastChecked": "2026-07-23T17:00:00+09:00",
+  "lastChecked": "2026-07-24T18:00:00+09:00",
   "notes": "補足"
 }
 ```
 
-`category` は `streamer`、`sf6`、`shadowverse_wb`、`confidence` は `high` または `medium` を公開対象とします。
+### メタデータ
+
+- `category`: UIとICSの大分類。`streamer`、`sf6`、`shadowverse_wb`
+- `type`: 内容の種類。`tournament`、`qualifier`、`update`、`stream`、`offline_event`
+- `game`: 対象ゲーム。`sf6`、`shadowverse_wb`。配信者イベントでゲームを特定しない場合は `null`
+- `priority`: 重要度。`major` または `normal`
+- `source`: 主に採用した情報源。`official`、`kakuge-checker`、`rage`、`premier-series`、`media` など
+- `official`: 主情報源が公式情報なら `true`
+- `region`: 主な対象地域。`jp` または `global`
+- `tags`: 検索・表示フィルター向けの補助分類
+- `verified_at`: LLMまたは運営者が内容を最後に確認した日時
+
+既存互換性のため `lastChecked` も保持します。当面は `verified_at` と同じ日時を設定します。`confidence` は `high` または `medium` を公開対象とします。
