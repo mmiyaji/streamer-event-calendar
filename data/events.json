@@ -1,23 +1,57 @@
 [
   {
-    "id": "sf6-ewc-2026-lcq",
-    "title": "【予選】Esports World Cup 2026 SF6 Last Chance Qualifier",
+    "id": "sf6-ewc-2026-lcq-day1",
+    "title": "【予選】EWC 2026 SF6 LCQ 1日目（プール）",
     "category": "sf6",
     "persons": [],
-    "start": "2026-07-24",
-    "end": "2026-07-27",
-    "allDay": true,
+    "start": "2026-07-24T17:40:00+09:00",
+    "allDay": false,
     "location": "フランス・パリ",
-    "url": "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details",
+    "url": "https://kakuge-checker.com/topic/view/09081/",
     "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000005867.000013450.html",
-      "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details",
-      "https://liquipedia.net/fighters/Esports_World_Cup/2026/SF6/Last_Chance_Qualifier"
+      "https://kakuge-checker.com/topic/view/09081/",
+      "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details"
     ],
     "status": "confirmed",
     "confidence": "high",
-    "lastChecked": "2026-07-23T15:00:00+09:00",
-    "notes": "EWC 2026 SF6本戦の残り6枠を決める最終予選（LCQ）。本戦ではなく予選イベント。現地時間7月24日〜26日開催。詳細な日本時間は未確認のため終日予定として登録。"
+    "lastChecked": "2026-07-23T16:00:00+09:00",
+    "notes": "EWC 2026 SF6本戦の残り6枠を決める最終予選。LCQプールA〜D。格ゲーチェッカーでは17:40開始、20:00開始との別情報もあるため、開始時刻は変更される可能性あり。"
+  },
+  {
+    "id": "sf6-ewc-2026-lcq-day2",
+    "title": "【予選】EWC 2026 SF6 LCQ 2日目（Top64〜16）",
+    "category": "sf6",
+    "persons": [],
+    "start": "2026-07-25T21:00:00+09:00",
+    "allDay": false,
+    "location": "フランス・パリ",
+    "url": "https://kakuge-checker.com/topic/view/09081/",
+    "sourceUrls": [
+      "https://kakuge-checker.com/topic/view/09081/",
+      "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-23T16:00:00+09:00",
+    "notes": "EWC 2026 SF6本戦の残り6枠を決める最終予選。Top64、Top32、Top16を実施予定。終了時刻は未確認。"
+  },
+  {
+    "id": "sf6-ewc-2026-lcq-day3",
+    "title": "【予選】EWC 2026 SF6 LCQ 3日目（Top8）",
+    "category": "sf6",
+    "persons": [],
+    "start": "2026-07-26T21:00:00+09:00",
+    "allDay": false,
+    "location": "フランス・パリ",
+    "url": "https://kakuge-checker.com/topic/view/09081/",
+    "sourceUrls": [
+      "https://kakuge-checker.com/topic/view/09081/",
+      "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-23T16:00:00+09:00",
+    "notes": "EWC 2026 SF6本戦の残り6枠を決める最終予選。Top8を実施予定。終了時刻は未確認。"
   },
   {
     "id": "sf6-ewc-2026-main-event",
@@ -34,8 +68,8 @@
     ],
     "status": "confirmed",
     "confidence": "high",
-    "lastChecked": "2026-07-23T14:00:00+09:00",
-    "notes": "賞金総額100万ドルの大規模国際大会。日本時間の詳細開始時刻は未確認のため終日予定として登録。"
+    "lastChecked": "2026-07-23T16:00:00+09:00",
+    "notes": "賞金総額100万ドルの大規模国際大会。本戦各日の開始時刻は未確認のため終日予定として登録。"
   },
   {
     "id": "streamer-the-k4sen-con-2026-day1",
