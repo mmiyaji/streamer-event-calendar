@@ -25,18 +25,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Build site and calendars
-        run: python scripts/build.py
-
+          python-version: '3.12'
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-
+        with:
+          enablement: true
+      - name: Build site and calendars
+        run: python scripts/build.py
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
