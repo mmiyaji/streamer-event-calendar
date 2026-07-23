@@ -1,5 +1,25 @@
 [
   {
+    "id": "sf6-ewc-2026-lcq",
+    "title": "【予選】Esports World Cup 2026 SF6 Last Chance Qualifier",
+    "category": "sf6",
+    "persons": [],
+    "start": "2026-07-24",
+    "end": "2026-07-27",
+    "allDay": true,
+    "location": "フランス・パリ",
+    "url": "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details",
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000005867.000013450.html",
+      "https://www.start.gg/tournament/esports-world-cup-2026-street-fighter-6-lcq/details",
+      "https://liquipedia.net/fighters/Esports_World_Cup/2026/SF6/Last_Chance_Qualifier"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-23T15:00:00+09:00",
+    "notes": "EWC 2026 SF6本戦の残り6枠を決める最終予選（LCQ）。本戦ではなく予選イベント。現地時間7月24日〜26日開催。詳細な日本時間は未確認のため終日予定として登録。"
+  },
+  {
     "id": "sf6-ewc-2026-main-event",
     "title": "Esports World Cup 2026 ストリートファイター6部門",
     "category": "sf6",
