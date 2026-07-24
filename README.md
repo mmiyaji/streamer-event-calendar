@@ -70,7 +70,14 @@
 
 ## データ更新
 
-通常イベントは `data/events.json`、Shadowverse WBイベントは `data/shadowverse_wb_events.json` に保存します。`main` ブランチへの更新時にGitHub Actionsが統合JSONと各ICSを生成し、GitHub Pagesへデプロイします。
+イベントデータは次のファイルから統合します。
+
+- `data/events.json`: 配信者イベントとSF6の基本データ
+- `data/shadowverse_wb_events.json`: Shadowverse WBの基本データ
+- `data/discovered_events.json`: 定期確認で新規発見または更新したイベント。既存と同じ `id` を指定すると基本データを上書き
+- `data/sfl_2026_schedule.json`: SFL 2026レギュラーシーズンの日程設定。ビルド時に完全なイベントへ展開
+
+`main` ブランチへの更新時にGitHub Actionsが、必須メタデータ、`type`、`priority`、`verified_at` と `lastChecked` の一致を検証します。その後、同じ `id` のイベントを後勝ちで統合し、Web表示用JSON、各ICS、GitHub Pagesを生成します。
 
 ### イベント形式
 
@@ -113,4 +120,4 @@
 - `tags`: 検索・表示フィルター向けの補助分類
 - `verified_at`: LLMまたは運営者が内容を最後に確認した日時
 
-既存互換性のため `lastChecked` も保持します。当面は `verified_at` と同じ日時を設定します。`confidence` は `high` または `medium` を公開対象とします。
+既存互換性のため `lastChecked` も保持します。`verified_at` と同じ日時を設定します。`confidence` は `high` または `medium` を公開対象とします。
