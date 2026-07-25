@@ -214,5 +214,29 @@
     "confidence": "high",
     "lastChecked": "2026-07-25T19:14:00+09:00",
     "notes": "22歳以下を対象とする公式大会のSummer Grand Finals。優勝賞金30万円、準優勝賞金15万円。開始時刻は未発表のため終日予定として登録。"
+  },
+  {
+    "id": "svwb-update-2026-07-29-season-and-features",
+    "title": "【アップデート】Shadowverse: Worlds Beyond シーズン更新・機能改修",
+    "category": "shadowverse_wb",
+    "type": "update",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": ["season-update", "maintenance", "battle-pass", "private-lobby"],
+    "verified_at": "2026-07-26T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-07-29T12:30:00+09:00",
+    "end": "2026-07-29T17:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン",
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KXDHBBSDEYTSG9Q77PYWHZDP",
+    "sourceUrls": ["https://shadowverse-wb.com/ja/news/detail/?id=01KXDHBBSDEYTSG9Q77PYWHZDP"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-26T07:00:00+09:00",
+    "notes": "シーズン更新、バトルパスシーズン14、バトルダンジョン、プライベートロビーとパーク内モニターの機能改修を伴う公式アップデート。メンテナンスは7月29日12:30〜17:00予定で、終了時刻は前後する可能性あり。"
   }
 ]
