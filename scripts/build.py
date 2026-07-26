@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EVENTS_PATH = ROOT / "data" / "events.json"
 SHADOWVERSE_EVENTS_PATH = ROOT / "data" / "shadowverse_wb_events.json"
 DISCOVERED_EVENTS_PATH = ROOT / "data" / "discovered_events.json"
+STREAMER_LEAGUE_EVENTS_PATH = ROOT / "data" / "streamer_league_events.json"
 SFL_SCHEDULE_PATH = ROOT / "data" / "sfl_2026_schedule.json"
 SITE_DIR = ROOT / "site"
 DIST_DIR = ROOT / "dist"
@@ -175,6 +176,7 @@ def main() -> None:
         (EVENTS_PATH, load_events(EVENTS_PATH)),
         (SHADOWVERSE_EVENTS_PATH, load_events(SHADOWVERSE_EVENTS_PATH)),
         (DISCOVERED_EVENTS_PATH, load_events(DISCOVERED_EVENTS_PATH)),
+        (STREAMER_LEAGUE_EVENTS_PATH, load_events(STREAMER_LEAGUE_EVENTS_PATH)),
         (SFL_SCHEDULE_PATH, build_sfl_events(SFL_SCHEDULE_PATH)),
     ]
     events = merge_events(event_groups)
@@ -198,10 +200,10 @@ def main() -> None:
     public = [e for e in events if e.get("confidence") in {"high", "medium"}]
     write_ics(DIST_DIR / "calendar.ics", public, "Streamer, SF6 & Shadowverse WB Events")
     write_ics(DIST_DIR / "streamers.ics", [e for e in public if e.get("category") == "streamer"], "Streamer Events")
-    write_ics(DIST_DIR / "sf6.ics", [e for e in public if e.get("category") == "sf6"], "Street Fighter 6 Events")
+    write_ics(DIST_DIR / "sf6.ics", [e for e in public if e.get("game") == "sf6" or e.get("category") == "sf6"], "Street Fighter 6 Events")
     write_ics(
         DIST_DIR / "shadowverse-wb.ics",
-        [e for e in public if e.get("category") == "shadowverse_wb"],
+        [e for e in public if e.get("game") == "shadowverse_wb" or e.get("category") == "shadowverse_wb"],
         "Shadowverse: Worlds Beyond Events",
     )
     (DIST_DIR / ".nojekyll").write_text("", encoding="utf-8")
