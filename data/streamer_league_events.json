@@ -1,0 +1,55 @@
+[
+  {
+    "id": "streamer-crsl-shadowverse-2026-round2",
+    "title": "第2回 CR Streamer League Shadowverse 第2節",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["crsl", "crazy-raccoon", "shadowverse-wb", "streamer-league", "round-2"],
+    "verified_at": "2026-07-26T13:55:00+09:00",
+    "persons": ["たいじ", "もこう"],
+    "start": "2026-07-26T16:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://x.com/crazyraccoon406",
+    "sourceUrls": [
+      "https://x.com/crazyraccoon406",
+      "https://shadowverse-magazine.com/svwb/event/crsl-2026/",
+      "https://shadowverse-magazine.com/news/svwb/73982/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-26T13:55:00+09:00",
+    "notes": "Crazy Raccoon主催の配信者リーグ第2節。たいじ、もこうはTEAM 02として出場。2026年7月26日16:00開始。終了時刻は未発表。YouTubeおよびTwitchで公式配信予定。"
+  },
+  {
+    "id": "streamer-crsl-shadowverse-2026-round3",
+    "title": "第2回 CR Streamer League Shadowverse 第3節",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["crsl", "crazy-raccoon", "shadowverse-wb", "streamer-league", "round-3"],
+    "verified_at": "2026-07-26T13:55:00+09:00",
+    "persons": ["たいじ", "もこう"],
+    "start": "2026-08-14T16:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://x.com/crazyraccoon406",
+    "sourceUrls": [
+      "https://x.com/crazyraccoon406",
+      "https://shadowverse-magazine.com/svwb/event/crsl-2026/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-26T13:55:00+09:00",
+    "notes": "Crazy Raccoon主催の配信者リーグ第3節。たいじ、もこうはTEAM 02として出場。2026年8月14日16:00開始。終了時刻は未発表。"
+  }
+]
