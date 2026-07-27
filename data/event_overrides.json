@@ -126,5 +126,32 @@
     "confidence": "high",
     "lastChecked": "2026-07-27T19:00:00+09:00",
     "notes": "CAPCOM Fighters JPの日本語実況配信は22:00開始予定。大会進行上の試合開始時刻と異なる可能性あり。終了時刻は未発表。"
+  },
+  {
+    "id": "svwb-premier-series-2026-round3",
+    "title": "Shadowverse Premier Series 26-27 第3節",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "premier-series",
+    "official": true,
+    "region": "jp",
+    "tags": ["pro-league", "premier-series", "regular-season", "round-3", "start-time-pending-official-confirmation"],
+    "verified_at": "2026-07-28T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-01T12:30:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+    "sourceUrls": [
+      "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+      "https://shadowverse-magazine.com/svwb/event/premier-series-2627/schedule/",
+      "https://gamewith.jp/shadowverse-wb/545013"
+    ],
+    "status": "confirmed",
+    "confidence": "medium",
+    "lastChecked": "2026-07-28T07:00:00+09:00",
+    "notes": "公式日程で2026年8月1日開催を確認。開始時刻12:30はShadowverse MagazineとGameWithの掲載が一致しているため反映。公式特設サイト上では開始時刻を確認できていないため予定扱いとし、公式発表後に再確認する。終了時刻は未発表。"
   }
 ]
