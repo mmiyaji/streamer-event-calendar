@@ -132,5 +132,32 @@
     "confidence": "high",
     "lastChecked": "2026-07-27T06:55:30+09:00",
     "notes": "加藤純一がプレジデントを務めるMURASH FCの国際エキシビション第3戦。ABEMAで無料生中継予定。終了時刻は未発表。"
+  },
+  {
+    "id": "streamer-niconico-old-timers-rust-2026",
+    "title": "第3回ニコニコ老人会RUST",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "rust",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["niconico-old-timers", "rust", "streamer-event", "season-3", "multi-day"],
+    "verified_at": "2026-07-28T19:04:56+09:00",
+    "persons": ["加藤純一"],
+    "start": "2026-08-07",
+    "end": "2026-08-10",
+    "allDay": true,
+    "location": "オンライン配信",
+    "url": "https://www.youtube.com/live/mP7IndM3G",
+    "sourceUrls": [
+      "https://x.com/kirizaki_ei",
+      "https://www.youtube.com/live/mP7IndM3G"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-07-28T19:04:56+09:00",
+    "notes": "幕末志士・坂本と加藤純一が共同で企画する大型配信者イベント。公式の最終決定会議で2026年8月7日〜9日の開催を確認。開始・終了時刻は未発表のため終日予定として登録。参加者一覧は7月31日発表予定のため、対象配信者は現時点で公式告知上の関与を確認できる加藤純一のみ記載。"
   }
 ]
