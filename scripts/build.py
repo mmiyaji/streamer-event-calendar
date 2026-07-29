@@ -9,6 +9,7 @@ EVENTS_PATH = ROOT / "data" / "events.json"
 SHADOWVERSE_EVENTS_PATH = ROOT / "data" / "shadowverse_wb_events.json"
 DISCOVERED_EVENTS_PATH = ROOT / "data" / "discovered_events.json"
 STREAMER_LEAGUE_EVENTS_PATH = ROOT / "data" / "streamer_league_events.json"
+SHADOWVERSE_OCS_EVENTS_PATH = ROOT / "data" / "shadowverse_ocs_events.json"
 EVENT_OVERRIDES_PATH = ROOT / "data" / "event_overrides.json"
 SFL_SCHEDULE_PATH = ROOT / "data" / "sfl_2026_schedule.json"
 SITE_DIR = ROOT / "site"
@@ -178,6 +179,7 @@ def main() -> None:
         (SHADOWVERSE_EVENTS_PATH, load_events(SHADOWVERSE_EVENTS_PATH)),
         (DISCOVERED_EVENTS_PATH, load_events(DISCOVERED_EVENTS_PATH)),
         (STREAMER_LEAGUE_EVENTS_PATH, load_events(STREAMER_LEAGUE_EVENTS_PATH)),
+        (SHADOWVERSE_OCS_EVENTS_PATH, load_events(SHADOWVERSE_OCS_EVENTS_PATH)),
         (EVENT_OVERRIDES_PATH, load_events(EVENT_OVERRIDES_PATH)),
         (SFL_SCHEDULE_PATH, build_sfl_events(SFL_SCHEDULE_PATH)),
     ]
