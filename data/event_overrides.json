@@ -153,5 +153,59 @@
     "confidence": "medium",
     "lastChecked": "2026-07-28T07:00:00+09:00",
     "notes": "公式日程で2026年8月1日開催を確認。開始時刻12:30はShadowverse MagazineとGameWithの掲載が一致しているため反映。公式特設サイト上では開始時刻を確認できていないため予定扱いとし、公式発表後に再確認する。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-grapht-cup-2026-final",
+    "title": "GRAPHT CUP 2026 決勝大会",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["grapht-cup", "domestic", "open-tournament", "final", "offline", "pro-license"],
+    "verified_at": "2026-08-02T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-08",
+    "end": "2026-08-09",
+    "allDay": true,
+    "location": "esports Style UENO",
+    "url": "https://store.grapht.tokyo/blogs/events/grapht-cup-2026",
+    "sourceUrls": [
+      "https://store.grapht.tokyo/blogs/events/grapht-cup-2026",
+      "https://grapht.tokyo/news/grapht_grapht-cup-2026"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-02T07:00:00+09:00",
+    "notes": "5回の予選を勝ち抜いた6名によるBO5総当たりリーグ形式の決勝大会。賞金総額115万円で、上位2名にはJeSU公認プロライセンス発行の推薦が行われる。開始時刻は未発表のため終日予定として登録。"
+  },
+  {
+    "id": "sf6-stage0-2026-grand-final",
+    "title": "Coca-Cola STAGE:0 2026 ストリートファイター6部門 グランドファイナル",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["stage0", "high-school", "national-championship", "grand-final", "offline"],
+    "verified_at": "2026-08-02T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-14",
+    "end": "2026-08-15",
+    "allDay": true,
+    "location": "COOL JAPAN PARK OSAKA WWホール",
+    "url": "https://stage0.jp/games/sf6.html",
+    "sourceUrls": [
+      "https://stage0.jp/games/sf6.html",
+      "https://stage0.jp/news/management/256.html"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-02T07:00:00+09:00",
+    "notes": "全国8ブロックを勝ち抜いた高校生チームによる全国大会グランドファイナル。準決勝・決勝を実施し、公式配信も予定されている。開始時刻は未発表のため終日予定として登録。"
   }
 ]
