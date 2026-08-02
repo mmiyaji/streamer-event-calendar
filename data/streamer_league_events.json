@@ -190,11 +190,16 @@
       "rust",
       "streamer-event",
       "season-3",
-      "multi-day"
+      "multi-day",
+      "participant-list-confirmed"
     ],
-    "verified_at": "2026-07-28T19:04:56+09:00",
+    "verified_at": "2026-08-03T06:56:42+09:00",
     "persons": [
-      "加藤純一"
+      "たいじ",
+      "もこう",
+      "加藤純一",
+      "あっさりしょこ",
+      "バトラ"
     ],
     "start": "2026-08-07",
     "end": "2026-08-10",
@@ -203,11 +208,12 @@
     "url": "https://www.youtube.com/live/mP7IndM3G",
     "sourceUrls": [
       "https://x.com/kirizaki_ei",
-      "https://www.youtube.com/live/mP7IndM3G"
+      "https://www.youtube.com/live/mP7IndM3G",
+      "https://stream-log.com/event/50"
     ],
     "status": "confirmed",
     "confidence": "high",
-    "lastChecked": "2026-07-28T19:04:56+09:00",
-    "notes": "幕末志士・坂本と加藤純一が共同で企画する大型配信者イベント。公式の最終決定会議で2026年8月7日〜9日の開催を確認。開始・終了時刻は未発表のため終日予定として登録。参加者一覧は7月31日発表予定のため、対象配信者は現時点で公式告知上の関与を確認できる加藤純一のみ記載。"
+    "lastChecked": "2026-08-03T06:56:42+09:00",
+    "notes": "幕末志士・坂本と加藤純一が共同で企画する大型配信者イベント。2026年8月7日〜9日に開催。公開された参加者一覧から、対象配信者ではたいじ、もこう、加藤純一、あっさりしょこ、バトラの出演を確認。開始・終了時刻は未発表のため終日予定として登録。"
   }
 ]
