@@ -207,5 +207,32 @@
     "confidence": "high",
     "lastChecked": "2026-08-02T07:00:00+09:00",
     "notes": "全国8ブロックを勝ち抜いた高校生チームによる全国大会グランドファイナル。準決勝・決勝を実施し、公式配信も予定されている。開始時刻は未発表のため終日予定として登録。"
+  },
+  {
+    "id": "sf6-update-yasmine-2026-08-03",
+    "title": "【アップデート】ストリートファイター6 ヤスミン配信",
+    "category": "sf6",
+    "type": "update",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": ["year4", "character", "yasmine", "battle-balance", "release-time-confirmed"],
+    "verified_at": "2026-08-02T19:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-03T16:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン",
+    "url": "https://x.com/StreetFighterJA",
+    "sourceUrls": [
+      "https://x.com/StreetFighterJA",
+      "https://prtimes.jp/main/html/rd/p/000005847.000013450.html",
+      "https://store.captown.capcom.com/en/blogs/news/0000032"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-02T19:00:00+09:00",
+    "notes": "公式Xで2026年8月3日16:00（日本時間）の配信開始を確認。Year 4追加キャラクター第1弾「ヤスミン」の実装に加え、全体バトルバランス調整も予定されている。終了時刻は未発表。"
   }
 ]
