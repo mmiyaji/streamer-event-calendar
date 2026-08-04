@@ -215,5 +215,42 @@
     "confidence": "high",
     "lastChecked": "2026-08-03T06:56:42+09:00",
     "notes": "幕末志士・坂本と加藤純一が共同で企画する大型配信者イベント。2026年8月7日〜9日に開催。公開された参加者一覧から、対象配信者ではたいじ、もこう、加藤純一、あっさりしょこ、バトラの出演を確認。開始・終了時刻は未発表のため終日予定として登録。"
+  },
+  {
+    "id": "streamer-the-k4sen-con-2026-day1",
+    "title": "The k4sen Con 2026 DAY1",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "k4sen",
+      "offline",
+      "appearance",
+      "buckshot-roulette",
+      "cast-complete"
+    ],
+    "verified_at": "2026-08-04T19:01:13+09:00",
+    "persons": [
+      "加藤純一",
+      "もこう",
+      "なるお"
+    ],
+    "start": "2026-08-08T10:00:00+09:00",
+    "end": "2026-08-08T20:00:00+09:00",
+    "allDay": false,
+    "location": "国立代々木競技場 第一体育館",
+    "url": "https://con2026.thek4sen.com/",
+    "sourceUrls": [
+      "https://con2026.thek4sen.com/",
+      "https://x.com/thek4sen"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-04T19:01:13+09:00",
+    "notes": "DAY1の『リアル Buckshot Roulette』に加藤純一、もこう、なるおが出演予定。公式の全出演者発表で、なるおが格ゲー卓として追加確認された。公式サイトで開場09:00、開演10:00、終演20:00予定を確認。公演時間は変更される可能性あり。"
   }
 ]
