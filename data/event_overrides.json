@@ -234,5 +234,31 @@
     "confidence": "high",
     "lastChecked": "2026-08-02T19:00:00+09:00",
     "notes": "公式Xで2026年8月3日16:00（日本時間）の配信開始を確認。Year 4追加キャラクター第1弾「ヤスミン」の実装に加え、全体バトルバランス調整も予定されている。終了時刻は未発表。"
+  },
+  {
+    "id": "streamer-gamersxgamers-beach-house-fan-meeting-2026",
+    "title": "げまげま 海の家ファンミーティング",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["gamersxgamers", "fan-meeting", "offline", "beach-house", "appearance"],
+    "verified_at": "2026-08-06T19:03:17+09:00",
+    "persons": ["じゃすぱー"],
+    "start": "2026-08-24",
+    "end": "2026-08-25",
+    "allDay": true,
+    "location": "神奈川県某所の海の家（詳細未発表）",
+    "url": "https://x.com/gamersxgamers/status/2083387652167045284",
+    "sourceUrls": [
+      "https://x.com/gamersxgamers/status/2083387652167045284"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-06T19:03:17+09:00",
+    "notes": "げまげま公式が2026年8月24日の海の家ファンミーティングを告知。天候予備日は8月28日。開催時刻、会場詳細、券売情報は未発表。予備日は条件付きのため別予定として登録しない。"
   }
 ]
