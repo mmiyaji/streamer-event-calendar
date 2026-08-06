@@ -260,5 +260,31 @@
     "confidence": "high",
     "lastChecked": "2026-08-06T19:03:17+09:00",
     "notes": "げまげま公式が2026年8月24日の海の家ファンミーティングを告知。天候予備日は8月28日。開催時刻、会場詳細、券売情報は未発表。予備日は条件付きのため別予定として登録しない。"
+  },
+  {
+    "id": "streamer-crazy-raccoon-revive-2026-day2",
+    "title": "Crazy Raccoon Revive DAY2",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["crazy-raccoon", "revive", "offline", "day2", "overwatch", "appearance"],
+    "verified_at": "2026-08-06T19:03:17+09:00",
+    "persons": ["じゃすぱー"],
+    "start": "2026-09-06T11:00:00+09:00",
+    "allDay": false,
+    "location": "横浜BUNTAI",
+    "url": "https://crazyraccoon-revive.com/",
+    "sourceUrls": [
+      "https://crazyraccoon-revive.com/",
+      "https://www.cybere.co.jp/news/news550/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-06T19:03:17+09:00",
+    "notes": "DAY2のOVERWATCH Team Blackにじゃすぱーが出演。開場09:00、開演11:00。終演時刻は未発表。STREET FIGHTER 6企画も同日に実施されるが、じゃすぱーはOVERWATCH企画への出演として登録。"
   }
 ]
