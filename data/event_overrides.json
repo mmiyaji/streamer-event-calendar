@@ -286,5 +286,31 @@
     "confidence": "high",
     "lastChecked": "2026-08-06T19:03:17+09:00",
     "notes": "DAY2のOVERWATCH Team Blackにじゃすぱーが出演。開場09:00、開演11:00。終演時刻は未発表。STREET FIGHTER 6企画も同日に実施されるが、じゃすぱーはOVERWATCH企画への出演として登録。"
+  },
+  {
+    "id": "svwb-girls-battle-fes-2026-season2-final",
+    "title": "Shadowverse Girls Battle Fes 2026 Season 2 決勝",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["girls-battle-fes", "final", "offline", "rage"],
+    "verified_at": "2026-08-07T06:55:12+09:00",
+    "persons": [],
+    "start": "2026-08-22",
+    "end": "2026-08-23",
+    "allDay": true,
+    "location": "インテックス大阪 2号館",
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KW9J92PS8G1ZX2C2FJ8R059Q",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01KW9J92PS8G1ZX2C2FJ8R059Q"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-07T06:55:12+09:00",
+    "notes": "公式案内で決勝大会は2026年8月22日、会場はインテックス大阪 2号館と確認。RAGE Shadowverse Japan Championship 2026 Season 2会場内で実施される。開始時刻は未発表のため終日予定として登録。"
   }
 ]
