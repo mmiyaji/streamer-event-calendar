@@ -40,10 +40,7 @@
     "allDay": false,
     "location": "フランス・パリ／オンライン配信",
     "url": "https://www.youtube.com/live/VrsLQm5U-s4",
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000005915.000013450.html",
-      "https://www.youtube.com/live/VrsLQm5U-s4"
-    ],
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005915.000013450.html", "https://www.youtube.com/live/VrsLQm5U-s4"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T19:00:00+09:00",
@@ -66,10 +63,7 @@
     "allDay": false,
     "location": "フランス・パリ／オンライン配信",
     "url": "https://www.youtube.com/live/T6IP8UaWhvo",
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000005915.000013450.html",
-      "https://www.youtube.com/live/T6IP8UaWhvo"
-    ],
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005915.000013450.html", "https://www.youtube.com/live/T6IP8UaWhvo"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T19:00:00+09:00",
@@ -92,10 +86,7 @@
     "allDay": false,
     "location": "フランス・パリ／オンライン配信",
     "url": "https://www.youtube.com/live/7McQi0bN5AE",
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000005915.000013450.html",
-      "https://www.youtube.com/live/7McQi0bN5AE"
-    ],
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005915.000013450.html", "https://www.youtube.com/live/7McQi0bN5AE"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T19:00:00+09:00",
@@ -118,10 +109,7 @@
     "allDay": false,
     "location": "フランス・パリ／オンライン配信",
     "url": "https://www.youtube.com/live/uOrwnWMBCbs",
-    "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000005915.000013450.html",
-      "https://www.youtube.com/live/uOrwnWMBCbs"
-    ],
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005915.000013450.html", "https://www.youtube.com/live/uOrwnWMBCbs"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T19:00:00+09:00",
@@ -144,11 +132,7 @@
     "allDay": false,
     "location": "オンライン配信",
     "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
-    "sourceUrls": [
-      "https://ps.shadowverse-wb.com/26-27/schedule-results/",
-      "https://shadowverse-magazine.com/svwb/event/premier-series-2627/schedule/",
-      "https://gamewith.jp/shadowverse-wb/545013"
-    ],
+    "sourceUrls": ["https://ps.shadowverse-wb.com/26-27/schedule-results/", "https://shadowverse-magazine.com/svwb/event/premier-series-2627/schedule/", "https://gamewith.jp/shadowverse-wb/545013"],
     "status": "confirmed",
     "confidence": "medium",
     "lastChecked": "2026-07-28T07:00:00+09:00",
@@ -172,10 +156,7 @@
     "allDay": true,
     "location": "esports Style UENO",
     "url": "https://store.grapht.tokyo/blogs/events/grapht-cup-2026",
-    "sourceUrls": [
-      "https://store.grapht.tokyo/blogs/events/grapht-cup-2026",
-      "https://grapht.tokyo/news/grapht_grapht-cup-2026"
-    ],
+    "sourceUrls": ["https://store.grapht.tokyo/blogs/events/grapht-cup-2026", "https://grapht.tokyo/news/grapht_grapht-cup-2026"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-02T07:00:00+09:00",
@@ -199,10 +180,7 @@
     "allDay": true,
     "location": "COOL JAPAN PARK OSAKA WWホール",
     "url": "https://stage0.jp/games/sf6.html",
-    "sourceUrls": [
-      "https://stage0.jp/games/sf6.html",
-      "https://stage0.jp/news/management/256.html"
-    ],
+    "sourceUrls": ["https://stage0.jp/games/sf6.html", "https://stage0.jp/news/management/256.html"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-02T07:00:00+09:00",
@@ -225,11 +203,7 @@
     "allDay": false,
     "location": "オンライン",
     "url": "https://x.com/StreetFighterJA",
-    "sourceUrls": [
-      "https://x.com/StreetFighterJA",
-      "https://prtimes.jp/main/html/rd/p/000005847.000013450.html",
-      "https://store.captown.capcom.com/en/blogs/news/0000032"
-    ],
+    "sourceUrls": ["https://x.com/StreetFighterJA", "https://prtimes.jp/main/html/rd/p/000005847.000013450.html", "https://store.captown.capcom.com/en/blogs/news/0000032"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-02T19:00:00+09:00",
@@ -253,9 +227,7 @@
     "allDay": true,
     "location": "神奈川県某所の海の家（詳細未発表）",
     "url": "https://x.com/gamersxgamers/status/2083387652167045284",
-    "sourceUrls": [
-      "https://x.com/gamersxgamers/status/2083387652167045284"
-    ],
+    "sourceUrls": ["https://x.com/gamersxgamers/status/2083387652167045284"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-06T19:03:17+09:00",
@@ -278,10 +250,7 @@
     "allDay": false,
     "location": "横浜BUNTAI",
     "url": "https://crazyraccoon-revive.com/",
-    "sourceUrls": [
-      "https://crazyraccoon-revive.com/",
-      "https://www.cybere.co.jp/news/news550/"
-    ],
+    "sourceUrls": ["https://crazyraccoon-revive.com/", "https://www.cybere.co.jp/news/news550/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-06T19:03:17+09:00",
@@ -305,12 +274,34 @@
     "allDay": true,
     "location": "インテックス大阪 2号館",
     "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KW9J92PS8G1ZX2C2FJ8R059Q",
-    "sourceUrls": [
-      "https://shadowverse-wb.com/ja/news/detail/?id=01KW9J92PS8G1ZX2C2FJ8R059Q"
-    ],
+    "sourceUrls": ["https://shadowverse-wb.com/ja/news/detail/?id=01KW9J92PS8G1ZX2C2FJ8R059Q"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-07T06:55:12+09:00",
     "notes": "公式案内で決勝大会は2026年8月22日、会場はインテックス大阪 2号館と確認。RAGE Shadowverse Japan Championship 2026 Season 2会場内で実施される。開始時刻は未発表のため終日予定として登録。"
+  },
+  {
+    "id": "svwb-rage-japan-championship-2026-season2-finals",
+    "title": "RAGE Shadowverse Japan Championship 2026 Season 2 Grand Finals",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "rage",
+    "official": true,
+    "region": "jp",
+    "tags": ["rage", "grand-finals", "offline", "studio"],
+    "verified_at": "2026-08-08T06:58:03+09:00",
+    "persons": [],
+    "start": "2026-08-23",
+    "end": "2026-08-24",
+    "allDay": true,
+    "location": "都内スタジオ",
+    "url": "https://rage-esports.jp/shadowversewb/2026/season2/info/tournament-information/",
+    "sourceUrls": ["https://rage-esports.jp/shadowversewb/2026/season2/info/tournament-information/", "https://team-detonation.net/news/52004"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-08T06:58:03+09:00",
+    "notes": "RAGE公式でGrand Finalsが2026年8月23日に開催されることを確認。DetonatioN FocusMe公式の大会案内で、Grand Finalsは都内スタジオで実施されることを確認。開始時刻は未発表のため終日予定として登録。"
   }
 ]
