@@ -349,5 +349,99 @@
     "confidence": "high",
     "lastChecked": "2026-07-26T07:00:00+09:00",
     "notes": "シーズン更新、バトルパスシーズン14、バトルダンジョン、プライベートロビーとパーク内モニターの機能改修を伴う公式アップデート。メンテナンスは7月29日12:30〜17:00予定で、終了時刻は前後する可能性あり。"
+  },
+  {
+    "id": "sf6-topanga-championship7-final-stage-day1",
+    "title": "TOPANGA CHAMPIONSHIP 7 FINAL STAGE DAY1",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "topanga",
+      "topanga-championship",
+      "final-stage",
+      "offline",
+      "day1"
+    ],
+    "verified_at": "2026-08-09T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-21T17:00:00+09:00",
+    "allDay": false,
+    "location": "TOKYO NODE HALL",
+    "url": "https://topanga.co.jp/topanga_championship7/",
+    "sourceUrls": [
+      "https://topanga.co.jp/topanga_championship7/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-09T07:00:00+09:00",
+    "notes": "第7期TOPANGA CHAMPIONSHIPのオフライン決勝リーグDAY1。2026年8月21日16:00開場、17:00開演。7名による7本先取/BO13（デュースあり・最大10本先取/BO19）の総当たり。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-topanga-championship7-final-stage-day2",
+    "title": "TOPANGA CHAMPIONSHIP 7 FINAL STAGE DAY2",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "topanga",
+      "topanga-championship",
+      "final-stage",
+      "offline",
+      "day2"
+    ],
+    "verified_at": "2026-08-09T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-22T13:00:00+09:00",
+    "allDay": false,
+    "location": "TOKYO NODE HALL",
+    "url": "https://topanga.co.jp/topanga_championship7/",
+    "sourceUrls": [
+      "https://topanga.co.jp/topanga_championship7/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-09T07:00:00+09:00",
+    "notes": "第7期TOPANGA CHAMPIONSHIPのオフライン決勝リーグDAY2。2026年8月22日12:00開場、13:00開演。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-topanga-championship7-final-stage-day3",
+    "title": "TOPANGA CHAMPIONSHIP 7 FINAL STAGE DAY3",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "topanga",
+      "topanga-championship",
+      "final-stage",
+      "offline",
+      "day3",
+      "finals"
+    ],
+    "verified_at": "2026-08-09T07:00:00+09:00",
+    "persons": [],
+    "start": "2026-08-23T13:00:00+09:00",
+    "allDay": false,
+    "location": "TOKYO NODE HALL",
+    "url": "https://topanga.co.jp/topanga_championship7/",
+    "sourceUrls": [
+      "https://topanga.co.jp/topanga_championship7/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-09T07:00:00+09:00",
+    "notes": "第7期TOPANGA CHAMPIONSHIPのオフライン決勝リーグDAY3。2026年8月23日12:00開場、13:00開演。終了時刻は未発表。"
   }
 ]
