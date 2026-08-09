@@ -9,27 +9,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": [
-      "crsl",
-      "crazy-raccoon",
-      "shadowverse-wb",
-      "streamer-league",
-      "round-2"
-    ],
+    "tags": ["crsl", "crazy-raccoon", "shadowverse-wb", "streamer-league", "round-2"],
     "verified_at": "2026-07-26T13:55:00+09:00",
-    "persons": [
-      "たいじ",
-      "もこう"
-    ],
+    "persons": ["たいじ", "もこう"],
     "start": "2026-07-26T16:00:00+09:00",
     "allDay": false,
     "location": "オンライン配信",
     "url": "https://x.com/crazyraccoon406",
-    "sourceUrls": [
-      "https://x.com/crazyraccoon406",
-      "https://shadowverse-magazine.com/svwb/event/crsl-2026/",
-      "https://shadowverse-magazine.com/news/svwb/73982/"
-    ],
+    "sourceUrls": ["https://x.com/crazyraccoon406", "https://shadowverse-magazine.com/svwb/event/crsl-2026/", "https://shadowverse-magazine.com/news/svwb/73982/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-26T13:55:00+09:00",
@@ -45,26 +32,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": [
-      "crsl",
-      "crazy-raccoon",
-      "shadowverse-wb",
-      "streamer-league",
-      "round-3"
-    ],
+    "tags": ["crsl", "crazy-raccoon", "shadowverse-wb", "streamer-league", "round-3"],
     "verified_at": "2026-07-26T13:55:00+09:00",
-    "persons": [
-      "たいじ",
-      "もこう"
-    ],
+    "persons": ["たいじ", "もこう"],
     "start": "2026-08-14T16:00:00+09:00",
     "allDay": false,
     "location": "オンライン配信",
     "url": "https://x.com/crazyraccoon406",
-    "sourceUrls": [
-      "https://x.com/crazyraccoon406",
-      "https://shadowverse-magazine.com/svwb/event/crsl-2026/"
-    ],
+    "sourceUrls": ["https://x.com/crazyraccoon406", "https://shadowverse-magazine.com/svwb/event/crsl-2026/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-26T13:55:00+09:00",
@@ -80,26 +55,14 @@
     "source": "official",
     "official": true,
     "region": "global",
-    "tags": [
-      "murash-fc",
-      "kings-league",
-      "world-cup-clubs",
-      "exhibition",
-      "football"
-    ],
+    "tags": ["murash-fc", "kings-league", "world-cup-clubs", "exhibition", "football"],
     "verified_at": "2026-07-27T06:55:30+09:00",
-    "persons": [
-      "加藤純一"
-    ],
+    "persons": ["加藤純一"],
     "start": "2026-07-28T22:30:00+09:00",
     "allDay": false,
     "location": "イタリア（ABEMA無料配信）",
     "url": "https://abema.tv/live-event/3bcee286-a230-4269-9f6d-a5eef5ec8509",
-    "sourceUrls": [
-      "https://times.abema.tv/visions/articles/-/10261099",
-      "https://abema.tv/live-event/3bcee286-a230-4269-9f6d-a5eef5ec8509",
-      "https://kingsleague.pro/"
-    ],
+    "sourceUrls": ["https://times.abema.tv/visions/articles/-/10261099", "https://abema.tv/live-event/3bcee286-a230-4269-9f6d-a5eef5ec8509", "https://kingsleague.pro/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T06:55:30+09:00",
@@ -115,26 +78,14 @@
     "source": "official",
     "official": true,
     "region": "global",
-    "tags": [
-      "murash-fc",
-      "kings-league",
-      "world-cup-clubs",
-      "exhibition",
-      "football"
-    ],
+    "tags": ["murash-fc", "kings-league", "world-cup-clubs", "exhibition", "football"],
     "verified_at": "2026-07-27T06:55:30+09:00",
-    "persons": [
-      "加藤純一"
-    ],
+    "persons": ["加藤純一"],
     "start": "2026-07-30T22:30:00+09:00",
     "allDay": false,
     "location": "イタリア（ABEMA無料配信）",
     "url": "https://abema.tv/live-event/fa589e6f-4e35-4157-ba6d-564624a9256b",
-    "sourceUrls": [
-      "https://times.abema.tv/visions/articles/-/10261099",
-      "https://abema.tv/live-event/fa589e6f-4e35-4157-ba6d-564624a9256b",
-      "https://kingsleague.pro/"
-    ],
+    "sourceUrls": ["https://times.abema.tv/visions/articles/-/10261099", "https://abema.tv/live-event/fa589e6f-4e35-4157-ba6d-564624a9256b", "https://kingsleague.pro/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T06:55:30+09:00",
@@ -150,26 +101,14 @@
     "source": "official",
     "official": true,
     "region": "global",
-    "tags": [
-      "murash-fc",
-      "kings-league",
-      "world-cup-clubs",
-      "exhibition",
-      "football"
-    ],
+    "tags": ["murash-fc", "kings-league", "world-cup-clubs", "exhibition", "football"],
     "verified_at": "2026-07-27T06:55:30+09:00",
-    "persons": [
-      "加藤純一"
-    ],
+    "persons": ["加藤純一"],
     "start": "2026-07-31T22:30:00+09:00",
     "allDay": false,
     "location": "イタリア（ABEMA無料配信）",
     "url": "https://abema.tv/live-event/0c52da97-1be8-4c56-b45a-532207ae25db",
-    "sourceUrls": [
-      "https://times.abema.tv/visions/articles/-/10261099",
-      "https://abema.tv/live-event/0c52da97-1be8-4c56-b45a-532207ae25db",
-      "https://kingsleague.pro/"
-    ],
+    "sourceUrls": ["https://times.abema.tv/visions/articles/-/10261099", "https://abema.tv/live-event/0c52da97-1be8-4c56-b45a-532207ae25db", "https://kingsleague.pro/"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-07-27T06:55:30+09:00",
@@ -185,32 +124,15 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": [
-      "niconico-old-timers",
-      "rust",
-      "streamer-event",
-      "season-3",
-      "multi-day",
-      "participant-list-confirmed"
-    ],
+    "tags": ["niconico-old-timers", "rust", "streamer-event", "season-3", "multi-day", "participant-list-confirmed"],
     "verified_at": "2026-08-03T06:56:42+09:00",
-    "persons": [
-      "たいじ",
-      "もこう",
-      "加藤純一",
-      "あっさりしょこ",
-      "バトラ"
-    ],
+    "persons": ["たいじ", "もこう", "加藤純一", "あっさりしょこ", "バトラ"],
     "start": "2026-08-07",
     "end": "2026-08-10",
     "allDay": true,
     "location": "オンライン配信",
     "url": "https://www.youtube.com/live/mP7IndM3G",
-    "sourceUrls": [
-      "https://x.com/kirizaki_ei",
-      "https://www.youtube.com/live/mP7IndM3G",
-      "https://stream-log.com/event/50"
-    ],
+    "sourceUrls": ["https://x.com/kirizaki_ei", "https://www.youtube.com/live/mP7IndM3G", "https://stream-log.com/event/50"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-03T06:56:42+09:00",
@@ -226,31 +148,42 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": [
-      "k4sen",
-      "offline",
-      "appearance",
-      "buckshot-roulette",
-      "cast-complete"
-    ],
+    "tags": ["k4sen", "offline", "appearance", "buckshot-roulette", "cast-complete"],
     "verified_at": "2026-08-04T19:01:13+09:00",
-    "persons": [
-      "加藤純一",
-      "もこう",
-      "なるお"
-    ],
+    "persons": ["加藤純一", "もこう", "なるお"],
     "start": "2026-08-08T10:00:00+09:00",
     "end": "2026-08-08T20:00:00+09:00",
     "allDay": false,
     "location": "国立代々木競技場 第一体育館",
     "url": "https://con2026.thek4sen.com/",
-    "sourceUrls": [
-      "https://con2026.thek4sen.com/",
-      "https://x.com/thek4sen"
-    ],
+    "sourceUrls": ["https://con2026.thek4sen.com/", "https://x.com/thek4sen"],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-04T19:01:13+09:00",
     "notes": "DAY1の『リアル Buckshot Roulette』に加藤純一、もこう、なるおが出演予定。公式の全出演者発表で、なるおが格ゲー卓として追加確認された。公式サイトで開場09:00、開演10:00、終演20:00予定を確認。公演時間は変更される可能性あり。"
+  },
+  {
+    "id": "sf6-esports-nations-cup-2026",
+    "title": "Esports Nations Cup 2026 ストリートファイター6部門",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": ["enc", "esports-nations-cup", "international", "national-team", "japan"],
+    "verified_at": "2026-08-10T07:06:41+09:00",
+    "persons": [],
+    "start": "2026-11-18",
+    "end": "2026-11-23",
+    "allDay": true,
+    "location": "Boulevard City, Riyadh, Saudi Arabia",
+    "url": "https://www.esportsnationscup.com/en/competitions/2026/street-fighter6",
+    "sourceUrls": ["https://www.esportsnationscup.com/en/competitions/2026/street-fighter6", "https://esportsnationscup.com/en/press-releases/enc26-announces-street-fighter-6-rosters"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-10T07:06:41+09:00",
+    "notes": "Esports Nations Cup 2026のストリートファイター6部門。2026年11月18日〜22日にリヤドで開催。24チームによる4対4の国・地域別チーム戦で、日本はSahara、Fuudo、Higuchi、Hikaruの4選手が出場予定。開始時刻は未発表のため終日予定として登録。"
   }
 ]
