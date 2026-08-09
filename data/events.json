@@ -354,5 +354,41 @@
     "confidence": "high",
     "lastChecked": "2026-08-01T19:00:05+09:00",
     "notes": "OPENREC主催の大型オフラインイベントDAY2。開場11:00、開演13:00、終演19:30予定。公式サイトで、もこうはチームリーダー、加藤純一はMC・実況、たいじ・あっさりしょこ・バトラは出演者として発表済み。出演者の日別割り当ては未発表。公演時間・出演者は変更される可能性あり。"
+  },
+  {
+    "id": "streamer-crsl-shadowverse-2026-round3",
+    "title": "第2回 CR Streamer League Shadowverse 第3節",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "crsl",
+      "shadowverse-wb",
+      "streamer-league",
+      "section-3",
+      "appearance"
+    ],
+    "verified_at": "2026-08-09T19:04:42+09:00",
+    "persons": [
+      "たいじ",
+      "もこう"
+    ],
+    "start": "2026-08-14T16:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン",
+    "url": "https://x.com/crazyraccoon406",
+    "sourceUrls": [
+      "https://x.com/crazyraccoon406",
+      "https://zetadivision.com/news/2026/07/09/45772",
+      "https://shadowverse-magazine.com/svwb/event/crsl-2026/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-09T19:04:42+09:00",
+    "notes": "Crazy Raccoon主催『第2回 CR Streamer League Shadowverse』第3節。公式告知で8月14日16:00開始を確認。TEAM 02としてもこう・たいじが参加。第1・第2節の結果を受けた決勝トーナメント。終了時刻は未発表。"
   }
 ]
