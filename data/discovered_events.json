@@ -443,5 +443,37 @@
     "confidence": "high",
     "lastChecked": "2026-08-09T07:00:00+09:00",
     "notes": "第7期TOPANGA CHAMPIONSHIPのオフライン決勝リーグDAY3。2026年8月23日12:00開場、13:00開演。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-stage0-2026-grand-final",
+    "title": "Coca-Cola STAGE:0 2026 ストリートファイター6部門 全国大会グランドファイナル",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "stage0",
+      "high-school",
+      "national-final",
+      "offline"
+    ],
+    "verified_at": "2026-08-14T19:05:33+09:00",
+    "persons": [],
+    "start": "2026-08-14",
+    "end": "2026-08-15",
+    "allDay": true,
+    "location": "COOL JAPAN PARK OSAKA WWホール",
+    "url": "https://stage0.jp/games/sf6.html",
+    "sourceUrls": [
+      "https://stage0.jp/games/sf6.html",
+      "https://stage0.jp/news/management/256.html"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-14T19:05:33+09:00",
+    "notes": "全国高校対抗eスポーツ大会STAGE:0 2026のストリートファイター6部門全国大会グランドファイナル。公式サイトで2026年8月14日開催、会場はCOOL JAPAN PARK OSAKA WWホールを確認。開始時刻は確認できなかったため終日予定として登録。"
   }
 ]
