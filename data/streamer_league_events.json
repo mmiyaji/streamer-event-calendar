@@ -305,5 +305,29 @@
     "confidence": "high",
     "lastChecked": "2026-08-12T07:02:30+09:00",
     "notes": "World Warrior日本大会のポイント上位者による地域決勝。優勝者はCAPCOM CUP 13出場権を獲得する。2026年12月13日にesports Style UENOでオフライン開催予定。開始時刻は未確認のため終日予定。"
+  },
+  {
+    "id": "streamer-hyper-game-event-final-2026",
+    "title": "配信者ハイパーゲーム大会 FINAL",
+    "category": "streamer",
+    "type": "tournament",
+    "game": null,
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["hyper-game-event", "final", "offline", "tokyo-dome", "multi-day"],
+    "verified_at": "2026-08-18T07:05:18+09:00",
+    "persons": ["たいじ", "もこう", "加藤純一", "あっさりしょこ", "バトラ"],
+    "start": "2026-11-28",
+    "end": "2026-11-30",
+    "allDay": true,
+    "location": "東京ドーム",
+    "url": "https://lp.openrec.jp/hyper-game-event-final/",
+    "sourceUrls": ["https://lp.openrec.jp/hyper-game-event-final/", "https://openrec.co.jp/news/24812661135"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-18T07:05:18+09:00",
+    "notes": "OPENREC主催の大型配信者イベント。対象配信者では、もこうがチームリーダー、加藤純一がMAIN CASTER、たいじ・あっさりしょこ・バトラが出演者として公式発表済み。DAY1は2026年11月28日12:30開場・14:30開演・21:00終演予定、DAY2は11月29日11:00開場・13:00開演・19:30終演予定。日別の出演者割り当ては未発表のため、2日間の終日イベントとして登録。"
   }
 ]
