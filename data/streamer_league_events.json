@@ -329,5 +329,29 @@
     "confidence": "high",
     "lastChecked": "2026-08-18T07:05:18+09:00",
     "notes": "OPENREC主催の大型配信者イベント。対象配信者では、もこうがチームリーダー、加藤純一がMAIN CASTER、たいじ・あっさりしょこ・バトラが出演者として公式発表済み。DAY1は2026年11月28日12:30開場・14:30開演・21:00終演予定、DAY2は11月29日11:00開場・13:00開演・19:30終演予定。日別の出演者割り当ては未発表のため、2日間の終日イベントとして登録。"
+  },
+  {
+    "id": "streamer-with-mellow-shoko-one-day-manager-2026",
+    "title": "with mellow POP UP STORE in TOKYO あっさりしょこ一日店長",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["assari-shoko", "with-mellow", "pop-up-store", "one-day-manager", "offline"],
+    "verified_at": "2026-08-20T07:04:12+09:00",
+    "persons": ["あっさりしょこ"],
+    "start": "2026-08-30T14:00:00+09:00",
+    "end": "2026-08-30T17:00:00+09:00",
+    "allDay": false,
+    "location": "東京都渋谷区千駄ヶ谷3-56-3 B1",
+    "url": "https://with-mellow.store/en/blogs/blog/tencho",
+    "sourceUrls": ["https://with-mellow.store/en/blogs/blog/tencho", "https://with-mellow.store/blogs/news/with-mellow-pop-up-store-in-tokyo-osaka"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-20T07:04:12+09:00",
+    "notes": "with mellow POP UP STORE in TOKYOの一日店長企画。あっさりしょこが2026年8月30日14:00〜17:00に参加予定。休憩のため不在になる時間帯がある。"
   }
 ]
