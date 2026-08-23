@@ -475,5 +475,74 @@
     "confidence": "high",
     "lastChecked": "2026-08-14T19:05:33+09:00",
     "notes": "全国高校対抗eスポーツ大会STAGE:0 2026のストリートファイター6部門全国大会グランドファイナル。公式サイトで2026年8月14日開催、会場はCOOL JAPAN PARK OSAKA WWホールを確認。開始時刻は確認できなかったため終日予定として登録。"
+  },
+  {
+    "id": "streamer-bpf-fan-meeting-2026-tokyo",
+    "title": "Blood Party Friday FAN MEETING2026 in TOKYO",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "assari-shoko",
+      "blood-party-friday",
+      "bpf",
+      "fan-meeting",
+      "offline"
+    ],
+    "verified_at": "2026-08-24T07:04:07+09:00",
+    "persons": [
+      "あっさりしょこ"
+    ],
+    "start": "2026-10-18T14:00:00+09:00",
+    "end": "2026-10-18T20:00:00+09:00",
+    "allDay": false,
+    "location": "ニューピアホール",
+    "url": "https://openrec.co.jp/news/830938182",
+    "sourceUrls": [
+      "https://openrec.co.jp/news/830938182",
+      "https://x.com/BPF_MELLOW"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-24T07:04:07+09:00",
+    "notes": "2年ぶりのBPFファンミーティング。あっさりしょこはレギュラー出演者として昼・夜の両部に出演予定。昼の部は13:15開場・14:00開演・16:00終演予定、夜の部は17:15開場・18:00開演・20:00終演予定。昼の部はDead by Daylight中心、夜の部はトーク・企画中心。"
+  },
+  {
+    "id": "streamer-murash-valorant-public-tryout-2026-08-24",
+    "title": "MURASH GAMING VALORANT 公開トライアウト",
+    "category": "streamer",
+    "type": "stream",
+    "game": "valorant",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "murash-gaming",
+      "valorant",
+      "tryout",
+      "livestream",
+      "appearance"
+    ],
+    "verified_at": "2026-08-24T07:04:07+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "start": "2026-08-24T16:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://x.com/MURASHeSports",
+    "sourceUrls": [
+      "https://x.com/MURASHeSports",
+      "https://x.com/unkochan1234567"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-24T07:04:07+09:00",
+    "notes": "次シーズンのメンバー選考に向けたVALORANT公開トライアウト。2026年8月24日16:00開始で、加藤純一・biju・tonboの各チャンネルにて配信予定。終了時刻は未発表。"
   }
 ]
