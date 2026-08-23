@@ -135,7 +135,7 @@ def build_sfl_events(path: Path) -> list[dict]:
         events.append(
             {
                 "id": f"sf6-sfl-japan-2026-division-{division_slug}-round-{round_number}",
-                "title": f"ストリートファイターリーグ: Pro-JP 2026 Division {division} 第{round_number}節",
+                "title": f"ストリートファイターリーグ JAPAN 2026 Division {division} 第{round_number}節",
                 "category": "sf6",
                 "type": "tournament",
                 "game": "sf6",
@@ -155,7 +155,7 @@ def build_sfl_events(path: Path) -> list[dict]:
                 "status": "confirmed",
                 "confidence": "high",
                 "lastChecked": verified_at,
-                "notes": "公式発表では18:30頃に配信開始予定。配信時間は約3〜4時間の予定のため、終了時刻は便宜上22:30として登録。進行により変動する可能性あり。",
+                "notes": "最新の公式案内では18:40より配信開始。配信時間は約3〜4時間の予定のため、終了時刻は便宜上22:40として登録。進行により変動する可能性あり。",
             }
         )
     return events
