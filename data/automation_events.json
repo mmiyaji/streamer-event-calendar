@@ -31,5 +31,42 @@
     "confidence": "high",
     "lastChecked": "2026-08-26T19:01:43+09:00",
     "notes": "Cygames公式の国際オフライン大会。2026年9月26日〜27日にシンガポールで開催。Day 1はスイスドロー、Day 2はシングルエリミネーション。優勝者は賞金30,000米ドルとShadowverse World Grand Prix 2026 Day 1参加権利を獲得。大会本戦の開始時刻は確定情報を確認できないため終日予定として登録。"
+  },
+  {
+    "id": "svwb-premier-series-neketsu-tv-2026-08-29",
+    "title": "熱血シャドバTV プレミアシリーズ全力応援！",
+    "category": "streamer",
+    "type": "stream",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "premier-series",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "premier-series",
+      "official-program",
+      "livestream",
+      "round-6",
+      "deck-reveal",
+      "mokou",
+      "streamer"
+    ],
+    "verified_at": "2026-08-27T06:55:29+09:00",
+    "persons": [
+      "もこう"
+    ],
+    "start": "2026-08-29T19:30:00+09:00",
+    "end": "2026-08-29T22:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://ps.shadowverse-wb.com/26-27/news/329/",
+    "sourceUrls": [
+      "https://ps.shadowverse-wb.com/26-27/news/329/",
+      "https://ps.shadowverse-wb.com/26-27/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-27T06:55:29+09:00",
+    "notes": "Shadowverse Premier Seriesの最新情報を届ける公式番組。2026年8月29日19:30〜22:00配信。対象配信者のもこうは番組後半から出演予定。第6節のマッチアップ・デッキ情報公開、第1〜5節の振り返り、Premier Series最新情報などを扱う。2026年8月26日のPremier Series公式告知で出演者と放送時刻を確認したため、配信者イベントとしてcategoryをstreamerに設定しつつgameはshadowverse_wbを維持。"
   }
 ]
