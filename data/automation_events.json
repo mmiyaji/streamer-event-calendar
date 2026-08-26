@@ -1,0 +1,35 @@
+[
+  {
+    "id": "svwb-international-championship-2026-singapore",
+    "title": "Shadowverse International Championship 2026 Singapore",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "international-championship",
+      "singapore",
+      "wgp-qualifier",
+      "offline",
+      "international"
+    ],
+    "verified_at": "2026-08-26T19:01:43+09:00",
+    "persons": [],
+    "start": "2026-09-26",
+    "end": "2026-09-28",
+    "allDay": true,
+    "location": "Suntec Singapore Convention & Exhibition Centre, Hall 405",
+    "url": "https://ics.shadowverse-wb.com/",
+    "sourceUrls": [
+      "https://ics.shadowverse-wb.com/",
+      "https://shadowverse-wb.com/en/news/detail/?id=01KX4YY3SMCPYNV71AGRV7YGV6"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-26T19:01:43+09:00",
+    "notes": "Cygames公式の国際オフライン大会。2026年9月26日〜27日にシンガポールで開催。Day 1はスイスドロー、Day 2はシングルエリミネーション。優勝者は賞金30,000米ドルとShadowverse World Grand Prix 2026 Day 1参加権利を獲得。大会本戦の開始時刻は確定情報を確認できないため終日予定として登録。"
+  }
+]
