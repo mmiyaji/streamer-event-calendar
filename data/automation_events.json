@@ -68,5 +68,41 @@
     "confidence": "high",
     "lastChecked": "2026-08-27T06:55:29+09:00",
     "notes": "Shadowverse Premier Seriesの最新情報を届ける公式番組。2026年8月29日19:30〜22:00配信。対象配信者のもこうは番組後半から出演予定。第6節のマッチアップ・デッキ情報公開、第1〜5節の振り返り、Premier Series最新情報などを扱う。2026年8月26日のPremier Series公式告知で出演者と放送時刻を確認したため、配信者イベントとしてcategoryをstreamerに設定しつつgameはshadowverse_wbを維持。"
+  },
+  {
+    "id": "sf6-cpt-2026-ww-japan-3",
+    "title": "【予選】CPT 2026 ワールドウォリアー日本大会 #3",
+    "category": "sf6",
+    "type": "qualifier",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "cpt",
+      "world-warrior",
+      "qualifier",
+      "online",
+      "official-public-viewing",
+      "ueno"
+    ],
+    "verified_at": "2026-08-28T07:00:03+09:00",
+    "persons": [],
+    "start": "2026-08-30T12:00:00+09:00",
+    "end": "2026-08-30T21:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン／esports Style UENO（公式パブリックビューイング・対戦会）",
+    "url": "https://sf.esports.capcom.com/cpt/jp/",
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/cpt/jp/",
+      "https://prtimes.jp/main/html/rd/p/000005879.000013450.html",
+      "https://x.com/au_esports_UENO",
+      "https://kakuge-checker.com/topic/view/09123/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-28T07:00:03+09:00",
+    "notes": "CAPCOM CUP 13につながるCAPCOM Pro Tour 2026 World Warrior日本地域の第3回予選。CAPCOM公式情報で2026年8月30日開催を再確認し、esports Style UENO公式案内で公式パブリックビューイング・対戦会の実施を確認。既存登録のtypeをtournamentからqualifierへ修正し、公式情報優先のメタデータへ更新。12:00試合開始・18:00 Top8は現行大会情報で確認。終了時刻21:00は従来登録を維持した便宜上の目安。"
   }
 ]
