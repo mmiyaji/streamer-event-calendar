@@ -104,5 +104,41 @@
     "confidence": "high",
     "lastChecked": "2026-08-28T07:00:03+09:00",
     "notes": "CAPCOM CUP 13につながるCAPCOM Pro Tour 2026 World Warrior日本地域の第3回予選。CAPCOM公式情報で2026年8月30日開催を再確認し、esports Style UENO公式案内で公式パブリックビューイング・対戦会の実施を確認。既存登録のtypeをtournamentからqualifierへ修正し、公式情報優先のメタデータへ更新。12:00試合開始・18:00 Top8は現行大会情報で確認。終了時刻21:00は従来登録を維持した便宜上の目安。"
+  },
+  {
+    "id": "sf6-esports-nations-cup-2026",
+    "title": "Esports Nations Cup 2026 ストリートファイター6部門",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "enc",
+      "esports-nations-cup",
+      "international",
+      "national-team",
+      "japan",
+      "postponed",
+      "2027-date-pending"
+    ],
+    "verified_at": "2026-08-28T19:04:45+09:00",
+    "persons": [],
+    "start": "2026-11-18",
+    "end": "2026-11-23",
+    "allDay": true,
+    "location": "Boulevard City, Riyadh, Saudi Arabia",
+    "url": "https://www.esportsnationscup.com/en/press-releases/ef-postpones-enc-to-november-2027",
+    "sourceUrls": [
+      "https://www.esportsnationscup.com/en/press-releases/ef-postpones-enc-to-november-2027",
+      "https://www.esportsnationscup.com/en",
+      "https://www.esportsnationscup.com/en/competitions/2026/street-fighter6"
+    ],
+    "status": "cancelled",
+    "confidence": "high",
+    "lastChecked": "2026-08-28T19:04:45+09:00",
+    "notes": "Esports Foundationが2026年8月18日に、2026年11月開催予定だった第1回Esports Nations Cup全体を2027年11月へ延期すると公式発表したため、従来の2026年11月18日〜22日のSF6部門予定をキャンセル扱いに更新。2027年大会のSF6具体日程・予選の扱いは今後案内予定で、日付未確定のため新しい2027年イベントは登録しない。"
   }
 ]
