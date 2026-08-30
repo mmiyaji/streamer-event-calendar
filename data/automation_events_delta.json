@@ -1,0 +1,73 @@
+[
+  {
+    "id": "sf6-cpt-2026-ufa",
+    "title": "CPT 2026 プレミア：Ultimate Fighting Arena",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "cpt",
+      "premier",
+      "ufa",
+      "offline",
+      "france",
+      "capcom-cup-13-qualifier"
+    ],
+    "verified_at": "2026-08-30T19:05:35+09:00",
+    "persons": [],
+    "start": "2026-09-11",
+    "end": "2026-09-14",
+    "allDay": true,
+    "location": "フランス",
+    "url": "https://prtimes.jp/main/html/rd/p/000005775.000013450.html",
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000005775.000013450.html",
+      "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
+      "https://sf.esports.capcom.com/cpt/jp/",
+      "https://www.start.gg/tournament/ultimate-fighting-arena-2026-2/details"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-30T19:05:35+09:00",
+    "notes": "CAPCOM Pro Tour 2026の公式Premier大会。カプコン公式発表で現地時間2026年9月11日〜13日の開催と、優勝者にCAPCOM CUP 13出場権が与えられることを確認。従来登録は第三者情報を主ソースとしていたため、公式情報優先のメタデータへ更新。開始時刻は未発表のため終日予定を維持。"
+  },
+  {
+    "id": "sf6-cpt-2026-evo-france",
+    "title": "CPT 2026 プレミア：Evo France",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "cpt",
+      "premier",
+      "evo-france",
+      "offline",
+      "france",
+      "capcom-cup-13-qualifier"
+    ],
+    "verified_at": "2026-08-30T19:05:35+09:00",
+    "persons": [],
+    "start": "2026-10-09",
+    "end": "2026-10-12",
+    "allDay": true,
+    "location": "フランス",
+    "url": "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
+      "https://sf.esports.capcom.com/cpt/jp/",
+      "https://www.start.gg/tournament/evo-france-2026/details"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-08-30T19:05:35+09:00",
+    "notes": "CAPCOM Pro Tour 2026 Premierのフランス開催大会。カプコン公式のPremier大会エントリー案内で、Evo Franceを現地時間2026年10月9日〜11日開催として確認。既存イベントデータに登録がなかったため追加。開始時刻は未発表のため終日予定として登録。"
+  }
+]
