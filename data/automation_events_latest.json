@@ -1,0 +1,29 @@
+[
+  {
+    "id": "streamer-pubg-land-2026",
+    "title": "PUBG LAND 2026",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "pubg",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["pubg", "pubg-mobile", "pubg-battlegrounds", "streamer", "mokou", "junichi-kato", "team-kato", "official-event"],
+    "verified_at": "2026-09-04T19:02:55+09:00",
+    "persons": ["加藤純一", "もこう"],
+    "start": "2026-09-05T18:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://x.com/PUBGMOBILE_JP/status/2095104668569620712",
+    "sourceUrls": [
+      "https://x.com/PUBGMOBILE_JP/status/2095104668569620712",
+      "https://x.com/PUBGMOBILE_JP/status/2094745835368292690",
+      "https://x.com/PUBG_JAPAN"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-04T19:02:55+09:00",
+    "notes": "PUBG MOBILE JAPAN／PUBG: BATTLEGROUNDS JAPAN公式の大型ストリーマーイベント。2026年9月5日18:00開始予定。PUBG MOBILEとPUBG: BATTLEGROUNDSの両方を使用。2026年9月2日のPUBG MOBILE JAPAN公式告知で、対象配信者の加藤純一・もこうが同じ『加藤純一チーム』（加藤純一、布団ちゃん、もこう、おにや）として出演することを確認したため、既存のもこう出演情報に加藤純一を追加。終了時刻は未発表。"
+  }
+]
