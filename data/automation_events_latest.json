@@ -133,5 +133,32 @@
     "confidence": "high",
     "lastChecked": "2026-09-05T06:57:30+09:00",
     "notes": "Shadowverse: Worlds Beyond公式告知で、『Shadowverse BO3 Showdown Vol.3』Grand Finalsを2026年9月13日に開催すると確認。予選は9月6日。予選から決勝までBO3形式で、優勝賞金100万円のオンライン大会。開始時刻は公式の確定情報を確認できないため終日予定として登録。"
+  },
+  {
+    "id": "svwb-premier-series-2026-round7-second",
+    "title": "Shadowverse Premier Series 26-27 第7節 後半",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "premier-series",
+    "official": true,
+    "region": "jp",
+    "tags": ["pro-league", "premier-series", "regular-season", "round-7", "start-time-confirmed"],
+    "verified_at": "2026-09-05T19:05:06+09:00",
+    "persons": [],
+    "start": "2026-09-09T17:30:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://www.youtube.com/watch?v=ttsuVkuefo4",
+    "sourceUrls": [
+      "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+      "https://www.youtube.com/watch?v=ttsuVkuefo4",
+      "https://gamewith.jp/shadowverse-wb/545013"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-05T19:05:06+09:00",
+    "notes": "Shadowverse Channel公式で『Shadowverse Premier Series 26-27 第7節後半』の本配信枠が公開されていることを確認。最新の日程掲載で2026年9月9日17:30開始、MURASH GAMING vs VARREL、REJECT vs レバンガ北海道と確認したため、従来の終日予定から開始時刻付きへ更新。終了時刻は未発表。"
   }
 ]
