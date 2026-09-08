@@ -281,5 +281,28 @@
     "confidence": "high",
     "lastChecked": "2026-09-08T19:02:49+09:00",
     "notes": "ストリートファイター公式日本語アカウントがYear 4追加キャラクター第2弾『アルジュン』を2026年10月13日16:00に配信すると発表。CAPCOMのSteam公式ニュースでも10月13日リリースを確認。Year 4キャラクターパス／アルティメットパス対象で、追加キャラクター実装を伴う大型アップデートとして登録。"
+  },
+  {
+    "id": "streamer-drks-pachislot-aobuta-2026-09-11",
+    "title": "DRKSパチスロ王決定戦～L青ブタ編～",
+    "category": "streamer",
+    "type": "tournament",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["drks", "dorokusa", "pachislot", "streamer-tournament", "junichi-kato", "mokou", "l-aobuta", "simulcast", "official-event"],
+    "verified_at": "2026-09-09T06:59:07+09:00",
+    "persons": ["加藤純一", "もこう"],
+    "start": "2026-09-12T00:00:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://x.com/dorokusa0509/status/2096871827595493614",
+    "sourceUrls": ["https://x.com/dorokusa0509/status/2096871827595493614", "https://dorokusa.co.jp/", "https://pachimaga.com/free/article/20260908/066437.php"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-09T06:59:07+09:00",
+    "notes": "DOROKUSA（DRKS）公式告知とパチマガスロマガFREEで、DRKS所属5名による『L青春ブタ野郎はバニーガール先輩の夢を見ない』の出玉バトルを2026年9月11日（金）24:00頃から各メンバーのチャンネルで同時配信すると確認。対象配信者の加藤純一・もこうが出演。日本時間では9月12日0:00相当として登録。終了時刻は未発表。"
   }
 ]
