@@ -328,5 +328,28 @@
     "confidence": "high",
     "lastChecked": "2026-09-09T19:03:32+09:00",
     "notes": "カプコン公式の2026年9月9日告知で、『UFA 2026』ストリートファイター6部門は日本時間2026年9月12日〜13日に開催と確認。CAPCOM Fighters JPの日本語実況LIVE配信はDay1・Day2とも16:45開始予定で、大会進行により前後する可能性がある。従来はUFA全体の現地日程9月11日〜13日で登録していたため、SF6部門の最新公式日程に合わせて9月12日〜13日へ更新。優勝者にはCAPCOM CUP 13出場権が与えられる。"
+  },
+  {
+    "id": "sf6-cpt-2026-ww-japan-4",
+    "title": "【予選】CPT 2026 ワールドウォリアー日本大会 #4",
+    "category": "sf6",
+    "type": "qualifier",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["cpt", "world-warrior", "japan", "qualifier", "capcom-cup-13-qualifier"],
+    "verified_at": "2026-09-09T19:03:32+09:00",
+    "persons": [],
+    "start": "2026-10-18",
+    "end": "2026-10-19",
+    "allDay": true,
+    "url": "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000006034.000013450.html", "https://sf.esports.capcom.com/cpt/jp/", "https://www.start.gg/tournament/world-warrior-2026-japan-4/details"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-09T19:03:32+09:00",
+    "notes": "カプコン公式の2026年9月9日告知で、『CAPCOM Pro Tour 2026 ワールドウォリアー 日本大会 #4』を2026年10月18日（日）に開催すると確認。エントリー受付は10月12日（月・祝）23:59まで。開始時刻は現時点で公式の確定情報を確認できないため終日予定として登録。"
   }
 ]
