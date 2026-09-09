@@ -304,5 +304,29 @@
     "confidence": "high",
     "lastChecked": "2026-09-09T06:59:07+09:00",
     "notes": "DOROKUSA（DRKS）公式告知とパチマガスロマガFREEで、DRKS所属5名による『L青春ブタ野郎はバニーガール先輩の夢を見ない』の出玉バトルを2026年9月11日（金）24:00頃から各メンバーのチャンネルで同時配信すると確認。対象配信者の加藤純一・もこうが出演。日本時間では9月12日0:00相当として登録。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-cpt-2026-ufa",
+    "title": "CPT 2026 プレミア：Ultimate Fighting Arena",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": ["cpt", "premier", "ufa", "ufa-2026", "offline", "france", "paris", "capcom-cup-13-qualifier", "japanese-commentary"],
+    "verified_at": "2026-09-09T19:03:32+09:00",
+    "persons": [],
+    "start": "2026-09-12",
+    "end": "2026-09-14",
+    "allDay": true,
+    "location": "フランス・パリ",
+    "url": "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000006034.000013450.html", "https://sf.esports.capcom.com/cpt/jp/", "https://www.start.gg/tournament/ultimate-fighting-arena-2026-2/details"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-09T19:03:32+09:00",
+    "notes": "カプコン公式の2026年9月9日告知で、『UFA 2026』ストリートファイター6部門は日本時間2026年9月12日〜13日に開催と確認。CAPCOM Fighters JPの日本語実況LIVE配信はDay1・Day2とも16:45開始予定で、大会進行により前後する可能性がある。従来はUFA全体の現地日程9月11日〜13日で登録していたため、SF6部門の最新公式日程に合わせて9月12日〜13日へ更新。優勝者にはCAPCOM CUP 13出場権が与えられる。"
   }
 ]
