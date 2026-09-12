@@ -285,5 +285,29 @@
     "confidence": "high",
     "lastChecked": "2026-09-01T19:04:11+09:00",
     "notes": "Premier Series公式Xで2026年9月2日17:30からの配信開始を確認したため、従来の終日予定を時刻付き予定へ更新。対戦はCrazy Raccoon vs DetonatioN FocusMe、RIDDLE ORDER vs ZETA DIVISION。終了時刻は未発表。"
+  },
+  {
+    "id": "streamer-galleria-tgs2026-valorant-showmatch-jasper",
+    "title": "VALORANT SHOWMATCH Red Bull Gaming Sphere on Tour VS まざー3チーム @GALLERIAブース",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": "valorant",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["streamer", "valorant", "jasper", "tgs2026", "galleria", "showmatch", "red-bull-gaming-sphere", "riot-games", "offline", "official-event"],
+    "verified_at": "2026-09-12T18:58:33+09:00",
+    "persons": ["じゃすぱー"],
+    "start": "2026-09-19T15:30:00+09:00",
+    "end": "2026-09-19T16:30:00+09:00",
+    "allDay": false,
+    "location": "東京ゲームショウ2026 GALLERIAブース（幕張メッセ 展示ホール2 02-C21）",
+    "url": "https://www.dospara.co.jp/gamepc/cts-tgs2026.html",
+    "sourceUrls": ["https://www.dospara.co.jp/gamepc/cts-tgs2026.html", "https://www.value-press.com/pressrelease/380558", "https://x.com/GALLERIA_GM"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-12T18:58:33+09:00",
+    "notes": "GALLERIA公式のTGS2026追加ステージ情報で、2026年9月19日15:30〜16:30に『VALORANT SHOWMATCH Red Bull Gaming Sphere on Tour VS まざー3チーム @GALLERIAブース Supported by Riot Games』を開催すると確認。対象配信者のじゃすぱーはRed Bull Gaming Sphere on Tourチームとして別会場からオンライン出演。GALLERIA公式および各出演者個人チャンネルで配信予定。イベント本体は東京ゲームショウ2026のGALLERIAブースで実施されるためoffline_eventとして登録。"
   }
 ]
