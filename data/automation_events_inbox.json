@@ -1,0 +1,25 @@
+[
+  {
+    "id": "streamer-the-k4sen-vs-sonic-tgs2026",
+    "title": "The k4sen vs SONIC THE HEDGEHOG @ TOKYO GAME SHOW 2026",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["the-k4sen", "k4sen", "sonic", "tgs2026", "tokyo-game-show", "zeta-division", "offline", "stage-event", "official-event"],
+    "verified_at": "2026-09-14T06:59:32+09:00",
+    "persons": ["k4sen"],
+    "start": "2026-09-21T15:00:00+09:00",
+    "allDay": false,
+    "location": "幕張メッセ ZETA DIVISION BOOTH",
+    "url": "https://zetadivision.com/news/2026/08/28/46633",
+    "sourceUrls": ["https://zetadivision.com/news/2026/08/28/46633", "https://zetadivision.com/news/2026/09/11/47057"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-14T06:59:32+09:00",
+    "notes": "ZETA DIVISION公式のTOKYO GAME SHOW 2026出展案内で、一般デイの2026年9月21日15:00から『The k4sen vs SONIC THE HEDGEHOG』を実施すると確認。k4senとソニックがステージで対決する企画で、全ステージイベントはZETA DIVISION公式Twitch／YouTubeでライブ配信予定。対決で使用するゲームタイトルと終了時刻は公式告知で特定されていないため、gameはnull、終了時刻未設定として登録。"
+  }
+]
