@@ -23,6 +23,7 @@ CATEGORY_NAMES = {
     "streamer": "Streamer",
     "sf6": "Street Fighter 6",
     "shadowverse_wb": "Shadowverse: Worlds Beyond",
+    "pokemon": "Pokemon 30th",
 }
 
 REQUIRED_METADATA = {
@@ -210,13 +211,18 @@ def main() -> None:
     )
 
     public = [e for e in events if e.get("confidence") in {"high", "medium"}]
-    write_ics(DIST_DIR / "calendar.ics", public, "Streamer, SF6 & Shadowverse WB Events")
+    write_ics(DIST_DIR / "calendar.ics", public, "Streamer, SF6, Shadowverse WB & Pokemon 30th Events")
     write_ics(DIST_DIR / "streamers.ics", [e for e in public if e.get("category") == "streamer"], "Streamer Events")
     write_ics(DIST_DIR / "sf6.ics", [e for e in public if e.get("game") == "sf6" or e.get("category") == "sf6"], "Street Fighter 6 Events")
     write_ics(
         DIST_DIR / "shadowverse-wb.ics",
         [e for e in public if e.get("game") == "shadowverse_wb" or e.get("category") == "shadowverse_wb"],
         "Shadowverse: Worlds Beyond Events",
+    )
+    write_ics(
+        DIST_DIR / "pokemon.ics",
+        [e for e in public if e.get("game") == "pokemon" or e.get("category") == "pokemon"],
+        "Pokemon 30th Goods & Events",
     )
     (DIST_DIR / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Built {len(public)} public events into {DIST_DIR}")
