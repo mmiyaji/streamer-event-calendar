@@ -46,5 +46,27 @@
     "confidence": "high",
     "lastChecked": "2026-09-15T18:58:36+09:00",
     "notes": "SANDISK公式TGS2026ページで、2026年9月19日14:00〜15:30にSTREET FIGHTER 6特別イベント第2部を開催すると確認。DFM所属の板橋ザンギエフ、竹内ジョン、ナウマンと、対象配信者のなるおがゲスト出演。来場者との対戦企画と抽選会を実施予定。"
+  },
+  {
+    "id": "streamer-cr-cup-apex-legends-11-20261004",
+    "title": "Crazy Raccoon Cup Apex Legends #11",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "apex_legends",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["crazy-raccoon", "cr-cup", "apex-legends", "streamer-tournament", "official-event"],
+    "verified_at": "2026-09-15T18:58:36+09:00",
+    "persons": [],
+    "start": "2026-10-04",
+    "allDay": true,
+    "url": "https://x.com/crazyraccoon406",
+    "sourceUrls": ["https://x.com/crazyraccoon406", "https://crcup.jp/"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-15T18:58:36+09:00",
+    "notes": "Crazy Raccoon公式Xで2026年9月6日に『Crazy Raccoon Cup Apex Legends #11』を2026年10月4日（日）開催と発表。開始時刻、参加者、チーム編成、詳細ルールは現時点で未発表のため終日予定として登録。"
   }
 ]
