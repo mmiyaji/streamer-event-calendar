@@ -68,5 +68,29 @@
     "confidence": "high",
     "lastChecked": "2026-09-15T18:58:36+09:00",
     "notes": "Crazy Raccoon公式Xで2026年9月6日に『Crazy Raccoon Cup Apex Legends #11』を2026年10月4日（日）開催と発表。開始時刻、参加者、チーム編成、詳細ルールは現時点で未発表のため終日予定として登録。"
+  },
+  {
+    "id": "streamer-taiji-persona4-revival-galleria-tgs2026",
+    "title": "ATLUS×GALLERIA『ペルソナ4 リバイバル』対談",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": "persona4_revival",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["taiji", "persona4-revival", "persona", "tgs2026", "tokyo-game-show", "galleria", "atlus", "reject", "offline", "stage-event", "talk-session"],
+    "verified_at": "2026-09-17T07:03:16+09:00",
+    "persons": ["たいじ"],
+    "start": "2026-09-17T14:45:00+09:00",
+    "end": "2026-09-17T15:15:00+09:00",
+    "allDay": false,
+    "location": "幕張メッセ 国際展示場2ホール GALLERIAブース（02-C21）",
+    "url": "https://reject.jp/2026/09/16/%E3%80%90event%E3%80%91%E3%80%8Etokyo-game-show-2026%E3%80%8F%E3%81%AE%E3%80%8Cgalleria%E3%80%8D%E3%83%96%E3%83%BC%E3%82%B9%E3%81%AB%E5%85%A88%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E5%87%BA%E6%BC%94/",
+    "sourceUrls": ["https://reject.jp/2026/09/16/%E3%80%90event%E3%80%91%E3%80%8Etokyo-game-show-2026%E3%80%8F%E3%81%AE%E3%80%8Cgalleria%E3%80%8D%E3%83%96%E3%83%BC%E3%82%B9%E3%81%AB%E5%85%A88%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E5%87%BA%E6%BC%94/", "https://www.dospara.co.jp/gamepc/cts-tgs2026.html"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-17T07:03:16+09:00",
+    "notes": "REJECT公式が2026年9月16日に公開したTGS2026出演情報で、対象配信者のたいじが2026年9月17日14:45〜15:15のATLUS×GALLERIA『ペルソナ4 リバイバル』対談に出演すると確認。GALLERIAブースで実施され、YouTube／Twitchで配信予定。"
   }
 ]
