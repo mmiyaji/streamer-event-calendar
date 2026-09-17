@@ -10,6 +10,7 @@ SHADOWVERSE_EVENTS_PATH = ROOT / "data" / "shadowverse_wb_events.json"
 DISCOVERED_EVENTS_PATH = ROOT / "data" / "discovered_events.json"
 STREAMER_LEAGUE_EVENTS_PATH = ROOT / "data" / "streamer_league_events.json"
 SHADOWVERSE_OCS_EVENTS_PATH = ROOT / "data" / "shadowverse_ocs_events.json"
+SHADOWVERSE_MAJOR_EVENTS_PATH = ROOT / "data" / "shadowverse_major_events.json"
 AUTOMATION_EVENTS_PATH = ROOT / "data" / "automation_events.json"
 AUTOMATION_DELTA_EVENTS_PATH = ROOT / "data" / "automation_events_delta.json"
 AUTOMATION_LATEST_EVENTS_PATH = ROOT / "data" / "automation_events_latest.json"
@@ -186,6 +187,7 @@ def main() -> None:
         (DISCOVERED_EVENTS_PATH, load_events(DISCOVERED_EVENTS_PATH)),
         (STREAMER_LEAGUE_EVENTS_PATH, load_events(STREAMER_LEAGUE_EVENTS_PATH)),
         (SHADOWVERSE_OCS_EVENTS_PATH, load_events(SHADOWVERSE_OCS_EVENTS_PATH)),
+        (SHADOWVERSE_MAJOR_EVENTS_PATH, load_events(SHADOWVERSE_MAJOR_EVENTS_PATH)),
         (AUTOMATION_EVENTS_PATH, load_events(AUTOMATION_EVENTS_PATH)),
         (AUTOMATION_DELTA_EVENTS_PATH, load_events(AUTOMATION_DELTA_EVENTS_PATH)),
         (EVENT_OVERRIDES_PATH, load_events(EVENT_OVERRIDES_PATH)),
