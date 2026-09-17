@@ -1,0 +1,26 @@
+[
+  {
+    "id": "svwb-international-championship-2026-singapore",
+    "title": "Shadowverse International Championship 2026 Singapore",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": ["international-championship", "singapore", "offline", "international", "wgp-2026", "wgp-qualifier", "bo3"],
+    "verified_at": "2026-09-18T06:55:43+09:00",
+    "persons": [],
+    "start": "2026-09-26",
+    "end": "2026-09-28",
+    "allDay": true,
+    "location": "Suntec Singapore Convention & Exhibition Centre, Hall 405",
+    "url": "https://ics.shadowverse-wb.com/en/",
+    "sourceUrls": ["https://ics.shadowverse-wb.com/en/", "https://shadowverse-wb.com/ja/news/detail/?id=01KX4YY3SMCPYNV71AGRV7YGV6"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-18T06:55:43+09:00",
+    "notes": "Cygames公式特設サイトで2026年9月26日・27日にシンガポールのSuntec Singapore Convention & Exhibition Centre Hall 405で開催と確認。Shadowverse: Worlds Beyond初のシンガポール開催オフライン国際大会。Day 1はスイスドロー方式ローテーションBO3、Day 2はシングルエリミネーション方式ローテーションBO3。優勝賞金30,000 USDで、優勝者はShadowverse World Grand Prix 2026 Day 1参加権利とShadowverse Online Championship 2026 November Day 2参加権利を獲得。公式主催ページでは日別開始時刻を確認できないため終日予定として登録。"
+  }
+]
