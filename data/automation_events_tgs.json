@@ -140,5 +140,29 @@
     "confidence": "high",
     "lastChecked": "2026-09-18T18:56:15+09:00",
     "notes": "Red Bull公式TGS2026イベントページで、2026年9月21日10:30〜13:10に『ストリートファイター6』招待制ショーマッチ『Red Bull Revenge』を開催し、対象配信者のたいじがオンラインの公式ミラー配信ストリーマーとして参加すると確認。全4試合（Big Bird vs ボンちゃん、ときど vs MenaRD、Blaz vs さはら、カワノ vs LeShar）を実施。categoryをstreamer、gameをsf6として登録し、配信者ICSとSF6専用ICSの両方に含める。"
+  },
+  {
+    "id": "streamer-jasper-valorant-galleria-tgs2026-showmatch",
+    "title": "VALORANT SHOWMATCH Red Bull Gaming Sphere On Tour VS まざー3チーム @GALLERIAブース",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": "valorant",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["jasper", "valorant", "tgs2026", "tokyo-game-show", "galleria", "red-bull-gaming-sphere", "riot-games", "showmatch", "streamer-event", "official-event"],
+    "verified_at": "2026-09-19T06:55:26+09:00",
+    "persons": ["じゃすぱー"],
+    "start": "2026-09-19T15:30:00+09:00",
+    "end": "2026-09-19T16:30:00+09:00",
+    "allDay": false,
+    "location": "TOKYO GAME SHOW 2026 GALLERIAブース（02-C21）／Red Bull Gaming Sphere On Tour側はオンライン参加",
+    "url": "https://www.dospara.co.jp/gamepc/cts-tgs2026.html",
+    "sourceUrls": ["https://www.dospara.co.jp/gamepc/cts-tgs2026.html", "https://fistbump-news.jp/article/2026/09/11/2884.html"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-19T06:55:26+09:00",
+    "notes": "GALLERIA公式TGS2026特設ページで、2026年9月19日15:30〜16:30に『VALORANT SHOWMATCH Red Bull Gaming Sphere On Tour VS まざー3チーム @GALLERIAブース Supported by Riot Games』を実施すると確認。対象配信者のじゃすぱー（Jasper）がRed Bull Gaming Sphere On Tour側の出演者として掲載されている。GALLERIA公式YouTube／TwitchではGALLERIA側視点、Red Bull側出演者は各個人チャンネルでそれぞれの視点を配信予定。"
   }
 ]
