@@ -10,17 +10,17 @@
     "official": true,
     "region": "jp",
     "tags": ["the-k4sen", "k4sen", "sonic", "tgs2026", "tokyo-game-show", "zeta-division", "offline", "stage-event", "official-event"],
-    "verified_at": "2026-09-14T06:59:32+09:00",
+    "verified_at": "2026-09-19T19:05:23+09:00",
     "persons": ["k4sen"],
     "start": "2026-09-21T15:00:00+09:00",
     "allDay": false,
     "location": "幕張メッセ ZETA DIVISION BOOTH",
     "url": "https://zetadivision.com/news/2026/08/28/46633",
-    "sourceUrls": ["https://zetadivision.com/news/2026/08/28/46633", "https://zetadivision.com/news/2026/09/11/47057"],
-    "status": "confirmed",
+    "sourceUrls": ["https://zetadivision.com/news/2026/08/28/46633", "https://zetadivision.com/news/2026/09/11/47057", "https://tgs.cesa.or.jp/2026/news/detail/00060"],
+    "status": "cancelled",
     "confidence": "high",
-    "lastChecked": "2026-09-14T06:59:32+09:00",
-    "notes": "ZETA DIVISION公式のTOKYO GAME SHOW 2026出展案内で、一般デイの2026年9月21日15:00から『The k4sen vs SONIC THE HEDGEHOG』を実施すると確認。k4senとソニックがステージで対決する企画で、全ステージイベントはZETA DIVISION公式Twitch／YouTubeでライブ配信予定。対決で使用するゲームタイトルと終了時刻は公式告知で特定されていないため、gameはnull、終了時刻未設定として登録。"
+    "lastChecked": "2026-09-19T19:05:23+09:00",
+    "notes": "TOKYO GAME SHOW 2026主催者が、台風25号接近に伴い2026年9月21日（月・祝）の開催を終日中止すると発表。ZETA DIVISION BOOTHで同日15:00開始予定だった本ステージは予定どおりの会場開催が不可能となったため中止扱いに更新。確認時点でZETA DIVISIONから別日開催・オンライン代替の案内は確認できていない。"
   },
   {
     "id": "pokemon30-uniqlo-ut-vol2-20260724",
