@@ -303,5 +303,29 @@
     "confidence": "high",
     "lastChecked": "2026-09-22T19:04:25+09:00",
     "notes": "第20回アジア競技大会の正式メダル種目『対戦格闘団体戦』。Street Fighter 6・鉄拳8・THE KING OF FIGHTERS XVを各1名で戦う3人チーム競技の決勝を9月26日16:00～20:00に実施。Street Fighter 6が正式構成タイトルのためSF6カレンダーへ登録。"
+  },
+  {
+    "id": "sf6-sfl-japan-2026-grand-final",
+    "title": "ストリートファイターリーグ JAPAN 2026 グランドファイナル",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": ["sfl", "street-fighter-league", "japan", "grand-final", "offline", "official-event"],
+    "verified_at": "2026-09-23T07:04:31+09:00",
+    "persons": [],
+    "start": "2027-02-23",
+    "end": "2027-02-24",
+    "allDay": true,
+    "location": "東京ビッグサイト",
+    "url": "https://prtimes.jp/main/html/rd/p/000006065.000013450.html",
+    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000006065.000013450.html"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-23T07:04:31+09:00",
+    "notes": "カプコン公式の2026年9月21日発表で、ストリートファイターリーグ JAPAN 2026 グランドファイナルを2027年2月23日（火・祝）に東京ビッグサイトで開催すると確認。開始・終了時刻および券売詳細は現時点で未発表のため、終日予定として登録。"
   }
 ]
