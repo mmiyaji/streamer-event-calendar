@@ -1,0 +1,25 @@
+[
+  {
+    "id": "svwb-premier-series-2026-round8-second",
+    "title": "Shadowverse Premier Series 26-27 第8節 後半",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "premier-series",
+    "official": true,
+    "region": "jp",
+    "tags": ["pro-league", "premier-series", "regular-season", "start-time-confirmed"],
+    "verified_at": "2026-09-25T19:03:52+09:00",
+    "persons": [],
+    "start": "2026-10-07T17:30:00+09:00",
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+    "sourceUrls": ["https://ps.shadowverse-wb.com/26-27/schedule-results/", "https://x.com/shadowversePS/status/2102726475325780362"],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-09-25T19:03:52+09:00",
+    "notes": "Shadowverse Premier Series公式で2026年10月7日17:30開始を確認。ROUND1はVARREL vs DetonatioN FocusMe、ROUND2はZETA DIVISION vs Crazy Raccoon。終了時刻は未発表。"
+  }
+]
