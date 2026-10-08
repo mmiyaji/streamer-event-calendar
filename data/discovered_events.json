@@ -544,5 +544,102 @@
     "confidence": "high",
     "lastChecked": "2026-08-24T07:04:07+09:00",
     "notes": "次シーズンのメンバー選考に向けたVALORANT公開トライアウト。2026年8月24日16:00開始で、加藤純一・biju・tonboの各チャンネルにて配信予定。終了時刻は未発表。"
+  },
+  {
+    "id": "sf6-evo-france-2026",
+    "title": "EVO France 2026 ストリートファイター6部門（CPT Premier）",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "region": "global",
+    "tags": [
+      "evo",
+      "evo-france",
+      "cpt",
+      "premier",
+      "offline"
+    ],
+    "start": "2026-10-09",
+    "end": "2026-10-12",
+    "allDay": true,
+    "location": "Palais des Expositions, Nice, France",
+    "url": "https://evo.gg/events/2026-france/",
+    "sourceUrls": [
+      "https://evo.gg/events/2026-france/",
+      "https://prtimes.jp/main/html/rd/p/000006093.000013450.html"
+    ],
+    "notes": "主催者公式イベント概要とカプコン公式プレスリリースを確認。現地10月9〜11日の3日間。SF6はCAPCOM Pro Tour 2026 Premier対象。日別の対戦時刻は未登録。",
+    "verified_at": "2026-10-08T14:15:00+09:00",
+    "lastChecked": "2026-10-08T14:15:00+09:00",
+    "status": "confirmed",
+    "confidence": "high",
+    "official": true,
+    "persons": []
+  },
+  {
+    "id": "svwb-rage-jcs-2026-season3-grand-finals",
+    "title": "RAGE Shadowverse Japan Championship 2026 Season 3 Grand Finals",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "rage",
+    "region": "jp",
+    "tags": [
+      "rage",
+      "jcs",
+      "season3",
+      "grand-finals",
+      "offline"
+    ],
+    "start": "2026-10-25",
+    "end": "2026-10-26",
+    "allDay": true,
+    "location": "都内スタジオ",
+    "url": "https://rage-esports.jp/shadowversewb/2026/season3/info/tournament-information/",
+    "sourceUrls": [
+      "https://rage-esports.jp/shadowversewb/2026/season3/info/tournament-information/"
+    ],
+    "notes": "RAGE公式大会概要で10月25日開催を確認。開始時刻未公表のため終日登録。",
+    "verified_at": "2026-10-08T14:15:00+09:00",
+    "lastChecked": "2026-10-08T14:15:00+09:00",
+    "status": "confirmed",
+    "confidence": "high",
+    "official": true,
+    "persons": []
+  },
+  {
+    "id": "svwb-u22-championship-2026-autumn-october-qualifier",
+    "title": "【予選】Shadowverse U-22 Championship 2026 Autumn 10月予選",
+    "category": "shadowverse_wb",
+    "type": "qualifier",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "region": "jp",
+    "tags": [
+      "u22",
+      "autumn",
+      "qualifier",
+      "online"
+    ],
+    "start": "2026-10-10",
+    "end": "2026-10-11",
+    "allDay": true,
+    "location": "オンライン",
+    "url": "https://shadowverse-wb.com/ja/event/schedule/?page=2",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/event/schedule/?page=2",
+      "https://u22.shadowverse-wb.com/news/?id=71"
+    ],
+    "notes": "Shadowverse: Worlds Beyond公式大会検索に10月10日開催と掲載。詳細時刻未確認のため終日登録。",
+    "verified_at": "2026-10-08T14:15:00+09:00",
+    "lastChecked": "2026-10-08T14:15:00+09:00",
+    "status": "confirmed",
+    "confidence": "high",
+    "official": true,
+    "persons": []
   }
 ]
