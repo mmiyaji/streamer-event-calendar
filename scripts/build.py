@@ -16,6 +16,7 @@ AUTOMATION_DELTA_EVENTS_PATH = ROOT / "data" / "automation_events_delta.json"
 AUTOMATION_LATEST_EVENTS_PATH = ROOT / "data" / "automation_events_latest.json"
 AUTOMATION_INBOX_EVENTS_PATH = ROOT / "data" / "automation_events_inbox.json"
 AUTOMATION_TGS_EVENTS_PATH = ROOT / "data" / "automation_events_tgs.json"
+AUTOMATION_20260925_EVENTS_PATH = ROOT / "data" / "automation_events_20260925.json"
 EVENT_OVERRIDES_PATH = ROOT / "data" / "event_overrides.json"
 SFL_SCHEDULE_PATH = ROOT / "data" / "sfl_2026_schedule.json"
 SITE_DIR = ROOT / "site"
@@ -194,6 +195,7 @@ def main() -> None:
         (AUTOMATION_LATEST_EVENTS_PATH, load_events(AUTOMATION_LATEST_EVENTS_PATH)),
         (AUTOMATION_INBOX_EVENTS_PATH, load_events(AUTOMATION_INBOX_EVENTS_PATH)),
         (AUTOMATION_TGS_EVENTS_PATH, load_events(AUTOMATION_TGS_EVENTS_PATH)),
+        (AUTOMATION_20260925_EVENTS_PATH, load_events(AUTOMATION_20260925_EVENTS_PATH)),
         (SFL_SCHEDULE_PATH, build_sfl_events(SFL_SCHEDULE_PATH)),
     ]
     events = merge_events(event_groups)
