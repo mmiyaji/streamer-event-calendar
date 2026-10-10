@@ -9,7 +9,14 @@
     "source": "official",
     "official": true,
     "region": "global",
-    "tags": ["cpt", "premier", "ufa", "offline", "france", "capcom-cup-13-qualifier"],
+    "tags": [
+      "cpt",
+      "premier",
+      "ufa",
+      "offline",
+      "france",
+      "capcom-cup-13-qualifier"
+    ],
     "verified_at": "2026-08-30T19:05:35+09:00",
     "persons": [],
     "start": "2026-09-11",
@@ -17,7 +24,12 @@
     "allDay": true,
     "location": "フランス",
     "url": "https://prtimes.jp/main/html/rd/p/000005775.000013450.html",
-    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005775.000013450.html", "https://prtimes.jp/main/html/rd/p/000005933.000013450.html", "https://sf.esports.capcom.com/cpt/jp/", "https://www.start.gg/tournament/ultimate-fighting-arena-2026-2/details"],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000005775.000013450.html",
+      "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
+      "https://sf.esports.capcom.com/cpt/jp/",
+      "https://www.start.gg/tournament/ultimate-fighting-arena-2026-2/details"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-30T19:05:35+09:00",
@@ -33,19 +45,33 @@
     "source": "official",
     "official": true,
     "region": "global",
-    "tags": ["cpt", "premier", "evo-france", "offline", "france", "capcom-cup-13-qualifier"],
-    "verified_at": "2026-08-30T19:05:35+09:00",
+    "tags": [
+      "cpt",
+      "premier",
+      "evo-france",
+      "offline",
+      "france",
+      "capcom-cup-13-qualifier",
+      "top8-schedule-confirmed"
+    ],
+    "verified_at": "2026-10-11T06:59:20+09:00",
     "persons": [],
     "start": "2026-10-09",
-    "end": "2026-10-12",
+    "end": "2026-10-13",
     "allDay": true,
     "location": "フランス",
     "url": "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
-    "sourceUrls": ["https://prtimes.jp/main/html/rd/p/000005933.000013450.html", "https://sf.esports.capcom.com/cpt/jp/", "https://www.start.gg/tournament/evo-france-2026/details"],
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000005933.000013450.html",
+      "https://sf.esports.capcom.com/cpt/jp/",
+      "https://www.start.gg/tournament/evo-france-2026/details",
+      "https://evo.gg/events/2026-france/",
+      "https://evogg-space.sfo3.cdn.digitaloceanspaces.com/5ee2f32a5d3febfc07c26a99667cda5a.png"
+    ],
     "status": "confirmed",
     "confidence": "high",
-    "lastChecked": "2026-08-30T19:05:35+09:00",
-    "notes": "CAPCOM Pro Tour 2026 Premierのフランス開催大会。カプコン公式のPremier大会エントリー案内で、Evo Franceを現地時間2026年10月9日〜11日開催として確認。既存イベントデータに登録がなかったため追加。開始時刻は未発表のため終日予定として登録。"
+    "lastChecked": "2026-10-11T06:59:20+09:00",
+    "notes": "Evo France 2026はCAPCOM Pro Tour 2026 Premier指定の同一大会（別イベントを作成しない）。現地2026年10月9～11日、フランス・ニースで開催。Evo公式の配信スケジュールにより、SF6 Top 8決勝は現地10月11日18:30～22:30 CEST＝日本時間10月12日01:30～05:30（予定）と確認。日本時間で決勝が10月12日にまたがるため、終日イベントの終了日（排他的）を10月13日に変更。開催期間全体は終日登録とし、決勝の時刻は備考に記載。"
   },
   {
     "id": "sf6-family-tournament-2026-hokkaido-qualifier",
@@ -57,7 +83,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "hokkaido"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "hokkaido"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-10-04",
@@ -65,7 +98,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 札幌校（北海道札幌市中央区北3条西2−1 Central Cliff5階）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -81,7 +118,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "tohoku"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "tohoku"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-10-17",
@@ -89,7 +133,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 仙台校（宮城県仙台市青葉区中央3-1-22 エキニア青葉通りビル7階）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -105,7 +153,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "kanto"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "kanto"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-11-07",
@@ -113,7 +168,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 秋葉原校（東京都台東区柳橋1-3-6 VORT浅草橋駅前Ⅲビル6F）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -129,7 +188,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "chubu"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "chubu"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-10-04",
@@ -137,7 +203,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 名古屋校（愛知県名古屋市中村区名駅3-26-8 KDX名古屋駅前ビル10階）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -153,7 +223,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "kansai"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "kansai"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-10-17",
@@ -161,7 +238,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 大阪心斎橋校（大阪府大阪市中央区南船場4-3-2 ゼント心斎橋9F）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -177,7 +258,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "chugoku-shikoku"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "chugoku-shikoku"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-11-08",
@@ -185,7 +273,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 広島校（広島県広島市中区鉄砲町5-7 広島偕成ビル2階）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -201,7 +293,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "qualifier", "offline", "kyushu-okinawa"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "qualifier",
+      "offline",
+      "kyushu-okinawa"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2026-11-08",
@@ -209,7 +308,11 @@
     "allDay": true,
     "location": "総合学園ヒューマンアカデミー 福岡校（福岡県福岡市中央区天神4丁目4-11 天神ショッパーズ福岡6階）",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -225,7 +328,14 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["national", "family", "parent-child", "final", "offline", "venue-confirmed"],
+    "tags": [
+      "national",
+      "family",
+      "parent-child",
+      "final",
+      "offline",
+      "venue-confirmed"
+    ],
     "verified_at": "2026-08-31T07:00:00+09:00",
     "persons": [],
     "start": "2027-01-09",
@@ -233,7 +343,11 @@
     "allDay": true,
     "location": "esports Style UENO",
     "url": "https://sf.esports.capcom.com/event/family/",
-    "sourceUrls": ["https://sf.esports.capcom.com/event/family/", "https://prtimes.jp/main/html/rd/p/000005888.000013450.html", "https://www.capcom.co.jp/ir/news/html/260626.html"],
+    "sourceUrls": [
+      "https://sf.esports.capcom.com/event/family/",
+      "https://prtimes.jp/main/html/rd/p/000005888.000013450.html",
+      "https://www.capcom.co.jp/ir/news/html/260626.html"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-08-31T07:00:00+09:00",
@@ -249,7 +363,13 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["masters-cup", "online", "qualifier", "bo3-showdown-vol3", "in-game-tournament"],
+    "tags": [
+      "masters-cup",
+      "online",
+      "qualifier",
+      "bo3-showdown-vol3",
+      "in-game-tournament"
+    ],
     "verified_at": "2026-09-01T19:04:11+09:00",
     "persons": [],
     "start": "2026-09-04T15:00:00+09:00",
@@ -257,7 +377,10 @@
     "allDay": false,
     "location": "オンライン（ゲーム内）",
     "url": "https://x.com/shadowverse_jp",
-    "sourceUrls": ["https://x.com/shadowverse_jp", "https://shadowverse-wb.com/ja/news/"],
+    "sourceUrls": [
+      "https://x.com/shadowverse_jp",
+      "https://shadowverse-wb.com/ja/news/"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-09-01T19:04:11+09:00",
@@ -273,14 +396,22 @@
     "source": "premier-series",
     "official": true,
     "region": "jp",
-    "tags": ["pro-league", "premier-series", "regular-season", "start-time-confirmed"],
+    "tags": [
+      "pro-league",
+      "premier-series",
+      "regular-season",
+      "start-time-confirmed"
+    ],
     "verified_at": "2026-09-01T19:04:11+09:00",
     "persons": [],
     "start": "2026-09-02T17:30:00+09:00",
     "allDay": false,
     "location": "オンライン配信",
     "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
-    "sourceUrls": ["https://ps.shadowverse-wb.com/26-27/schedule-results/", "https://x.com/shadowversePS"],
+    "sourceUrls": [
+      "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+      "https://x.com/shadowversePS"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-09-01T19:04:11+09:00",
@@ -296,15 +427,32 @@
     "source": "official",
     "official": true,
     "region": "jp",
-    "tags": ["streamer", "valorant", "jasper", "tgs2026", "galleria", "showmatch", "red-bull-gaming-sphere", "riot-games", "offline", "official-event"],
+    "tags": [
+      "streamer",
+      "valorant",
+      "jasper",
+      "tgs2026",
+      "galleria",
+      "showmatch",
+      "red-bull-gaming-sphere",
+      "riot-games",
+      "offline",
+      "official-event"
+    ],
     "verified_at": "2026-09-12T18:58:33+09:00",
-    "persons": ["じゃすぱー"],
+    "persons": [
+      "じゃすぱー"
+    ],
     "start": "2026-09-19T15:30:00+09:00",
     "end": "2026-09-19T16:30:00+09:00",
     "allDay": false,
     "location": "東京ゲームショウ2026 GALLERIAブース（幕張メッセ 展示ホール2 02-C21）",
     "url": "https://www.dospara.co.jp/gamepc/cts-tgs2026.html",
-    "sourceUrls": ["https://www.dospara.co.jp/gamepc/cts-tgs2026.html", "https://www.value-press.com/pressrelease/380558", "https://x.com/GALLERIA_GM"],
+    "sourceUrls": [
+      "https://www.dospara.co.jp/gamepc/cts-tgs2026.html",
+      "https://www.value-press.com/pressrelease/380558",
+      "https://x.com/GALLERIA_GM"
+    ],
     "status": "confirmed",
     "confidence": "high",
     "lastChecked": "2026-09-12T18:58:33+09:00",
