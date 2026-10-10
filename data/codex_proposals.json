@@ -1,441 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T02:21:39+09:00",
+  "generated_at": "2026-10-11T07:04:03+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "pokemon30-pokeca-cardset-20261016",
-        "title": "【グッズ】ポケモンカード 30th CELEBRATION カードセット発売",
-        "category": "pokemon",
-        "type": "offline_event",
-        "game": "pokemon",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "pokemon30th",
-          "goods",
-          "pokemon-card",
-          "release"
-        ],
-        "persons": [],
-        "start": "2026-10-16",
-        "allDay": true,
-        "location": "ポケモンカード取扱店",
-        "url": "https://www.30th.pokemon-card.com/product/cardset",
-        "sourceUrls": [
-          "https://www.30th.pokemon-card.com/product/cardset"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "公式商品ページで発売日を確認。9地方の最初のパートナーポケモンを題材にしたカードセット。各1,200円（税込）。販売開始時刻は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "pokemon30-moncolle-erabu-pikachu-20261114",
-        "title": "【グッズ】ポケモン30周年 モンコレ「えらぶピカチュウ」発売",
-        "category": "pokemon",
-        "type": "offline_event",
-        "game": "pokemon",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "pokemon30th",
-          "goods",
-          "moncolle",
-          "release"
-        ],
-        "persons": [],
-        "start": "2026-11-14",
-        "allDay": true,
-        "location": "タカラトミー商品取扱店",
-        "url": "https://www.takaratomy.co.jp/products/pokemon/moncolle_ex/lineup/pokemon_30th/pikachu_selection/",
-        "sourceUrls": [
-          "https://www.takaratomy.co.jp/products/pokemon/moncolle_ex/lineup/pokemon_30th/pikachu_selection/"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "タカラトミー公式で発売予定日を確認。30周年記念ピカチュウセレクションの新商品。715円（税込）。販売開始時刻は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day1",
-        "title": "League The k4sen Season: Finale Regular Stage DAY1",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-10-15",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day2",
-        "title": "League The k4sen Season: Finale Regular Stage DAY2",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-10-19",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day3",
-        "title": "League The k4sen Season: Finale Regular Stage DAY3",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-10-23",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day4",
-        "title": "League The k4sen Season: Finale Regular Stage DAY4",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-10-27",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day5",
-        "title": "League The k4sen Season: Finale Regular Stage DAY5",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-11-02",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-regular-stage-day6",
-        "title": "League The k4sen Season: Finale Regular Stage DAY6",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "regular-stage"
-        ],
-        "persons": [],
-        "start": "2026-11-06",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-masters-cup-day1",
-        "title": "League The k4sen Season: Finale Masters Cup DAY1",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "masters-cup"
-        ],
-        "persons": [],
-        "start": "2026-10-20",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-masters-cup-day2",
-        "title": "League The k4sen Season: Finale Masters Cup DAY2",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "masters-cup"
-        ],
-        "persons": [],
-        "start": "2026-10-28",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-masters-cup-day3",
-        "title": "League The k4sen Season: Finale Masters Cup DAY3",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "masters-cup"
-        ],
-        "persons": [],
-        "start": "2026-11-09",
-        "allDay": true,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-playoffs-day1",
-        "title": "League The k4sen Season: Finale Playoffs DAY1",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "playoffs"
-        ],
-        "persons": [],
-        "start": "2026-11-21",
-        "allDay": true,
-        "location": "オフライン（会場未確認）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。プレイオフは両日オフライン開催。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-ltk-finale-2026-playoffs-day2",
-        "title": "League The k4sen Season: Finale Playoffs DAY2",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "league_of_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "the-k4sen",
-          "ltk",
-          "league-of-legends",
-          "playoffs"
-        ],
-        "persons": [],
-        "start": "2026-11-22",
-        "allDay": true,
-        "location": "オフライン（会場未確認）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。プレイオフは両日オフライン開催。",
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "lastChecked": "2026-10-11T02:21:39+09:00"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "pokemon30-3coins-20261010",
-        "title": "【グッズ】3COINS × ポケモン30周年 記念グッズ発売",
+        "id": "pokemon30-timeless-adventure-online-20261001",
+        "title": "ポケモン30周年 Pokémon Timeless Adventure ガラル：オンライン発売",
         "category": "pokemon",
         "type": "offline_event",
         "game": "pokemon",
@@ -445,137 +16,52 @@
         "region": "jp",
         "tags": [
           "pokemon",
-          "pokemon30th",
-          "goods",
-          "3coins",
-          "palcloset",
-          "collaboration",
-          "release"
+          "30th",
+          "goods"
         ],
-        "verified_at": "2026-10-11T02:21:39+09:00",
+        "verified_at": "2026-10-11T07:04:03+09:00",
+        "lastChecked": "2026-10-11T07:04:03+09:00",
         "persons": [],
-        "start": "2026-10-10",
+        "start": "2026-10-01T10:00:00+09:00",
+        "allDay": false,
+        "url": "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html",
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html"
+        ],
+        "confidence": "high",
+        "status": "confirmed",
+        "notes": "ポケモン公式の2026年9月25日告知で、30周年ピックアップテーマ「つながる」のグッズをポケモンセンターオンラインで10月1日10時から販売と確認。店頭発売日は10月3日。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-timeless-adventure-store-20261003",
+        "title": "ポケモン30周年 Pokémon Timeless Adventure ガラル：店頭発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "30th",
+          "goods"
+        ],
+        "verified_at": "2026-10-11T07:04:03+09:00",
+        "lastChecked": "2026-10-11T07:04:03+09:00",
+        "persons": [],
+        "start": "2026-10-03",
         "allDay": true,
-        "location": "全国の3COINS・PAL CLOSET",
-        "url": "https://www.palcloset.jp/shared/pc_pal/event/3coins/2026/pokemon30th/",
+        "url": "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html",
         "sourceUrls": [
-          "https://www.palcloset.jp/shared/pc_pal/event/3coins/2026/pokemon30th/"
+          "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html"
         ],
-        "status": "confirmed",
         "confidence": "high",
-        "lastChecked": "2026-10-11T02:21:39+09:00",
-        "notes": "PAL CLOSET公式の個別告知で第一弾の10月10日発売を確認。店舗と公式通販は各商品各種1点まで。第二弾の発売日は未発表のため追加しない。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "sf6-sfl-japan-2026-division-f-round-3",
-        "title": "ストリートファイターリーグ JAPAN 2026 Division F 第3節",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "sf6",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "sfl",
-          "pro-league",
-          "division-f",
-          "round-3",
-          "regular-season"
-        ],
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "persons": [
-          "なるお"
-        ],
-        "start": "2026-10-06T18:40:00+09:00",
-        "allDay": false,
-        "location": "オンライン配信",
-        "url": "https://prtimes.jp/main/html/rd/p/000006094.000013450.html",
-        "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000006094.000013450.html",
-          "https://www.youtube.com/live/3X1zd27viu0"
-        ],
         "status": "confirmed",
-        "confidence": "high",
-        "lastChecked": "2026-10-11T02:21:39+09:00",
-        "notes": "カプコン公式発表で10月6日18:40からの配信と、なるおのスペシャルゲスト出演を確認。対象配信者出演のためcategory=streamer、game=sf6とし両方のICSに掲載。終了時刻は未確認のため省略。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-cr-cup-apex-legends-11-2026",
-        "title": "Crazy Raccoon Cup Apex Legends #11",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "apex_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "crazy-raccoon",
-          "cr-cup",
-          "apex-legends",
-          "streamer-tournament",
-          "official-event"
-        ],
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "persons": [
-          "たいじ",
-          "加藤純一",
-          "じゃすぱー"
-        ],
-        "start": "2026-10-04T17:00:00+09:00",
-        "allDay": false,
-        "url": "https://crcup.jp/games/%E7%AC%AC11%E5%9B%9E-crazy-raccoon-cup-apex-legends/",
-        "sourceUrls": [
-          "https://crcup.jp/games/%E7%AC%AC11%E5%9B%9E-crazy-raccoon-cup-apex-legends/"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "lastChecked": "2026-10-11T02:21:39+09:00",
-        "notes": "大会公式ページで10月4日17:00開始を確認。TEAM 05にじゃすぱー、TEAM 06に加藤純一・たいじを掲載。終了時刻は未確認のため省略。既存の重複IDは維持し、この処理では新規ID追加や中止扱いによる削除は行わない。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "streamer-cr-cup-apex-legends-11-20261004",
-        "title": "Crazy Raccoon Cup Apex Legends #11",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "apex_legends",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "crazy-raccoon",
-          "cr-cup",
-          "apex-legends",
-          "streamer-tournament",
-          "official-event"
-        ],
-        "verified_at": "2026-10-11T02:21:39+09:00",
-        "persons": [
-          "たいじ",
-          "加藤純一",
-          "じゃすぱー"
-        ],
-        "start": "2026-10-04T17:00:00+09:00",
-        "allDay": false,
-        "url": "https://crcup.jp/games/%E7%AC%AC11%E5%9B%9E-crazy-raccoon-cup-apex-legends/",
-        "sourceUrls": [
-          "https://crcup.jp/games/%E7%AC%AC11%E5%9B%9E-crazy-raccoon-cup-apex-legends/"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "lastChecked": "2026-10-11T02:21:39+09:00",
-        "notes": "大会公式ページで10月4日17:00開始を確認。TEAM 05にじゃすぱー、TEAM 06に加藤純一・たいじを掲載。終了時刻は未確認のため省略。既存の重複IDは維持し、この処理では新規ID追加や中止扱いによる削除は行わない。"
+        "notes": "ポケモン公式の2026年9月25日告知で、30周年ピックアップテーマ「つながる」のグッズをポケモンセンターで10月3日発売と確認。店舗の開店時刻は一律ではないため終日登録。オンライン発売日は10月1日10時。"
       }
     }
   ]
