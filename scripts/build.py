@@ -197,9 +197,9 @@ def main() -> None:
         (AUTOMATION_INBOX_EVENTS_PATH, load_events(AUTOMATION_INBOX_EVENTS_PATH)),
         (AUTOMATION_TGS_EVENTS_PATH, load_events(AUTOMATION_TGS_EVENTS_PATH)),
         (AUTOMATION_20260925_EVENTS_PATH, load_events(AUTOMATION_20260925_EVENTS_PATH)),
-        # Last: approved Codex changes supersede legacy overrides while preserving stable IDs.
-        (CODEX_SYNCED_EVENTS_PATH, load_events(CODEX_SYNCED_EVENTS_PATH)),
         (SFL_SCHEDULE_PATH, build_sfl_events(SFL_SCHEDULE_PATH)),
+        # Last: approved Codex changes also supersede generated SFL defaults.
+        (CODEX_SYNCED_EVENTS_PATH, load_events(CODEX_SYNCED_EVENTS_PATH)),
     ]
     events = merge_events(event_groups)
     events.sort(key=lambda event: event["start"])

@@ -25,6 +25,13 @@ on Windows (expand LOCALAPPDATA to its actual path).
 Create the outbox directory if necessary.
 Write a temporary file in that same directory, validate it with a JSON parser,
 then atomically replace codex_proposals.json. NEVER write the final file incrementally.
+Before replacement, run `python scripts/validate_codex_proposals.py <temporary-file>`.
+For full validation against existing IDs and duplicate rules, run
+`python scripts/apply_codex_proposals.py --proposal <temporary-file> --output <temporary-overlay>`
+using a temporary copy of data/codex_synced_events.json (or [] if absent).
+Never use the production overlay as --output. On validation failure, preserve the last
+valid outbox file and report the failure. Local transfer polls hourly at minute 05;
+it does not need to be invoked by this task.
 You MUST NOT git push, use a PAT, alter repo configuration, or change production source files.
 
 Use:
@@ -77,4 +84,7 @@ Keep changes empty when no genuine new/changed/cancelled event is verified.
 After atomically writing the file, report in Japanese:
 new/updated/cancelled counts, titles/dates, organizer/source URLs, and uncertainties.
 If official pages cannot be accessed, report the failure without fabricating changes.
+Do not treat an inaccessible source as proof that there are no changes. Report partial
+coverage explicitly. Stay quiet on normal runs with no changes; notify only for verified
+changes, failures, or required user action.
 Do not report any GitHub publication as completed: transfer and publication are separate.
