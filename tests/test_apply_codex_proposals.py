@@ -2,6 +2,9 @@ import copy
 import datetime as dt
 import sys
 import unittest
+import json
+import tempfile
+from unittest.mock import patch
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
@@ -30,6 +33,21 @@ def proposal(changes):
 
 
 class ApplyCodexTests(unittest.TestCase):
+    def test_build_preserves_approved_sfl_appearance(self):
+        e = mod.build.build_sfl_events(mod.build.SFL_SCHEDULE_PATH)[0]
+        e.update(category="streamer", persons=["なるお"], notes="Approved appearance overlay")
+        with tempfile.TemporaryDirectory(prefix="calendar-build-") as folder:
+            root = Path(folder)
+            overlay = root / "overlay.json"
+            overlay.write_text(json.dumps([e], ensure_ascii=False), encoding="utf-8")
+            with patch.object(mod.build, "CODEX_SYNCED_EVENTS_PATH", overlay), patch.object(mod.build, "DIST_DIR", root / "dist"):
+                mod.build.main()
+            events = json.loads((root / "dist/events.json").read_text(encoding="utf-8"))
+            actual = next(item for item in events if item["id"] == e["id"])
+            self.assertEqual(actual, e)
+            self.assertIn(e["id"], (root / "dist/streamers.ics").read_text(encoding="utf-8"))
+            self.assertIn(e["id"], (root / "dist/sf6.ics").read_text(encoding="utf-8"))
+
     def test_no_changes_is_noop(self):
         result, count = mod.apply(proposal([]), [], {}, TODAY)
         self.assertEqual((result, count), ([], 0))
@@ -70,6 +88,18 @@ class ApplyCodexTests(unittest.TestCase):
         e["sourceUrls"] = ["http://example.org/unsafe"]
         with self.assertRaisesRegex(ValueError, "source URLs"):
             mod.apply(proposal([{"operation": "upsert", "event": e}]), [], {}, TODAY)
+
+    def test_already_applied_stale_proposal_is_noop(self):
+        e = event()
+        old_stamp = (dt.datetime.now(mod.JST) - dt.timedelta(days=20)).isoformat()
+        e["verified_at"] = e["lastChecked"] = old_stamp
+        p = {"schema_version": 1, "generated_at": old_stamp,
+             "changes": [{"operation": "upsert", "event": copy.deepcopy(e)}]}
+        result, count = mod.apply(p, [e], {}, TODAY)
+        self.assertEqual((result, count), ([e], 0))
+        p["changes"][0]["event"]["title"] = "Changed stale tournament title"
+        with self.assertRaisesRegex(ValueError, "stale"):
+            mod.apply(p, [e], {}, TODAY)
 
     def test_date_unknown_rejected(self):
         e = event()

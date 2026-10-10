@@ -139,6 +139,22 @@ def apply(proposal, current, existing, today):
     changes = proposal.get("changes")
     if not isinstance(changes, list) or len(changes) > 100:
         raise ValueError("changes must be an array with <=100 entries")
+    # Hourly polling sees the last proposal long after it was merged. Exact
+    # matches to the trusted overlay need no new verification or data write.
+    current_by_id = {e["id"]: e for e in current}
+    if changes and all(
+        isinstance(item, dict)
+        and item.get("operation") in {"upsert", "cancel"}
+        and isinstance(item.get("event"), dict)
+        and isinstance(item["event"].get("id"), str)
+        and item["event"] == current_by_id.get(item["event"]["id"])
+        and item["event"].get("status") == ("cancelled" if item["operation"] == "cancel" else "confirmed")
+        for item in changes
+    ):
+        ids = [item["event"]["id"] for item in changes]
+        if len(ids) != len(set(ids)):
+            raise ValueError("duplicate proposal ID")
+        return sorted(current, key=lambda x: (x["start"], x["id"])), 0
     if changes:
         generated = parse_time(proposal.get("generated_at"), "generated_at")
         if generated.date() > today + dt.timedelta(days=1) or generated.date() < today - dt.timedelta(days=7):
