@@ -1,43 +1,11 @@
-name: Discover and update calendar events
-
+# Deprecated: discovery is performed by Codex, not a GitHub-hosted OpenAI API job.
+name: Legacy discovery (disabled)
 on:
-  schedule:
-    - cron: '0 22 * * *' # 07:00 JST
-    - cron: '0 10 * * *' # 19:00 JST
   workflow_dispatch:
-
 permissions:
-  contents: write
-  issues: write
-
-concurrency:
-  group: event-discovery
-  cancel-in-progress: false
-
+  contents: read
 jobs:
-  discover:
+  notice:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Collect and validate proposed changes
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python scripts/discover_events.py
-      - name: Commit validated changes only
-        run: |
-          if git diff --quiet -- data/automated_discoveries.json; then
-            echo "No verified changes"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/automated_discoveries.json
-          git commit -m "chore(calendar): update verified events"
-          git pull --rebase origin main
-          git push origin HEAD:main
+      - run: echo "Use Codex to propose changes on codex/calendar-updates. No API key required here."
