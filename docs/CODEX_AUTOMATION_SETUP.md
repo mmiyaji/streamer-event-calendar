@@ -154,3 +154,34 @@ main保護はPR必須・Force Push禁止・削除禁止・Bypassなしを確認�
 実データによる通し試験では、この修正を先にPR経由でmainへ反映してから差分を転送します。
 SFLの自動生成日程よりも承認済みCodex overlayを後に統合し、出演者などの更新を保持します。
 この統合順序と、streamers.ics・sf6.ics両方への掲載を回帰テストで確認します。
+
+## 実データによる通し試験（2026-10-11）
+
+設定・コードの[修正PR #1](https://github.com/mmiyaji/streamer-event-calendar/pull/1)をmainへ反映した後、
+公式の発表と公開events.json（160件）を照合して差分を作成しました。
+ローカルテスト14件成功、スキーマ検証・既存IDと重複検証を通した17件のJSONをatomic replaceでoutboxへ保存しました。
+
+| 差分 | 件数 | 内容・出典 |
+| --- | --- | --- |
+| 新規 | 11 | LTK Season: Finaleの本戦11日程。[主催者の公式発表](https://prtimes.jp/main/html/rd/p/000000229.000041650.html)のRegular Stage 6日、Masters Cup 3日、Playoffs 2日をそれぞれ終日予定として登録 |
+| 新規 | 1 | 10月16日：[30th CELEBRATION カードセット](https://www.30th.pokemon-card.com/product/cardset)発売 |
+| 新規 | 1 | 11月14日：[モンコレ「えらぶピカチュウ」](https://www.takaratomy.co.jp/products/pokemon/moncolle_ex/lineup/pokemon_30th/pikachu_selection/)発売 |
+| 更新 | 1 | [3COINS第一弾](https://www.palcloset.jp/shared/pc_pal/event/3coins/2026/pokemon30th/)の個別公式出典へ差し替え、confidenceをhighへ更新 |
+| 更新 | 1 | [SFL JAPAN Division F 第3節](https://prtimes.jp/main/html/rd/p/000006094.000013450.html)のなるお出演を登録。streamer分類・sf6ゲームとして両ICSへ掲載。未確認の推定終了時刻を削除 |
+| 更新 | 2 | [CR Cup Apex Legends #11](https://crcup.jp/games/%E7%AC%AC11%E5%9B%9E-crazy-raccoon-cup-apex-legends/)の既存2IDを10月4日17:00開始、たいじ・加藤純一・じゃすぱー出演へ更新 |
+
+Windowsタスクを手動起動してcodex/calendar-updatesへの転送成功・終了コード0を確認しました。
+GitHubの[同期処理](https://github.com/mmiyaji/streamer-event-calendar/actions/runs/38071564852)が検証とビルドを成功させ、
+JSON以外を含まない[データPR #2](https://github.com/mmiyaji/streamer-event-calendar/pull/2)を作成しました。
+PR内17件がoutboxと完全一致することを確認し、ユーザーの公開指示に基づいてマージしました。
+[Pages公開](https://github.com/mmiyaji/streamer-event-calendar/actions/runs/38071612975)も成功しました。
+
+公開URLを再取得し、events.jsonが173件となり17件すべての内容が一致することを確認しました。
+calendar.ics、streamers.ics、sf6.ics、shadowverse-wb.ics、pokemon.icsについて、
+対象イベントの掲載先と開始日時を確認しました。SFLの出演情報はstreamers.icsとsf6.icsの両方に保持されています。
+同じJSONを再転送すると通信せず成功し、GitHubの[再同期](https://github.com/mmiyaji/streamer-event-calendar/actions/runs/38071624711)でも新しいPRは作成されませんでした。
+
+実更新の結果は新規13件・既存ID更新4件・中止0件です。CR Cupの既存2IDは同一大会なので、更新対象の実イベントは3件です。
+既存の別ID重複（CR Cupなど）はこの試験で削除していません。中止操作で重複を消すと、実際に大会が中止されたように見えるためです。
+今回の巡回では一部の公式サイト・SNSの本文を取得できず、全対象について「差分なし」を保証する試験ではありません。
+開始時刻・対象配信者の出演を確認できない新規日程には、時刻や出演者を推測して補っていません。
