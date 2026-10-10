@@ -1,0 +1,22 @@
+name: Validate Codex calendar proposals
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - data/codex_proposals.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    if: github.event_name == 'workflow_dispatch' || github.head_ref == 'codex/calendar-updates'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check proposal schema and source URLs
+        run: python scripts/validate_codex_proposals.py
