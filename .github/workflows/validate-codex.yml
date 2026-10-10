@@ -15,8 +15,17 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Retrieve proposal data only (never execute Codex branch code)
+        if: github.event_name == 'pull_request'
+        env:
+          PR_HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          git fetch --no-tags --depth=1 origin "$PR_HEAD"
+          git show "$PR_HEAD:data/codex_proposals.json" > /tmp/codex_proposals.json
       - name: Check proposal schema and source URLs
-        run: python scripts/validate_codex_proposals.py
+        if: github.event_name == 'pull_request'
+        run: python scripts/validate_codex_proposals.py /tmp/codex_proposals.json
