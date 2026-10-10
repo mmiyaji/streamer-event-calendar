@@ -1,0 +1,91 @@
+name: Sync validated Codex calendar data
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+concurrency:
+  group: codex-calendar-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read only JSON from the untrusted Codex branch
+        run: |
+          git fetch --no-tags origin '+refs/heads/codex/calendar-updates:refs/remotes/origin/codex/calendar-updates'
+          git show origin/codex/calendar-updates:data/codex_proposals.json > /tmp/codex_proposals.json
+          test "$(wc -c < /tmp/codex_proposals.json)" -le 256000
+      - name: Validate changes and test calendar build
+        id: validate
+        run: |
+          python scripts/apply_codex_proposals.py --proposal /tmp/codex_proposals.json --output data/codex_synced_events.json
+          python scripts/build.py
+          if git diff --quiet -- data/codex_synced_events.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No event data changes"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            cp data/codex_synced_events.json /tmp/codex_synced_events.json
+          fi
+      - name: Open or refresh a data-only PR (never push directly to main)
+        if: steps.validate.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git fetch origin automation/codex-sync || true
+          git switch -C automation/codex-sync origin/main
+          cp /tmp/codex_synced_events.json data/codex_synced_events.json
+          if git show origin/automation/codex-sync:data/codex_synced_events.json > /tmp/current-bot-events.json 2>/dev/null &&
+             cmp -s /tmp/current-bot-events.json data/codex_synced_events.json; then
+            echo "Open PR already has the same event data"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- data/codex_synced_events.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore(calendar): sync verified Codex event changes"
+          git push --force-with-lease origin HEAD:refs/heads/automation/codex-sync
+          if ! gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number // empty' | grep -q '[0-9]'; then
+            gh pr create --base main --head automation/codex-sync \
+              --title "Calendar: apply Codex-verified event changes" \
+              --body "Automated data-only sync from Codex. Validation and complete calendar build ran on trusted main code. Review dates and sources before merging. No Codex-provided scripts are executed."
+          fi
+      - name: Optional automatic merge (off by default)
+        if: steps.validate.outputs.changed == 'true' && vars.ENABLE_CALENDAR_AUTO_MERGE == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          RULES="$(gh api "repos/${{ github.repository }}/rulesets" --jq '.[] | select(.enforcement == "active") | .id')"
+          ALLOWED=false
+          for id in $RULES; do
+            if gh api "repos/${{ github.repository }}/rulesets/$id" --jq 'select((.conditions.ref_name.include // []) | index("refs/heads/main")) | select(any(.rules[]; .type == "pull_request")) | .id' | grep -q '[0-9]'; then
+              ALLOWED=true
+            fi
+          done
+          if [ "$ALLOWED" != true ]; then
+            echo "Auto-merge disabled: no active main PR ruleset"
+            exit 1
+          fi
+          PR="$(gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number')"
+          test -n "$PR"
+          gh pr merge "$PR" --squash
+          gh workflow run pages.yml --ref main
