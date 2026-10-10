@@ -39,9 +39,9 @@ try {
   Write-Output "Another publisher invocation is running"; exit 0
 }
 try {
-  Git @('fetch', '--no-tags', 'origin',
+  Git -Arguments @('fetch', '--no-tags', 'origin',
     '+refs/heads/codex/calendar-updates:refs/remotes/origin/codex/calendar-updates')
-  Git @('switch', '-C', 'codex/calendar-updates', 'origin/codex/calendar-updates')
+  Git -Arguments @('switch', '-C', 'codex/calendar-updates', 'origin/codex/calendar-updates')
 
   $target = Join-Path $SyncRepo 'data\codex_proposals.json'
   $current = [System.IO.File]::ReadAllText($target, [System.Text.Encoding]::UTF8)
@@ -51,11 +51,11 @@ try {
   }
   [System.IO.File]::WriteAllText($target, $raw,
     [System.Text.UTF8Encoding]::new($false))
-  Git @('add', '--', 'data/codex_proposals.json')
+  Git -Arguments @('add', '--', 'data/codex_proposals.json')
   & git -C $SyncRepo diff --cached --quiet
   if ($LASTEXITCODE -eq 0) { Write-Output "No staged changes"; exit 0 }
-  Git @('commit', '-m', 'chore(codex): publish verified event proposals')
-  Git @('push', 'origin', 'HEAD:refs/heads/codex/calendar-updates')
+  Git -Arguments @('commit', '-m', 'chore(codex): publish verified event proposals')
+  Git -Arguments @('push', 'origin', 'HEAD:refs/heads/codex/calendar-updates')
   Write-Output "Proposal pushed to codex/calendar-updates"
 } finally {
   if ($null -ne $lockHandle) { $lockHandle.Dispose() }
