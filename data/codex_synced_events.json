@@ -1,5 +1,61 @@
 [
   {
+    "id": "pokemon30-timeless-adventure-online-20261001",
+    "title": "ポケモン30周年 Pokémon Timeless Adventure ガラル：オンライン発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "30th",
+      "goods"
+    ],
+    "verified_at": "2026-10-11T07:04:03+09:00",
+    "lastChecked": "2026-10-11T07:04:03+09:00",
+    "persons": [],
+    "start": "2026-10-01T10:00:00+09:00",
+    "allDay": false,
+    "url": "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html",
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "ポケモン公式の2026年9月25日告知で、30周年ピックアップテーマ「つながる」のグッズをポケモンセンターオンラインで10月1日10時から販売と確認。店頭発売日は10月3日。"
+  },
+  {
+    "id": "pokemon30-timeless-adventure-store-20261003",
+    "title": "ポケモン30周年 Pokémon Timeless Adventure ガラル：店頭発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "30th",
+      "goods"
+    ],
+    "verified_at": "2026-10-11T07:04:03+09:00",
+    "lastChecked": "2026-10-11T07:04:03+09:00",
+    "persons": [],
+    "start": "2026-10-03",
+    "allDay": true,
+    "url": "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html",
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/09/260925_to01.html"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "ポケモン公式の2026年9月25日告知で、30周年ピックアップテーマ「つながる」のグッズをポケモンセンターで10月3日発売と確認。店舗の開店時刻は一律ではないため終日登録。オンライン発売日は10月1日10時。"
+  },
+  {
     "id": "streamer-cr-cup-apex-legends-11-2026",
     "title": "Crazy Raccoon Cup Apex Legends #11",
     "category": "streamer",
