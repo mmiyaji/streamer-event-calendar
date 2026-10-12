@@ -4,8 +4,8 @@
 
 - **Codexデスクトップ定期タスク**：公式情報巡回、既存データとの比較、差分JSON作成。OpenAI APIキー不要。
 - **Windowsタスクスケジューラ**：毎時05分（PCのローカル時刻）に完成したJSONのみGitで codex/calendar-updates にPush。Git認証はGit Credential Manager。
-- **GitHub Actions（sync-codex.yml）**：毎時17分UTCにブランチからJSONのみFetch。mainの信頼済みPythonで検証・ICSビルドし、データ専用PRを作成/更新。
-- **GitHub Pages**：PRがmainにマージされたら既存Pagesワークフローが発火し、ICSとWebを更新。
+- **GitHub Actions（sync-codex.yml）**：毎時17分UTCにブランチからJSONのみFetch。mainの信頼済みPythonで検証・ICSビルドし、データ専用PRを作成/更新し、検証内容との一致を確認して自動マージ。
+- **GitHub Pages**：自動マージ直後にPagesワークフローを明示起動し、ICSとWebを更新。GITHUB_TOKENによるマージはpushトリガーを発火させないため、workflow_dispatchを使用。
 
 GitHub Actionsが取り込むのは data/codex_proposals.json **のみ**です。
 Codexブランチ上のPython/WorkflowをGitHub Actionsでは実行しません。
@@ -17,11 +17,11 @@ Codexブランチ上のPython/WorkflowをGitHub Actionsでは実行しません�
 | Codexによる公式情報確認 | 毎日07:00・19:00（Asia/Tokyo） | ローカルoutboxの差分JSON |
 | Windowsによる転送 | 毎時05分・実行を逃した場合は復帰後 | codex/calendar-updatesのJSON |
 | GitHub Actionsによる検証・取り込み | 毎時17分UTC（日本時間も毎時17分） | automation/codex-syncからmainへの差分PR |
-| 公開 | 人がPRを確認してマージした後 | Web・各ICS |
+| 公開 | 検証成功・データ専用PRの自動マージ後 | Web・各ICS |
 
 調査は終了時刻が一定ではないため、転送は時刻固定の1日2回ではなく1時間間隔にします。
 調査終了から転送まで通常最大1時間、取り込みまでさらに通常最大1時間が目安です。
-GitHubの予約実行は遅延する場合があり、公開時刻はPRの確認・マージにも依存します。
+GitHubの予約実行は遅延する場合があり、公開は検証・マージ後のPages処理完了時です。
 空の差分は通信・コミットせず、転送済みの同じJSONも通信しません。
 失敗時は転送済みと記録せず、次回の実行で再試行します。
 GitHub側も、正本overlayと完全一致する取り込み済みの差分は日数経過後も再適用しません。
@@ -37,7 +37,7 @@ PATはFine-grained、対象はこのリポジトリのみ、Contents: Read and w
 PAT自体はブランチ限定にできないことに注意してください。
 ActionsやAdministration権限は原則付与しないでください。
 PATの文字列はリポジトリ内、Codexプロンプト、タスクXML、環境変数に保存しません。
-現在のデフォルトはPR作成までで、自動マージは無効です。
+現在はRepository variable ENABLE_CALENDAR_AUTO_MERGE=trueで自動マージを有効にします。falseまたは未設定ならPR作成で停止します。
 
 Settings → Actions → General → Workflow permissions の
 「Allow GitHub Actions to create and approve pull requests」を有効にします。
@@ -90,7 +90,7 @@ Codexは完成JSONをatomic replaceで書き込み、GitHubへ直接Pushしま�
        powershell.exe -NoProfile -File "$env:LOCALAPPDATA\StreamerEventCalendar\publisher\run_calendar_transfer.ps1"
 
 4. GitHub Actionsの Sync validated Codex calendar data を workflow_dispatch で手動実行する。
-5. 新しい差分があればautomation/codex-syncからmainへのPRが作られる。公式出典・差分を確認してマージする。空の差分ならPRを作らず終了するのが正常。
+5. 新しい差分があればautomation/codex-syncからmainへのPRが作られる。自動マージとPagesの明示起動を確認する。空の差分ならPRを作らず終了するのが正常。
 6. Pages workflowが成功し、calendar.ics, streamers.ics, sf6.ics, shadowverse-wb.ics, pokemon.ics が更新される。
 
 ローカルの回帰テストは以下で実行します。Windowsの転送テストでは一時ディレクトリ内に
@@ -138,7 +138,7 @@ LastTaskResult=0が正常終了です。空差分でも成功します。
 
 2026-10-11：朝夕のCodex定期実行、毎時05分のWindows転送、毎時17分のGitHub同期を基本構成とします。
 main保護はPR必須・Force Push禁止・削除禁止・Bypassなしを確認済みです。
-必須レビュー数は0で、レビュー承認・必須CIチェックは強制していません。自動マージは無効です。
+初期設定時の必須レビュー数は0で、レビュー承認・必須CIチェックは強制していませんでした。2026-10-12に自動マージを有効化しました。
 初期設定時の空差分によるGitHub検証・ビルドは[成功](https://github.com/mmiyaji/streamer-event-calendar/actions/runs/38070724748)しました。
 これは調査ジョブの予約起動、非空差分の本番PR作成、PRマージ後の公開の実証とは別です。
 
@@ -185,3 +185,7 @@ calendar.ics、streamers.ics、sf6.ics、shadowverse-wb.ics、pokemon.icsにつ�
 既存の別ID重複（CR Cupなど）はこの試験で削除していません。中止操作で重複を消すと、実際に大会が中止されたように見えるためです。
 今回の巡回では一部の公式サイト・SNSの本文を取得できず、全対象について「差分なし」を保証する試験ではありません。
 開始時刻・対象配信者の出演を確認できない新規日程には、時刻や出演者を推測して補っていません。
+
+## 自動公開への変更（2026-10-12）
+
+ユーザーの運用方針に合わせ、ENABLE_CALENDAR_AUTO_MERGE=trueを設定。mainのPR必須・Force Push禁止・削除禁止・Bypassなしは維持します。mainの検証・テスト・完全ビルドが成功した場合に限り、変更ファイルがdata/codex_synced_events.jsonだけであることと、PRのoverlayが検証済みファイルと完全一致することを確認してマージします。--match-head-commitで検証後のPR更新を拒否します。Pagesはマージ後にworkflow_dispatchで明示起動します。

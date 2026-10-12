@@ -72,9 +72,9 @@ jobs:
           if ! gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number // empty' | grep -q '[0-9]'; then
             gh pr create --base main --head automation/codex-sync \
               --title "Calendar: apply Codex-verified event changes" \
-              --body "Automated data-only sync from Codex. Validation and complete calendar build ran on trusted main code. Review dates and sources before merging. No Codex-provided scripts are executed."
+              --body "Automated data-only sync from Codex. Validation and complete calendar build ran on trusted main code. Verified data is automatically merged and published when ENABLE_CALENDAR_AUTO_MERGE is true. No Codex-provided scripts are executed."
           fi
-      - name: Optional automatic merge (off by default)
+      - name: Merge validated data and dispatch publication
         if: steps.validate.outputs.changed == 'true' && vars.ENABLE_CALENDAR_AUTO_MERGE == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -93,5 +93,11 @@ jobs:
           fi
           PR="$(gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number')"
           test -n "$PR"
-          gh pr merge "$PR" --squash
+          HEAD_SHA="$(gh pr view "$PR" --json headRefOid --jq '.headRefOid')"
+          test "$(gh pr diff "$PR" --name-only)" = "data/codex_synced_events.json"
+          git fetch origin "$HEAD_SHA"
+          git show "$HEAD_SHA:data/codex_synced_events.json" > /tmp/pr-validated-events.json
+          cmp /tmp/codex_synced_events.json /tmp/pr-validated-events.json
+          gh pr merge "$PR" --squash --match-head-commit "$HEAD_SHA"
+          # A merge made with GITHUB_TOKEN does not trigger a push workflow.
           gh workflow run pages.yml --ref main
