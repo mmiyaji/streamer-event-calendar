@@ -19,6 +19,7 @@ concurrency:
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -94,6 +95,10 @@ jobs:
           PR="$(gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number')"
           test -n "$PR"
           HEAD_SHA="$(gh pr view "$PR" --json headRefOid --jq '.headRefOid')"
+          # A fork can use the same branch name: verify repository identity too.
+          test "$(gh pr view "$PR" --json isCrossRepository --jq '.isCrossRepository')" = "false"
+          test "$(gh pr view "$PR" --json headRepository,headRepositoryOwner --jq '.headRepositoryOwner.login + "/" + .headRepository.name')" = "$GITHUB_REPOSITORY"
+          test "$(gh pr view "$PR" --json headRefName,baseRefName --jq '.headRefName + ":" + .baseRefName')" = "automation/codex-sync:main"
           test "$(gh pr diff "$PR" --name-only)" = "data/codex_synced_events.json"
           git fetch origin "$HEAD_SHA"
           git show "$HEAD_SHA:data/codex_synced_events.json" > /tmp/pr-validated-events.json

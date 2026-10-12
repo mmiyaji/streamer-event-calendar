@@ -9,7 +9,7 @@ permissions:
   contents: read
 jobs:
   validate:
-    if: github.event_name == 'workflow_dispatch' || github.head_ref == 'codex/calendar-updates'
+    if: (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') || (github.head_ref == 'codex/calendar-updates' && github.event.pull_request.head.repo.full_name == github.repository)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

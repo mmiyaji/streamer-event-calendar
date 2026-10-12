@@ -189,3 +189,9 @@ calendar.ics、streamers.ics、sf6.ics、shadowverse-wb.ics、pokemon.icsにつ�
 ## 自動公開への変更（2026-10-12）
 
 ユーザーの運用方針に合わせ、ENABLE_CALENDAR_AUTO_MERGE=trueを設定。mainのPR必須・Force Push禁止・削除禁止・Bypassなしは維持します。mainの検証・テスト・完全ビルドが成功した場合に限り、変更ファイルがdata/codex_synced_events.jsonだけであることと、PRのoverlayが検証済みファイルと完全一致することを確認してマージします。--match-head-commitで検証後のPR更新を拒否します。Pagesはマージ後にworkflow_dispatchで明示起動します。
+
+## 外部PRとの分離（2026-10-12）
+
+自動同期ジョブはmainでのみ実行します。自動マージ対象は同一リポジトリのautomation/codex-syncからmainへのPRに限定し、forkの同名ブランチを拒否します。変更ファイルがoverlayのみ、内容が検証済みJSONと完全一致、マージ対象SHAが一致することも必須です。Codex入力ブランチから取得するのはJSONのみで、コードは実行しません。提案検証ジョブも同一リポジトリの入力ブランチだけを対象とし、read権限・資格情報を保存しないcheckoutを使用します。
+
+main保護の承認レビュー数は0です。書き込み権限のある利用者による外部PRの手動マージまでは禁止しません。Actionsのタグ依存やアカウント・書き込み権限の侵害は別の残存リスクです。
