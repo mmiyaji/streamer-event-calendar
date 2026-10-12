@@ -28,6 +28,35 @@
     "notes": "ポケモン公式の2026年9月25日告知で、30周年ピックアップテーマ「つながる」のグッズをポケモンセンターオンラインで10月1日10時から販売と確認。店頭発売日は10月3日。"
   },
   {
+    "id": "pokemon30-celebration-event-tshirts-20261002",
+    "title": "ポケモンカードゲーム30周年 CELEBRATION EVENT記念Tシャツ発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods",
+      "apparel"
+    ],
+    "verified_at": "2026-10-12T19:02:39+09:00",
+    "lastChecked": "2026-10-12T19:02:39+09:00",
+    "persons": [],
+    "start": "2026-10-02T10:00:00+09:00",
+    "allDay": false,
+    "url": "https://www.pokemon.co.jp/goods/2026/09/260918_ap01.html",
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/09/260918_ap01.html"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "ポケモン公式の9月18日告知で、30周年イベント記念TシャツDay・Nightの2種を10月2日10時からポケモンセンターオンラインで発売と確認。各3,960円、M・L・XL。発売済みの未登録予定を補完。"
+  },
+  {
     "id": "pokemon30-timeless-adventure-store-20261003",
     "title": "ポケモン30周年 Pokémon Timeless Adventure ガラル：店頭発売",
     "category": "pokemon",
