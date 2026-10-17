@@ -1,37 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T19:02:39+09:00",
+  "generated_at": "2026-10-18T07:05:05+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "pokemon30-celebration-event-tshirts-20261002",
-        "title": "ポケモンカードゲーム30周年 CELEBRATION EVENT記念Tシャツ発売",
-        "category": "pokemon",
-        "type": "offline_event",
-        "game": "pokemon",
-        "priority": "major",
+        "id": "sf6-cpt-2026-ww-japan-4",
+        "title": "【予選】CPT 2026 ワールドウォリアー日本大会 #4",
+        "category": "sf6",
+        "type": "qualifier",
+        "game": "sf6",
+        "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "pokemon",
-          "pokemon30th",
-          "goods",
-          "apparel"
+          "cpt",
+          "world-warrior",
+          "japan",
+          "qualifier",
+          "capcom-cup-13-qualifier"
         ],
-        "verified_at": "2026-10-12T19:02:39+09:00",
-        "lastChecked": "2026-10-12T19:02:39+09:00",
+        "verified_at": "2026-10-18T07:05:05+09:00",
         "persons": [],
-        "start": "2026-10-02T10:00:00+09:00",
-        "allDay": false,
-        "url": "https://www.pokemon.co.jp/goods/2026/09/260918_ap01.html",
+        "start": "2026-10-18",
+        "end": "2026-10-19",
+        "allDay": true,
+        "url": "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
         "sourceUrls": [
-          "https://www.pokemon.co.jp/goods/2026/09/260918_ap01.html"
+          "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
+          "https://sf.esports.capcom.com/cpt/jp/",
+          "https://www.start.gg/tournament/world-warrior-2026-japan-4/details",
+          "https://prtimes.jp/main/html/rd/p/000006112.000013450.html"
         ],
-        "confidence": "high",
         "status": "confirmed",
-        "notes": "ポケモン公式の9月18日告知で、30周年イベント記念TシャツDay・Nightの2種を10月2日10時からポケモンセンターオンラインで発売と確認。各3,960円、M・L・XL。発売済みの未登録予定を補完。"
+        "confidence": "high",
+        "lastChecked": "2026-10-18T07:05:05+09:00",
+        "notes": "CAPCOM公式の10月14日発表で10月18日開催と公式配信16:30開始を確認。16:30は大会全体の開始時刻ではなく放送開始時刻。大会全体の開始時刻は未確認のため終日登録を維持。公式配信：https://youtube.com/live/EckAV-PIa_Q 。"
       }
     }
   ]
