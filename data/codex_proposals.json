@@ -1,42 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T07:05:05+09:00",
+  "generated_at": "2026-10-23T22:27:11+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "sf6-cpt-2026-ww-japan-4",
-        "title": "【予選】CPT 2026 ワールドウォリアー日本大会 #4",
-        "category": "sf6",
-        "type": "qualifier",
+        "id": "streamer-ojileague-vs-streamers-20261024",
+        "title": "おじリーグ vs ストリーマー軍 Supported by Yogibo | NURO",
+        "category": "streamer",
+        "type": "tournament",
         "game": "sf6",
-        "priority": "normal",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "cpt",
-          "world-warrior",
-          "japan",
-          "qualifier",
-          "capcom-cup-13-qualifier"
+          "sf6",
+          "streamer",
+          "おじリーグ",
+          "REJECT"
         ],
-        "verified_at": "2026-10-18T07:05:05+09:00",
-        "persons": [],
-        "start": "2026-10-18",
-        "end": "2026-10-19",
-        "allDay": true,
-        "url": "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
+        "verified_at": "2026-10-23T22:27:11+09:00",
+        "lastChecked": "2026-10-23T22:27:11+09:00",
+        "persons": [
+          "たいじ"
+        ],
+        "start": "2026-10-24T15:00:00+09:00",
+        "allDay": false,
+        "url": "https://reject.jp/2026/10/21/20261021-2/",
         "sourceUrls": [
-          "https://prtimes.jp/main/html/rd/p/000006034.000013450.html",
-          "https://sf.esports.capcom.com/cpt/jp/",
-          "https://www.start.gg/tournament/world-warrior-2026-japan-4/details",
-          "https://prtimes.jp/main/html/rd/p/000006112.000013450.html"
+          "https://reject.jp/2026/10/21/20261021-2/",
+          "https://prtimes.jp/main/html/rd/p/000000674.000050979.html"
         ],
-        "status": "confirmed",
         "confidence": "high",
-        "lastChecked": "2026-10-18T07:05:05+09:00",
-        "notes": "CAPCOM公式の10月14日発表で10月18日開催と公式配信16:30開始を確認。16:30は大会全体の開始時刻ではなく放送開始時刻。大会全体の開始時刻は未確認のため終日登録を維持。公式配信：https://youtube.com/live/EckAV-PIa_Q 。"
+        "status": "confirmed",
+        "notes": "主催およびたいじ所属チームREJECTが日時・出場を公式発表。おじリーグ軍：こく兄、ヌキ、総師範KSK、ハンサム折笠、大須晶。ストリーマー軍：SHAKA、たいじ、しんじ、ドンピシャ、よしなま。REJECT公式YouTube/Twitch配信。終了時刻未発表。"
       }
     }
   ]
