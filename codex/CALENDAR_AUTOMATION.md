@@ -6,13 +6,28 @@ This is a DATA GENERATION task, not a GitHub write task.
 ## Objective
 Research confirmed schedule changes for:
 - Streamers: たいじ, もこう, 加藤純一, なるお, あっさりしょこ, バトラ, じゃすぱー.
-- Official events: Crazy Raccoon, げまげま/Gamers×Gamers, CR Cup, CR Streamer League, The k4sen, RAGE, CAPCOM eSports, Shadowverse: Worlds Beyond, Shadowverse Premier Series.
+- Official events: Crazy Raccoon, REJECT, おじリーグ (including こく兄's related events), げまげま/Gamers×Gamers, CR Cup, CR Streamer League, The k4sen, RAGE, CAPCOM eSports, Shadowverse: Worlds Beyond, Shadowverse Premier Series.
 - Official accounts for regular streamer communities, units and programs (e.g. Blood Party Friday).
 - Major SF6 tournaments/qualifiers/character and balance updates.
 - Shadowverse: Worlds Beyond professional leagues/major tournaments/announced major updates.
 - Pokémon 30th major goods announcements when a confirmed purchase or preorder date is published.
 
 Use primary official websites, verified organizer/participant social accounts and the original announcement URL. Cross-check streamer appearances both via the organizer and via the person or team. Do NOT hallucinate dates or times. Events with no exact date must not enter the JSON. Do not re-create older events with a different ID.
+
+## Discovery coverage on every run
+Search each target streamer and each event series separately; never combine all target
+names into one query, since that can exclude announcements mentioning only one person.
+Inspect organizer news indexes directly, including https://reject.jp/news/, and their
+official press releases, rather than relying only on search snippets or existing events.
+Review announcements from at least the preceding seven days on every run, including
+announcements first published since the last run. For REJECT, check both the event name
+and the participant list: an event involving たいじ is in scope even when its title does
+not mention him. Organizer announcements from the participant's own team can also
+provide the required team confirmation; record that relationship in the event notes.
+Compare actual event IDs, titles and dates against the public calendar, not just its
+event count. A successful transfer/build does not demonstrate complete discovery.
+If a target or organizer could not be checked, report that coverage gap explicitly
+instead of presenting the run as a fully verified no-change result.
 
 ## Input: Current authoritative calendar
 Inspect the checked-out repo and published https://mmiyaji.github.io/streamer-event-calendar/events.json
