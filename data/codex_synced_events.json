@@ -404,6 +404,38 @@
     "lastChecked": "2026-10-11T02:21:39+09:00"
   },
   {
+    "id": "streamer-ojileague-vs-streamers-20261024",
+    "title": "おじリーグ vs ストリーマー軍 Supported by Yogibo | NURO",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "streamer",
+      "おじリーグ",
+      "REJECT"
+    ],
+    "verified_at": "2026-10-23T22:27:11+09:00",
+    "lastChecked": "2026-10-23T22:27:11+09:00",
+    "persons": [
+      "たいじ"
+    ],
+    "start": "2026-10-24T15:00:00+09:00",
+    "allDay": false,
+    "url": "https://reject.jp/2026/10/21/20261021-2/",
+    "sourceUrls": [
+      "https://reject.jp/2026/10/21/20261021-2/",
+      "https://prtimes.jp/main/html/rd/p/000000674.000050979.html"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "主催およびたいじ所属チームREJECTが日時・出場を公式発表。おじリーグ軍：こく兄、ヌキ、総師範KSK、ハンサム折笠、大須晶。ストリーマー軍：SHAKA、たいじ、しんじ、ドンピシャ、よしなま。REJECT公式YouTube/Twitch配信。終了時刻未発表。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-regular-stage-day4",
     "title": "League The k4sen Season: Finale Regular Stage DAY4",
     "category": "streamer",
