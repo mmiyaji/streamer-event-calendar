@@ -496,6 +496,34 @@
     "lastChecked": "2026-10-11T02:21:39+09:00"
   },
   {
+    "id": "svwb-deicide-in-nacreheim-release-20261028",
+    "title": "【アップデート】シャドバWB 第10弾「ニーゲルヘリア神殺事件」リリース",
+    "category": "shadowverse_wb",
+    "type": "update",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "card-pack",
+      "major-update"
+    ],
+    "verified_at": "2026-10-25T06:57:37+09:00",
+    "lastChecked": "2026-10-25T06:57:37+09:00",
+    "persons": [],
+    "start": "2026-10-28",
+    "allDay": true,
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
+      "https://shadowverse-wb.com/ja/cards/pack/deicide-in-nacreheim/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式ニュース本文（公式サイトの公開Information API経由）で確認。10月28日14:00〜17:00予定のメンテナンスで第10弾カードパック追加、バトルパスシーズン17開幕、プライベートロビー・配信者モード機能改修などを実施。メンテナンス時間は前後する可能性があるためリリース時刻は固定せず終日登録。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-regular-stage-day5",
     "title": "League The k4sen Season: Finale Regular Stage DAY5",
     "category": "streamer",
