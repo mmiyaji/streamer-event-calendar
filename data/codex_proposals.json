@@ -1,40 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T22:27:11+09:00",
+  "generated_at": "2026-10-25T06:57:37+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-ojileague-vs-streamers-20261024",
-        "title": "おじリーグ vs ストリーマー軍 Supported by Yogibo | NURO",
-        "category": "streamer",
-        "type": "tournament",
-        "game": "sf6",
+        "id": "svwb-deicide-in-nacreheim-release-20261028",
+        "title": "【アップデート】シャドバWB 第10弾「ニーゲルヘリア神殺事件」リリース",
+        "category": "shadowverse_wb",
+        "type": "update",
+        "game": "shadowverse_wb",
         "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "sf6",
-          "streamer",
-          "おじリーグ",
-          "REJECT"
+          "card-pack",
+          "major-update"
         ],
-        "verified_at": "2026-10-23T22:27:11+09:00",
-        "lastChecked": "2026-10-23T22:27:11+09:00",
-        "persons": [
-          "たいじ"
-        ],
-        "start": "2026-10-24T15:00:00+09:00",
-        "allDay": false,
-        "url": "https://reject.jp/2026/10/21/20261021-2/",
+        "verified_at": "2026-10-25T06:57:37+09:00",
+        "lastChecked": "2026-10-25T06:57:37+09:00",
+        "persons": [],
+        "start": "2026-10-28",
+        "allDay": true,
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
         "sourceUrls": [
-          "https://reject.jp/2026/10/21/20261021-2/",
-          "https://prtimes.jp/main/html/rd/p/000000674.000050979.html"
+          "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
+          "https://shadowverse-wb.com/ja/cards/pack/deicide-in-nacreheim/"
         ],
-        "confidence": "high",
         "status": "confirmed",
-        "notes": "主催およびたいじ所属チームREJECTが日時・出場を公式発表。おじリーグ軍：こく兄、ヌキ、総師範KSK、ハンサム折笠、大須晶。ストリーマー軍：SHAKA、たいじ、しんじ、ドンピシャ、よしなま。REJECT公式YouTube/Twitch配信。終了時刻未発表。"
+        "confidence": "high",
+        "notes": "公式ニュース本文（公式サイトの公開Information API経由）で確認。10月28日14:00〜17:00予定のメンテナンスで第10弾カードパック追加、バトルパスシーズン17開幕、プライベートロビー・配信者モード機能改修などを実施。メンテナンス時間は前後する可能性があるためリリース時刻は固定せず終日登録。"
       }
     }
   ]
