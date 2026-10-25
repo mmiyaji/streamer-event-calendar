@@ -436,6 +436,34 @@
     "notes": "主催およびたいじ所属チームREJECTが日時・出場を公式発表。おじリーグ軍：こく兄、ヌキ、総師範KSK、ハンサム折笠、大須晶。ストリーマー軍：SHAKA、たいじ、しんじ、ドンピシャ、よしなま。REJECT公式YouTube/Twitch配信。終了時刻未発表。"
   },
   {
+    "id": "svwb-channel-beyond-pack10-reveal-20261024",
+    "title": "しゃどばすチャンネルビヨンド 第10弾カードパック情報公開！",
+    "category": "shadowverse_wb",
+    "type": "stream",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "official-stream",
+      "card-pack"
+    ],
+    "persons": [],
+    "start": "2026-10-24T19:00:00+09:00",
+    "allDay": false,
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4YZCCJWJZFDAQCPT5GJ29HR",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01M4YZCCJWJZFDAQCPT5GJ29HR",
+      "https://youtube.com/live/YpfsK5U47ds"
+    ],
+    "verified_at": "2026-10-25T19:03:46+09:00",
+    "lastChecked": "2026-10-25T19:03:46+09:00",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式ニュース本文を公開Information API経由で確認。10月24日19時配信の第10弾カードパック・ゲーム内イベント・アップデート情報公開番組。以前取得制限で保留していた日時を公式本文で確認できたため遡及追加。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-regular-stage-day4",
     "title": "League The k4sen Season: Finale Regular Stage DAY4",
     "category": "streamer",
@@ -660,18 +688,19 @@
       "playoffs"
     ],
     "persons": [],
-    "start": "2026-11-21",
-    "allDay": true,
-    "location": "オフライン（会場未確認）",
-    "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+    "start": "2026-11-21T11:00:00+09:00",
+    "allDay": false,
+    "location": "千葉JPFドーム（千葉市中央区弁天4丁目1-1）",
+    "url": "https://league.thek4sen.com/Finale_Playoffs/",
     "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
+      "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+      "https://league.thek4sen.com/Finale_Playoffs/"
     ],
     "status": "confirmed",
     "confidence": "high",
-    "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。プレイオフは両日オフライン開催。",
-    "verified_at": "2026-10-11T02:21:39+09:00",
-    "lastChecked": "2026-10-11T02:21:39+09:00"
+    "notes": "主催GANYMEDEの公式Playoffs特設サイトで両日とも開場10:00・開演11:00、会場は千葉JPFドームと確認。運営都合で時刻変更の可能性あり。個人視点配信はなくLTK公式Twitch/YouTubeで配信。終了時刻未確定。",
+    "verified_at": "2026-10-25T19:03:46+09:00",
+    "lastChecked": "2026-10-25T19:03:46+09:00"
   },
   {
     "id": "streamer-ltk-finale-2026-playoffs-day2",
@@ -690,17 +719,18 @@
       "playoffs"
     ],
     "persons": [],
-    "start": "2026-11-22",
-    "allDay": true,
-    "location": "オフライン（会場未確認）",
-    "url": "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+    "start": "2026-11-22T11:00:00+09:00",
+    "allDay": false,
+    "location": "千葉JPFドーム（千葉市中央区弁天4丁目1-1）",
+    "url": "https://league.thek4sen.com/Finale_Playoffs/",
     "sourceUrls": [
-      "https://prtimes.jp/main/html/rd/p/000000229.000041650.html"
+      "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+      "https://league.thek4sen.com/Finale_Playoffs/"
     ],
     "status": "confirmed",
     "confidence": "high",
-    "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。プレイオフは両日オフライン開催。",
-    "verified_at": "2026-10-11T02:21:39+09:00",
-    "lastChecked": "2026-10-11T02:21:39+09:00"
+    "notes": "主催GANYMEDEの公式Playoffs特設サイトで両日とも開場10:00・開演11:00、会場は千葉JPFドームと確認。運営都合で時刻変更の可能性あり。個人視点配信はなくLTK公式Twitch/YouTubeで配信。終了時刻未確定。",
+    "verified_at": "2026-10-25T19:03:46+09:00",
+    "lastChecked": "2026-10-25T19:03:46+09:00"
   }
 ]
