@@ -1,36 +1,104 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T06:57:37+09:00",
+  "generated_at": "2026-10-25T19:03:46+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-deicide-in-nacreheim-release-20261028",
-        "title": "【アップデート】シャドバWB 第10弾「ニーゲルヘリア神殺事件」リリース",
+        "id": "streamer-ltk-finale-2026-playoffs-day1",
+        "title": "League The k4sen Season: Finale Playoffs DAY1",
+        "category": "streamer",
+        "type": "tournament",
+        "game": "league_of_legends",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "the-k4sen",
+          "ltk",
+          "league-of-legends",
+          "playoffs"
+        ],
+        "persons": [],
+        "start": "2026-11-21T11:00:00+09:00",
+        "allDay": false,
+        "location": "千葉JPFドーム（千葉市中央区弁天4丁目1-1）",
+        "url": "https://league.thek4sen.com/Finale_Playoffs/",
+        "sourceUrls": [
+          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+          "https://league.thek4sen.com/Finale_Playoffs/"
+        ],
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "主催GANYMEDEの公式Playoffs特設サイトで両日とも開場10:00・開演11:00、会場は千葉JPFドームと確認。運営都合で時刻変更の可能性あり。個人視点配信はなくLTK公式Twitch/YouTubeで配信。終了時刻未確定。",
+        "verified_at": "2026-10-25T19:03:46+09:00",
+        "lastChecked": "2026-10-25T19:03:46+09:00"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "streamer-ltk-finale-2026-playoffs-day2",
+        "title": "League The k4sen Season: Finale Playoffs DAY2",
+        "category": "streamer",
+        "type": "tournament",
+        "game": "league_of_legends",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "the-k4sen",
+          "ltk",
+          "league-of-legends",
+          "playoffs"
+        ],
+        "persons": [],
+        "start": "2026-11-22T11:00:00+09:00",
+        "allDay": false,
+        "location": "千葉JPFドーム（千葉市中央区弁天4丁目1-1）",
+        "url": "https://league.thek4sen.com/Finale_Playoffs/",
+        "sourceUrls": [
+          "https://prtimes.jp/main/html/rd/p/000000229.000041650.html",
+          "https://league.thek4sen.com/Finale_Playoffs/"
+        ],
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "主催GANYMEDEの公式Playoffs特設サイトで両日とも開場10:00・開演11:00、会場は千葉JPFドームと確認。運営都合で時刻変更の可能性あり。個人視点配信はなくLTK公式Twitch/YouTubeで配信。終了時刻未確定。",
+        "verified_at": "2026-10-25T19:03:46+09:00",
+        "lastChecked": "2026-10-25T19:03:46+09:00"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-channel-beyond-pack10-reveal-20261024",
+        "title": "しゃどばすチャンネルビヨンド 第10弾カードパック情報公開！",
         "category": "shadowverse_wb",
-        "type": "update",
+        "type": "stream",
         "game": "shadowverse_wb",
         "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "card-pack",
-          "major-update"
+          "official-stream",
+          "card-pack"
         ],
-        "verified_at": "2026-10-25T06:57:37+09:00",
-        "lastChecked": "2026-10-25T06:57:37+09:00",
         "persons": [],
-        "start": "2026-10-28",
-        "allDay": true,
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
+        "start": "2026-10-24T19:00:00+09:00",
+        "allDay": false,
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4YZCCJWJZFDAQCPT5GJ29HR",
         "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
-          "https://shadowverse-wb.com/ja/cards/pack/deicide-in-nacreheim/"
+          "https://shadowverse-wb.com/ja/news/detail/?id=01M4YZCCJWJZFDAQCPT5GJ29HR",
+          "https://youtube.com/live/YpfsK5U47ds"
         ],
+        "verified_at": "2026-10-25T19:03:46+09:00",
+        "lastChecked": "2026-10-25T19:03:46+09:00",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "公式ニュース本文（公式サイトの公開Information API経由）で確認。10月28日14:00〜17:00予定のメンテナンスで第10弾カードパック追加、バトルパスシーズン17開幕、プライベートロビー・配信者モード機能改修などを実施。メンテナンス時間は前後する可能性があるためリリース時刻は固定せず終日登録。"
+        "notes": "公式ニュース本文を公開Information API経由で確認。10月24日19時配信の第10弾カードパック・ゲーム内イベント・アップデート情報公開番組。以前取得制限で保留していた日時を公式本文で確認できたため遡及追加。"
       }
     }
   ]
