@@ -537,11 +537,11 @@
       "card-pack",
       "major-update"
     ],
-    "verified_at": "2026-10-25T06:57:37+09:00",
-    "lastChecked": "2026-10-25T06:57:37+09:00",
+    "verified_at": "2026-10-28T19:05:17+09:00",
+    "lastChecked": "2026-10-28T19:05:17+09:00",
     "persons": [],
-    "start": "2026-10-28",
-    "allDay": true,
+    "start": "2026-10-28T17:00:00+09:00",
+    "allDay": false,
     "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
     "sourceUrls": [
       "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
@@ -549,7 +549,7 @@
     ],
     "status": "confirmed",
     "confidence": "high",
-    "notes": "公式ニュース本文（公式サイトの公開Information API経由）で確認。10月28日14:00〜17:00予定のメンテナンスで第10弾カードパック追加、バトルパスシーズン17開幕、プライベートロビー・配信者モード機能改修などを実施。メンテナンス時間は前後する可能性があるためリリース時刻は固定せず終日登録。"
+    "notes": "公式ニュースの10月28日17:00追記でメンテナンス終了を確認。第10弾「ニーゲルヘリア神殺事件」リリース、バトルパスシーズン17開幕、2Pickの掲示カード調整、プライベートロビー・配信者モード機能改修などを実施。予定終了時刻からの推測ではなく公式の完了告知に基づき17:00へ更新。"
   },
   {
     "id": "streamer-ltk-finale-2026-regular-stage-day5",
