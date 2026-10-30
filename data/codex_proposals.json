@@ -1,36 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T19:05:17+09:00",
+  "generated_at": "2026-10-30T18:59:05+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-deicide-in-nacreheim-release-20261028",
-        "title": "【アップデート】シャドバWB 第10弾「ニーゲルヘリア神殺事件」リリース",
+        "id": "svwb-u22-championship-2026-winter-grand-finals",
+        "title": "Shadowverse U-22 Championship 2026 Winter Grand Finals",
         "category": "shadowverse_wb",
-        "type": "update",
+        "type": "tournament",
         "game": "shadowverse_wb",
-        "priority": "major",
+        "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "card-pack",
-          "major-update"
+          "u22",
+          "championship",
+          "winter",
+          "grand-finals"
         ],
-        "verified_at": "2026-10-28T19:05:17+09:00",
-        "lastChecked": "2026-10-28T19:05:17+09:00",
         "persons": [],
-        "start": "2026-10-28T17:00:00+09:00",
-        "allDay": false,
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
+        "start": "2026-12-19",
+        "allDay": true,
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082",
         "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M4SME57MD8A3A2JRV1P074RZ",
-          "https://shadowverse-wb.com/ja/cards/pack/deicide-in-nacreheim/"
+          "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082"
         ],
+        "verified_at": "2026-10-30T18:59:05+09:00",
+        "lastChecked": "2026-10-30T18:59:05+09:00",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "公式ニュースの10月28日17:00追記でメンテナンス終了を確認。第10弾「ニーゲルヘリア神殺事件」リリース、バトルパスシーズン17開幕、2Pickの掲示カード調整、プライベートロビー・配信者モード機能改修などを実施。予定終了時刻からの推測ではなく公式の完了告知に基づき17:00へ更新。"
+        "notes": "Cygames公式ニュース本文を公開Information API経由で確認。Winter Grand Finalsは12月19日開催・配信予定。11月予選は11月23日、エントリーは10月30日〜11月15日23:59。Grand Finals優勝賞金30万円、準優勝15万円。開始時刻・会場は本文未記載のため終日登録。"
       }
     }
   ]
