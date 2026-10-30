@@ -732,5 +732,34 @@
     "notes": "主催GANYMEDEの公式Playoffs特設サイトで両日とも開場10:00・開演11:00、会場は千葉JPFドームと確認。運営都合で時刻変更の可能性あり。個人視点配信はなくLTK公式Twitch/YouTubeで配信。終了時刻未確定。",
     "verified_at": "2026-10-25T19:03:46+09:00",
     "lastChecked": "2026-10-25T19:03:46+09:00"
+  },
+  {
+    "id": "svwb-u22-championship-2026-winter-grand-finals",
+    "title": "Shadowverse U-22 Championship 2026 Winter Grand Finals",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "u22",
+      "championship",
+      "winter",
+      "grand-finals"
+    ],
+    "persons": [],
+    "start": "2026-12-19",
+    "allDay": true,
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082"
+    ],
+    "verified_at": "2026-10-30T18:59:05+09:00",
+    "lastChecked": "2026-10-30T18:59:05+09:00",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "Cygames公式ニュース本文を公開Information API経由で確認。Winter Grand Finalsは12月19日開催・配信予定。11月予選は11月23日、エントリーは10月30日〜11月15日23:59。Grand Finals優勝賞金30万円、準優勝15万円。開始時刻・会場は本文未記載のため終日登録。"
   }
 ]
