@@ -1,37 +1,47 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T18:59:05+09:00",
+  "generated_at": "2026-10-31T19:01:43+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-u22-championship-2026-winter-grand-finals",
-        "title": "Shadowverse U-22 Championship 2026 Winter Grand Finals",
-        "category": "shadowverse_wb",
+        "id": "streamer-reject-hour-monster-strike-nanokahai-2026",
+        "title": "REJECT HOUR MONSTER STRIKE 七日杯",
+        "category": "streamer",
         "type": "tournament",
-        "game": "shadowverse_wb",
+        "game": "monster_strike",
         "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "u22",
-          "championship",
-          "winter",
-          "grand-finals"
+          "reject",
+          "monster-strike",
+          "team-battle",
+          "livestream"
         ],
-        "persons": [],
-        "start": "2026-12-19",
+        "verified_at": "2026-10-31T19:01:43+09:00",
+        "lastChecked": "2026-10-31T19:01:43+09:00",
+        "persons": [
+          "ズズ",
+          "花前ハル",
+          "巫神こん",
+          "ろぜっくぴん",
+          "カプラ・リブラス",
+          "秋雪こはく",
+          "折咲もしゅ",
+          "鴉羽そら"
+        ],
+        "start": "2026-11-02",
+        "end": "2026-11-09",
         "allDay": true,
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082",
         "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M5YJ1F4109RSRQZGGC7MS082"
+          "https://reject.jp/2026/10/30/20261030/"
         ],
-        "verified_at": "2026-10-30T18:59:05+09:00",
-        "lastChecked": "2026-10-30T18:59:05+09:00",
+        "url": "https://reject.jp/2026/10/30/20261030/",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "Cygames公式ニュース本文を公開Information API経由で確認。Winter Grand Finalsは12月19日開催・配信予定。11月予選は11月23日、エントリーは10月30日〜11月15日23:59。Grand Finals優勝賞金30万円、準優勝15万円。開始時刻・会場は本文未記載のため終日登録。"
+        "notes": "REJECT公式の2026年10月30日告知で11月2日～8日の開催を確認。主催者が出演者8名の所属チームでもあり、チームによる出演確認を兼ねる。Day1（11月2日）とDay7（11月8日）は各20:00から各自のYouTubeで配信。Day2～6は任意配信で時刻未確定。期間を終日予定で登録し、endは排他的な11月9日。"
       }
     }
   ]
