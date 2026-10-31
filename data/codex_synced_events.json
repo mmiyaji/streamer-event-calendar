@@ -582,6 +582,45 @@
     "lastChecked": "2026-10-11T02:21:39+09:00"
   },
   {
+    "id": "streamer-reject-hour-monster-strike-nanokahai-2026",
+    "title": "REJECT HOUR MONSTER STRIKE 七日杯",
+    "category": "streamer",
+    "type": "tournament",
+    "game": "monster_strike",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "reject",
+      "monster-strike",
+      "team-battle",
+      "livestream"
+    ],
+    "verified_at": "2026-10-31T19:01:43+09:00",
+    "lastChecked": "2026-10-31T19:01:43+09:00",
+    "persons": [
+      "ズズ",
+      "花前ハル",
+      "巫神こん",
+      "ろぜっくぴん",
+      "カプラ・リブラス",
+      "秋雪こはく",
+      "折咲もしゅ",
+      "鴉羽そら"
+    ],
+    "start": "2026-11-02",
+    "end": "2026-11-09",
+    "allDay": true,
+    "sourceUrls": [
+      "https://reject.jp/2026/10/30/20261030/"
+    ],
+    "url": "https://reject.jp/2026/10/30/20261030/",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "REJECT公式の2026年10月30日告知で11月2日～8日の開催を確認。主催者が出演者8名の所属チームでもあり、チームによる出演確認を兼ねる。Day1（11月2日）とDay7（11月8日）は各20:00から各自のYouTubeで配信。Day2～6は任意配信で時刻未確定。期間を終日予定で登録し、endは排他的な11月9日。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-regular-stage-day6",
     "title": "League The k4sen Season: Finale Regular Stage DAY6",
     "category": "streamer",
