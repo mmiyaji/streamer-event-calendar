@@ -1,47 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T19:01:43+09:00",
+  "generated_at": "2026-11-02T06:58:05+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-reject-hour-monster-strike-nanokahai-2026",
-        "title": "REJECT HOUR MONSTER STRIKE 七日杯",
-        "category": "streamer",
+        "id": "svwb-premier-series-2026-round11-first",
+        "title": "Shadowverse Premier Series 26-27 第11節 前半",
+        "category": "shadowverse_wb",
         "type": "tournament",
-        "game": "monster_strike",
-        "priority": "normal",
+        "game": "shadowverse_wb",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "reject",
-          "monster-strike",
-          "team-battle",
-          "livestream"
+          "pro-league",
+          "premier-series",
+          "regular-season"
         ],
-        "verified_at": "2026-10-31T19:01:43+09:00",
-        "lastChecked": "2026-10-31T19:01:43+09:00",
-        "persons": [
-          "ズズ",
-          "花前ハル",
-          "巫神こん",
-          "ろぜっくぴん",
-          "カプラ・リブラス",
-          "秋雪こはく",
-          "折咲もしゅ",
-          "鴉羽そら"
-        ],
-        "start": "2026-11-02",
-        "end": "2026-11-09",
-        "allDay": true,
-        "sourceUrls": [
-          "https://reject.jp/2026/10/30/20261030/"
-        ],
-        "url": "https://reject.jp/2026/10/30/20261030/",
+        "persons": [],
+        "allDay": false,
+        "location": "オンライン配信",
+        "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "REJECT公式の2026年10月30日告知で11月2日～8日の開催を確認。主催者が出演者8名の所属チームでもあり、チームによる出演確認を兼ねる。Day1（11月2日）とDay7（11月8日）は各20:00から各自のYouTubeで配信。Day2～6は任意配信で時刻未確定。期間を終日予定で登録し、endは排他的な11月9日。"
+        "verified_at": "2026-11-02T06:58:05+09:00",
+        "start": "2026-11-11T17:30:00+09:00",
+        "sourceUrls": [
+          "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+          "https://ps.shadowverse-wb.com/26-27/news/309/",
+          "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
+          "https://youtube.com/live/wTvxoMUWdgQ"
+        ],
+        "lastChecked": "2026-11-02T06:58:05+09:00",
+        "notes": "プロリーグのレギュラーシーズン第11節前半。開始時刻は未発表のため終日予定として登録。 2026年11月2日、ゲーム運営公式の配信告知で第11節前半の本配信開始が11月11日17:30と確認。カレンダー開始を配信開始時刻に更新。終了時刻は未発表。"
       }
     }
   ]
