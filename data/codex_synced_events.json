@@ -681,6 +681,38 @@
     "lastChecked": "2026-10-11T02:21:39+09:00"
   },
   {
+    "id": "svwb-premier-series-2026-round11-first",
+    "title": "Shadowverse Premier Series 26-27 第11節 前半",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pro-league",
+      "premier-series",
+      "regular-season"
+    ],
+    "persons": [],
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+    "status": "confirmed",
+    "confidence": "high",
+    "verified_at": "2026-11-02T06:58:05+09:00",
+    "start": "2026-11-11T17:30:00+09:00",
+    "sourceUrls": [
+      "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+      "https://ps.shadowverse-wb.com/26-27/news/309/",
+      "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
+      "https://youtube.com/live/wTvxoMUWdgQ"
+    ],
+    "lastChecked": "2026-11-02T06:58:05+09:00",
+    "notes": "プロリーグのレギュラーシーズン第11節前半。開始時刻は未発表のため終日予定として登録。 2026年11月2日、ゲーム運営公式の配信告知で第11節前半の本配信開始が11月11日17:30と確認。カレンダー開始を配信開始時刻に更新。終了時刻は未発表。"
+  },
+  {
     "id": "pokemon30-moncolle-erabu-pikachu-20261114",
     "title": "【グッズ】ポケモン30周年 モンコレ「えらぶピカチュウ」発売",
     "category": "pokemon",
