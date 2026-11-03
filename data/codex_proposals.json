@@ -1,40 +1,98 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T06:58:05+09:00",
+  "generated_at": "2026-11-03T19:03:51+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-premier-series-2026-round11-first",
-        "title": "Shadowverse Premier Series 26-27 第11節 前半",
+        "id": "svwb-world-grand-prix-2026-day1",
+        "title": "Shadowverse World Grand Prix 2026 Day 1",
         "category": "shadowverse_wb",
         "type": "tournament",
         "game": "shadowverse_wb",
         "priority": "major",
         "source": "official",
         "official": true,
-        "region": "jp",
+        "region": "global",
         "tags": [
-          "pro-league",
-          "premier-series",
-          "regular-season"
+          "wgp-2026",
+          "official"
         ],
+        "verified_at": "2026-11-03T19:03:51+09:00",
+        "lastChecked": "2026-11-03T19:03:51+09:00",
         "persons": [],
-        "allDay": false,
-        "location": "オンライン配信",
-        "url": "https://ps.shadowverse-wb.com/26-27/schedule-results/",
+        "start": "2026-12-10",
+        "allDay": true,
+        "location": "都内スタジオ",
+        "sourceUrls": [
+          "https://wgp.shadowverse-wb.com/ja/2026/"
+        ],
+        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
         "status": "confirmed",
         "confidence": "high",
-        "verified_at": "2026-11-02T06:58:05+09:00",
-        "start": "2026-11-11T17:30:00+09:00",
-        "sourceUrls": [
-          "https://ps.shadowverse-wb.com/26-27/schedule-results/",
-          "https://ps.shadowverse-wb.com/26-27/news/309/",
-          "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
-          "https://youtube.com/live/wTvxoMUWdgQ"
+        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。スイスドロー7回戦とプレーオフ最大2回戦。開始時刻未発表。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-world-grand-prix-2026-grand-finals",
+        "title": "Shadowverse World Grand Prix 2026 Grand Finals",
+        "category": "shadowverse_wb",
+        "type": "tournament",
+        "game": "shadowverse_wb",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "global",
+        "tags": [
+          "wgp-2026",
+          "official"
         ],
-        "lastChecked": "2026-11-02T06:58:05+09:00",
-        "notes": "プロリーグのレギュラーシーズン第11節前半。開始時刻は未発表のため終日予定として登録。 2026年11月2日、ゲーム運営公式の配信告知で第11節前半の本配信開始が11月11日17:30と確認。カレンダー開始を配信開始時刻に更新。終了時刻は未発表。"
+        "verified_at": "2026-11-03T19:03:51+09:00",
+        "lastChecked": "2026-11-03T19:03:51+09:00",
+        "persons": [],
+        "start": "2026-12-12",
+        "allDay": true,
+        "location": "パシフィコ横浜 展示ホールA・B",
+        "sourceUrls": [
+          "https://wgp.shadowverse-wb.com/ja/2026/"
+        ],
+        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。公式記載は開催日・開場時間10:00（チケット購入者は9:30入場可）。試合開始時刻との区別が不明なため終日登録。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-international-wildcard-qualifier-2026",
+        "title": "Shadowverse International Wildcard Qualifier 2026",
+        "category": "shadowverse_wb",
+        "type": "qualifier",
+        "game": "shadowverse_wb",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "global",
+        "tags": [
+          "wgp-2026",
+          "official"
+        ],
+        "verified_at": "2026-11-03T19:03:51+09:00",
+        "lastChecked": "2026-11-03T19:03:51+09:00",
+        "persons": [],
+        "start": "2026-11-08",
+        "allDay": true,
+        "location": "オンライン",
+        "sourceUrls": [
+          "https://wgp.shadowverse-wb.com/ja/2026/"
+        ],
+        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。各地域大会上位入賞者による招待制大会。一般エントリー不可。開始時刻未発表。"
       }
     }
   ]
