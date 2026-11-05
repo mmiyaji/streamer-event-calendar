@@ -889,6 +889,34 @@
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。公式記載は開催日・開場時間10:00（チケット購入者は9:30入場可）。試合開始時刻との区別が不明なため終日登録。"
   },
   {
+    "id": "svwb-girls-battle-fes-2026-season4-final",
+    "title": "Shadowverse Girls Battle Fes 2026 Season 4 決勝大会",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "girls-battle-fes",
+      "season-4",
+      "final"
+    ],
+    "verified_at": "2026-11-05T19:01:04+09:00",
+    "lastChecked": "2026-11-05T19:01:04+09:00",
+    "persons": [],
+    "start": "2026-12-19",
+    "allDay": true,
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7"
+    ],
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "Cygames運営公式の11月5日告知で決勝大会12月19日と配信予定を確認。大阪12月5日・東京12月6日の予選から各2名が進出。優勝賞金10万円、Queen’s Premier Championship 26-27参加権。決勝開始時刻・会場は未発表のため終日登録。"
+  },
+  {
     "id": "svwb-u22-championship-2026-winter-grand-finals",
     "title": "Shadowverse U-22 Championship 2026 Winter Grand Finals",
     "category": "shadowverse_wb",
