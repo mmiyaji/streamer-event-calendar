@@ -1,98 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T19:03:51+09:00",
+  "generated_at": "2026-11-05T19:01:04+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-world-grand-prix-2026-day1",
-        "title": "Shadowverse World Grand Prix 2026 Day 1",
+        "id": "svwb-girls-battle-fes-2026-season4-final",
+        "title": "Shadowverse Girls Battle Fes 2026 Season 4 決勝大会",
         "category": "shadowverse_wb",
         "type": "tournament",
         "game": "shadowverse_wb",
-        "priority": "major",
+        "priority": "normal",
         "source": "official",
         "official": true,
-        "region": "global",
+        "region": "jp",
         "tags": [
-          "wgp-2026",
-          "official"
+          "girls-battle-fes",
+          "season-4",
+          "final"
         ],
-        "verified_at": "2026-11-03T19:03:51+09:00",
-        "lastChecked": "2026-11-03T19:03:51+09:00",
+        "verified_at": "2026-11-05T19:01:04+09:00",
+        "lastChecked": "2026-11-05T19:01:04+09:00",
         "persons": [],
-        "start": "2026-12-10",
+        "start": "2026-12-19",
         "allDay": true,
-        "location": "都内スタジオ",
         "sourceUrls": [
-          "https://wgp.shadowverse-wb.com/ja/2026/"
+          "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7"
         ],
-        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。スイスドロー7回戦とプレーオフ最大2回戦。開始時刻未発表。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "svwb-world-grand-prix-2026-grand-finals",
-        "title": "Shadowverse World Grand Prix 2026 Grand Finals",
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "global",
-        "tags": [
-          "wgp-2026",
-          "official"
-        ],
-        "verified_at": "2026-11-03T19:03:51+09:00",
-        "lastChecked": "2026-11-03T19:03:51+09:00",
-        "persons": [],
-        "start": "2026-12-12",
-        "allDay": true,
-        "location": "パシフィコ横浜 展示ホールA・B",
-        "sourceUrls": [
-          "https://wgp.shadowverse-wb.com/ja/2026/"
-        ],
-        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。公式記載は開催日・開場時間10:00（チケット購入者は9:30入場可）。試合開始時刻との区別が不明なため終日登録。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "svwb-international-wildcard-qualifier-2026",
-        "title": "Shadowverse International Wildcard Qualifier 2026",
-        "category": "shadowverse_wb",
-        "type": "qualifier",
-        "game": "shadowverse_wb",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "global",
-        "tags": [
-          "wgp-2026",
-          "official"
-        ],
-        "verified_at": "2026-11-03T19:03:51+09:00",
-        "lastChecked": "2026-11-03T19:03:51+09:00",
-        "persons": [],
-        "start": "2026-11-08",
-        "allDay": true,
-        "location": "オンライン",
-        "sourceUrls": [
-          "https://wgp.shadowverse-wb.com/ja/2026/"
-        ],
-        "url": "https://wgp.shadowverse-wb.com/ja/2026/",
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。各地域大会上位入賞者による招待制大会。一般エントリー不可。開始時刻未発表。"
+        "notes": "Cygames運営公式の11月5日告知で決勝大会12月19日と配信予定を確認。大阪12月5日・東京12月6日の予選から各2名が進出。優勝賞金10万円、Queen’s Premier Championship 26-27参加権。決勝開始時刻・会場は未発表のため終日登録。"
       }
     }
   ]
