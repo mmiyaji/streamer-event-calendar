@@ -621,6 +621,62 @@
     "notes": "REJECT公式の2026年10月30日告知で11月2日～8日の開催を確認。主催者が出演者8名の所属チームでもあり、チームによる出演確認を兼ねる。Day1（11月2日）とDay7（11月8日）は各20:00から各自のYouTubeで配信。Day2～6は任意配信で時刻未確定。期間を終日予定で登録し、endは排他的な11月9日。"
   },
   {
+    "id": "pokemon30-my-pokemon-party-online-20261105",
+    "title": "【グッズ】ポケモン30周年 My Pokémon Party カスタマイズグッズ オンライン発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-05T10:00:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+  },
+  {
+    "id": "pokemon30-timeless-adventure-paldea-online-20261105",
+    "title": "【グッズ】ポケモン30周年 Pokémon Timeless Adventure パルデア オンライン発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-05T10:00:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-regular-stage-day6",
     "title": "League The k4sen Season: Finale Regular Stage DAY6",
     "category": "streamer",
@@ -649,6 +705,62 @@
     "notes": "主催者GANYMEDEの公式発表で本戦開催日を確認。開始時刻および対象配信者の当日の出演は未確認のため終日予定。",
     "verified_at": "2026-10-11T02:21:39+09:00",
     "lastChecked": "2026-10-11T02:21:39+09:00"
+  },
+  {
+    "id": "pokemon30-my-pokemon-party-store-20261107",
+    "title": "【グッズ】ポケモン30周年 My Pokémon Party カスタマイズグッズ 店頭発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-07",
+    "allDay": true,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+  },
+  {
+    "id": "pokemon30-timeless-adventure-paldea-store-20261107",
+    "title": "【グッズ】ポケモン30周年 Pokémon Timeless Adventure パルデア 店頭発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-07",
+    "allDay": true,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
   },
   {
     "id": "svwb-international-wildcard-qualifier-2026",
@@ -741,6 +853,34 @@
     "notes": "プロリーグのレギュラーシーズン第11節前半。開始時刻は未発表のため終日予定として登録。 2026年11月2日、ゲーム運営公式の配信告知で第11節前半の本配信開始が11月11日17:30と確認。カレンダー開始を配信開始時刻に更新。終了時刻は未発表。"
   },
   {
+    "id": "pokemon30-series-history-goods-online-20261112",
+    "title": "【グッズ】ポケモン30周年 歴代マップ・どうろ・名所グッズ オンライン発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-12T10:00:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式11月6日告知。歴代9地方のジオラマオルゴール・ペーパークラフト・額装入りタウンマップ。ポケモンセンターオンライン11月12日10時発売。発売日時点の店頭取扱予定なし。公式グッズAPIの30周年分類でも確認。"
+  },
+  {
     "id": "pokemon30-moncolle-erabu-pikachu-20261114",
     "title": "【グッズ】ポケモン30周年 モンコレ「えらぶピカチュウ」発売",
     "category": "pokemon",
@@ -769,6 +909,35 @@
     "notes": "タカラトミー公式で発売予定日を確認。30周年記念ピカチュウセレクションの新商品。715円（税込）。販売開始時刻は未確認のため終日予定。",
     "verified_at": "2026-10-11T02:21:39+09:00",
     "lastChecked": "2026-10-11T02:21:39+09:00"
+  },
+  {
+    "id": "pokemon30-fender-lottery-20261119",
+    "title": "【グッズ】ポケモン30周年 Fender 赤・緑ギター 抽選販売応募受付開始",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods"
+    ],
+    "verified_at": "2026-11-06T19:07:50.117894+09:00",
+    "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+    "persons": [],
+    "start": "2026-11-19T12:00:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://www.pokemon.co.jp/goods/2026/10/261030_go01.html"
+    ],
+    "url": "https://www.pokemon.co.jp/goods/2026/10/261030_go01.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "公式10月30日告知。ポケモンセンターオンライン抽選販売の応募受付期間。購入確約ではない。抽選結果発表等の詳細は後日発表。",
+    "end": "2026-11-24T16:59:00+09:00"
   },
   {
     "id": "streamer-ltk-finale-2026-playoffs-day1",
