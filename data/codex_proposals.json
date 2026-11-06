@@ -1,36 +1,192 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T19:01:04+09:00",
+  "generated_at": "2026-11-06T19:07:50.117894+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-girls-battle-fes-2026-season4-final",
-        "title": "Shadowverse Girls Battle Fes 2026 Season 4 決勝大会",
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
-        "priority": "normal",
+        "id": "pokemon30-timeless-adventure-paldea-online-20261105",
+        "title": "【グッズ】ポケモン30周年 Pokémon Timeless Adventure パルデア オンライン発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "girls-battle-fes",
-          "season-4",
-          "final"
+          "pokemon",
+          "pokemon30th",
+          "goods"
         ],
-        "verified_at": "2026-11-05T19:01:04+09:00",
-        "lastChecked": "2026-11-05T19:01:04+09:00",
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
         "persons": [],
-        "start": "2026-12-19",
-        "allDay": true,
+        "start": "2026-11-05T10:00:00+09:00",
+        "allDay": false,
         "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7"
+          "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html"
         ],
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M6N70182ZQ4XTX8Y3WZJ29A7",
+        "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html",
         "status": "confirmed",
         "confidence": "high",
-        "notes": "Cygames運営公式の11月5日告知で決勝大会12月19日と配信予定を確認。大阪12月5日・東京12月6日の予選から各2名が進出。優勝賞金10万円、Queen’s Premier Championship 26-27参加権。決勝開始時刻・会場は未発表のため終日登録。"
+        "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-timeless-adventure-paldea-store-20261107",
+        "title": "【グッズ】ポケモン30周年 Pokémon Timeless Adventure パルデア 店頭発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "pokemon30th",
+          "goods"
+        ],
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+        "persons": [],
+        "start": "2026-11-07",
+        "allDay": true,
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html"
+        ],
+        "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to01.html",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-my-pokemon-party-online-20261105",
+        "title": "【グッズ】ポケモン30周年 My Pokémon Party カスタマイズグッズ オンライン発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "pokemon30th",
+          "goods"
+        ],
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+        "persons": [],
+        "start": "2026-11-05T10:00:00+09:00",
+        "allDay": false,
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html"
+        ],
+        "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-my-pokemon-party-store-20261107",
+        "title": "【グッズ】ポケモン30周年 My Pokémon Party カスタマイズグッズ 店頭発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "pokemon30th",
+          "goods"
+        ],
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+        "persons": [],
+        "start": "2026-11-07",
+        "allDay": true,
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html"
+        ],
+        "url": "https://www.pokemon.co.jp/goods/2026/10/261030_to02.html",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "公式10月30日告知。オンライン11月5日10時、店頭11月7日発売。店頭開始時刻は店舗により異なるため終日。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-fender-lottery-20261119",
+        "title": "【グッズ】ポケモン30周年 Fender 赤・緑ギター 抽選販売応募受付開始",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "pokemon30th",
+          "goods"
+        ],
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+        "persons": [],
+        "start": "2026-11-19T12:00:00+09:00",
+        "allDay": false,
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/10/261030_go01.html"
+        ],
+        "url": "https://www.pokemon.co.jp/goods/2026/10/261030_go01.html",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "公式10月30日告知。ポケモンセンターオンライン抽選販売の応募受付期間。購入確約ではない。抽選結果発表等の詳細は後日発表。",
+        "end": "2026-11-24T16:59:00+09:00"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "pokemon30-series-history-goods-online-20261112",
+        "title": "【グッズ】ポケモン30周年 歴代マップ・どうろ・名所グッズ オンライン発売",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "pokemon",
+          "pokemon30th",
+          "goods"
+        ],
+        "verified_at": "2026-11-06T19:07:50.117894+09:00",
+        "lastChecked": "2026-11-06T19:07:50.117894+09:00",
+        "persons": [],
+        "start": "2026-11-12T10:00:00+09:00",
+        "allDay": false,
+        "sourceUrls": [
+          "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html"
+        ],
+        "url": "https://www.pokemon.co.jp/goods/2026/11/261106_to01.html",
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "公式11月6日告知。歴代9地方のジオラマオルゴール・ペーパークラフト・額装入りタウンマップ。ポケモンセンターオンライン11月12日10時発売。発売日時点の店頭取扱予定なし。公式グッズAPIの30周年分類でも確認。"
       }
     }
   ]
