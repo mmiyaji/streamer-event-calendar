@@ -791,6 +791,38 @@
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。各地域大会上位入賞者による招待制大会。一般エントリー不可。開始時刻未発表。"
   },
   {
+    "id": "svwb-online-championship-2026-november-day1-nov8",
+    "title": "【予選】Shadowverse Online Championship 2026 November Day 1（11月8日）",
+    "category": "shadowverse_wb",
+    "type": "qualifier",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "online-championship",
+      "november",
+      "qualifier",
+      "day1",
+      "online"
+    ],
+    "verified_at": "2026-11-07T19:06:25.365638+09:00",
+    "persons": [],
+    "start": "2026-11-08",
+    "end": "2026-11-09",
+    "allDay": true,
+    "location": "オンライン",
+    "url": "https://ocs.shadowverse-wb.com/ja/2026/november/",
+    "sourceUrls": [
+      "https://ocs.shadowverse-wb.com/ja/2026/november/"
+    ],
+    "status": "cancelled",
+    "confidence": "high",
+    "lastChecked": "2026-11-07T19:06:25.365638+09:00",
+    "notes": "Cygamesの大会特設ページで予選Day 1は11月7日のみと確認。11月8日分のカレンダー掲載を取り消す。"
+  },
+  {
     "id": "streamer-ltk-finale-2026-masters-cup-day3",
     "title": "League The k4sen Season: Finale Masters Cup DAY3",
     "category": "streamer",
