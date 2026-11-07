@@ -1,40 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T19:06:25.365638+09:00",
+  "generated_at": "2026-11-08T07:05:13.550291+09:00",
   "changes": [
     {
-      "operation": "cancel",
+      "operation": "upsert",
       "event": {
-        "id": "svwb-online-championship-2026-november-day1-nov8",
-        "title": "【予選】Shadowverse Online Championship 2026 November Day 1（11月8日）",
-        "category": "shadowverse_wb",
-        "type": "qualifier",
-        "game": "shadowverse_wb",
-        "priority": "major",
+        "id": "streamer-reject-varrel-sfl-public-viewing-20261103",
+        "title": "REJECT×VARREL SFL2026 合同PUBLIC VIEWING【第6節】",
+        "category": "streamer",
+        "type": "offline_event",
+        "game": "sf6",
+        "priority": "normal",
         "source": "official",
         "official": true,
-        "region": "global",
+        "region": "jp",
         "tags": [
-          "online-championship",
-          "november",
-          "qualifier",
-          "day1",
-          "online"
+          "sf6",
+          "sfl",
+          "public-viewing",
+          "reject",
+          "varrel"
         ],
-        "verified_at": "2026-11-07T19:06:25.365638+09:00",
-        "persons": [],
-        "start": "2026-11-08",
-        "end": "2026-11-09",
-        "allDay": true,
-        "location": "オンライン",
-        "url": "https://ocs.shadowverse-wb.com/ja/2026/november/",
+        "persons": [
+          "こく兄"
+        ],
+        "start": "2026-11-03T19:00:00+09:00",
+        "allDay": false,
+        "location": "AKIBAカルチャーズ劇場",
+        "url": "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
         "sourceUrls": [
-          "https://ocs.shadowverse-wb.com/ja/2026/november/"
+          "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
+          "https://reject.jp/2026/10/21/20261021-2/"
         ],
-        "status": "cancelled",
         "confidence": "high",
-        "lastChecked": "2026-11-07T19:06:25.365638+09:00",
-        "notes": "Cygamesの大会特設ページで予選Day 1は11月7日のみと確認。11月8日分のカレンダー掲載を取り消す。"
+        "status": "confirmed",
+        "notes": "共催かつこく兄の所属先であるREJECTが、11月3日19時開演とこく兄のMC出演を告知。開場は18時。リーグ本戦とは別の現地観戦イベント。",
+        "verified_at": "2026-11-08T07:05:13.550291+09:00",
+        "lastChecked": "2026-11-08T07:05:13.550291+09:00"
       }
     }
   ]
