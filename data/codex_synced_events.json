@@ -621,6 +621,40 @@
     "notes": "REJECT公式の2026年10月30日告知で11月2日～8日の開催を確認。主催者が出演者8名の所属チームでもあり、チームによる出演確認を兼ねる。Day1（11月2日）とDay7（11月8日）は各20:00から各自のYouTubeで配信。Day2～6は任意配信で時刻未確定。期間を終日予定で登録し、endは排他的な11月9日。"
   },
   {
+    "id": "streamer-reject-varrel-sfl-public-viewing-20261103",
+    "title": "REJECT×VARREL SFL2026 合同PUBLIC VIEWING【第6節】",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "sfl",
+      "public-viewing",
+      "reject",
+      "varrel"
+    ],
+    "persons": [
+      "こく兄"
+    ],
+    "start": "2026-11-03T19:00:00+09:00",
+    "allDay": false,
+    "location": "AKIBAカルチャーズ劇場",
+    "url": "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
+    "sourceUrls": [
+      "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
+      "https://reject.jp/2026/10/21/20261021-2/"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "共催かつこく兄の所属先であるREJECTが、11月3日19時開演とこく兄のMC出演を告知。開場は18時。リーグ本戦とは別の現地観戦イベント。",
+    "verified_at": "2026-11-08T07:05:13.550291+09:00",
+    "lastChecked": "2026-11-08T07:05:13.550291+09:00"
+  },
+  {
     "id": "pokemon30-my-pokemon-party-online-20261105",
     "title": "【グッズ】ポケモン30周年 My Pokémon Party カスタマイズグッズ オンライン発売",
     "category": "pokemon",
