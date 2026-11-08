@@ -1,40 +1,67 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T19:03:15.544778+09:00",
+  "generated_at": "2026-11-09T06:58:39.724956+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "pokemon30-new-era-online-20261120",
-        "title": "【グッズ】ニューエラ × ポケモン30周年 コレクション オンライン発売",
-        "category": "pokemon",
-        "type": "offline_event",
-        "game": "pokemon",
-        "priority": "major",
+        "id": "sf6-scarz-cup-vol2-20261115",
+        "title": "SCARZ CUP STREET FIGHTER6 Vol.2",
+        "category": "sf6",
+        "type": "tournament",
+        "game": "sf6",
+        "start": "2026-11-15T17:00:00+09:00",
+        "allDay": false,
+        "url": "https://x.com/SCARZ5/status/2118991854892916996",
+        "tags": [
+          "sf6",
+          "scarz",
+          "team-tournament"
+        ],
+        "notes": "SCARZ公式の11月7日投稿で11月15日17時開始を確認。終了時刻と配信先は未確認。",
+        "priority": "normal",
+        "verified_at": "2026-11-09T06:58:39.724956+09:00",
+        "lastChecked": "2026-11-09T06:58:39.724956+09:00",
         "source": "official",
         "official": true,
         "region": "jp",
-        "tags": [
-          "pokemon",
-          "pokemon30th",
-          "goods",
-          "apparel",
-          "new-era"
-        ],
         "persons": [],
-        "start": "2026-11-20T10:00:00+09:00",
-        "allDay": false,
-        "url": "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
         "sourceUrls": [
-          "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
-          "https://prtimes.jp/main/html/rd/p/000000565.000015945.html"
+          "https://x.com/SCARZ5/status/2118991854892916996"
         ],
         "confidence": "high",
-        "status": "confirmed",
-        "location": "ニューエラ公式オンラインストア",
-        "notes": "ニューエラ公式オンラインストアで2026年11月20日10時発売。キャップ、Tシャツ、トートバッグなど。プレスリリースでは直営店・取扱店も同日発売。店頭時刻は未確認。",
-        "verified_at": "2026-11-08T19:03:15.544778+09:00",
-        "lastChecked": "2026-11-08T19:03:15.544778+09:00"
+        "status": "confirmed"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-premier-series-wgp-qualifier-2026-broadcast",
+        "title": "Shadowverse Premier Series WGP Qualifier 2026 配信",
+        "category": "shadowverse_wb",
+        "type": "stream",
+        "game": "shadowverse_wb",
+        "start": "2026-11-14",
+        "allDay": true,
+        "url": "https://x.com/shadowversePS/status/2116492896560103747",
+        "tags": [
+          "premier-series",
+          "wgp",
+          "qualifier"
+        ],
+        "notes": "Premier Series公式投稿で11月14日の配信予定を確認。配信開始時刻と試合実施時刻は未確認。",
+        "priority": "major",
+        "verified_at": "2026-11-09T06:58:39.724956+09:00",
+        "lastChecked": "2026-11-09T06:58:39.724956+09:00",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "persons": [],
+        "sourceUrls": [
+          "https://x.com/shadowversePS/status/2116492896560103747"
+        ],
+        "confidence": "high",
+        "status": "confirmed"
       }
     }
   ]
