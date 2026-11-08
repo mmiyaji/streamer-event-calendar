@@ -1,42 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T07:05:13.550291+09:00",
+  "generated_at": "2026-11-08T19:03:15.544778+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-reject-varrel-sfl-public-viewing-20261103",
-        "title": "REJECT×VARREL SFL2026 合同PUBLIC VIEWING【第6節】",
-        "category": "streamer",
+        "id": "pokemon30-new-era-online-20261120",
+        "title": "【グッズ】ニューエラ × ポケモン30周年 コレクション オンライン発売",
+        "category": "pokemon",
         "type": "offline_event",
-        "game": "sf6",
-        "priority": "normal",
+        "game": "pokemon",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "sf6",
-          "sfl",
-          "public-viewing",
-          "reject",
-          "varrel"
+          "pokemon",
+          "pokemon30th",
+          "goods",
+          "apparel",
+          "new-era"
         ],
-        "persons": [
-          "こく兄"
-        ],
-        "start": "2026-11-03T19:00:00+09:00",
+        "persons": [],
+        "start": "2026-11-20T10:00:00+09:00",
         "allDay": false,
-        "location": "AKIBAカルチャーズ劇場",
-        "url": "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
+        "url": "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
         "sourceUrls": [
-          "https://reject.jp/2026/10/28/%E3%80%90event%E3%80%91%E3%80%8Erejectxvarrel-sfl2026-%E5%90%88%E5%90%8Cpublic-viewing%E3%80%8F%E3%82%92%E9%96%8B%E5%82%AC/",
-          "https://reject.jp/2026/10/21/20261021-2/"
+          "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
+          "https://prtimes.jp/main/html/rd/p/000000565.000015945.html"
         ],
         "confidence": "high",
         "status": "confirmed",
-        "notes": "共催かつこく兄の所属先であるREJECTが、11月3日19時開演とこく兄のMC出演を告知。開場は18時。リーグ本戦とは別の現地観戦イベント。",
-        "verified_at": "2026-11-08T07:05:13.550291+09:00",
-        "lastChecked": "2026-11-08T07:05:13.550291+09:00"
+        "location": "ニューエラ公式オンラインストア",
+        "notes": "ニューエラ公式オンラインストアで2026年11月20日10時発売。キャップ、Tシャツ、トートバッグなど。プレスリリースでは直営店・取扱店も同日発売。店頭時刻は未確認。",
+        "verified_at": "2026-11-08T19:03:15.544778+09:00",
+        "lastChecked": "2026-11-08T19:03:15.544778+09:00"
       }
     }
   ]
