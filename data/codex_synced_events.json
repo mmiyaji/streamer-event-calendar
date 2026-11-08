@@ -1006,6 +1006,38 @@
     "end": "2026-11-24T16:59:00+09:00"
   },
   {
+    "id": "pokemon30-new-era-online-20261120",
+    "title": "【グッズ】ニューエラ × ポケモン30周年 コレクション オンライン発売",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods",
+      "apparel",
+      "new-era"
+    ],
+    "persons": [],
+    "start": "2026-11-20T10:00:00+09:00",
+    "allDay": false,
+    "url": "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
+    "sourceUrls": [
+      "https://www.neweracap.jp/blogs/news/11-20-1000-pokemon-30th",
+      "https://prtimes.jp/main/html/rd/p/000000565.000015945.html"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "location": "ニューエラ公式オンラインストア",
+    "notes": "ニューエラ公式オンラインストアで2026年11月20日10時発売。キャップ、Tシャツ、トートバッグなど。プレスリリースでは直営店・取扱店も同日発売。店頭時刻は未確認。",
+    "verified_at": "2026-11-08T19:03:15.544778+09:00",
+    "lastChecked": "2026-11-08T19:03:15.544778+09:00"
+  },
+  {
     "id": "streamer-ltk-finale-2026-playoffs-day1",
     "title": "League The k4sen Season: Finale Playoffs DAY1",
     "category": "streamer",
