@@ -982,24 +982,25 @@
     "category": "shadowverse_wb",
     "type": "stream",
     "game": "shadowverse_wb",
-    "start": "2026-11-14",
-    "allDay": true,
-    "url": "https://x.com/shadowversePS/status/2116492896560103747",
+    "start": "2026-11-14T10:00:00+09:00",
+    "allDay": false,
+    "url": "https://x.com/shadowversePS/status/2119731731834282307",
     "tags": [
       "premier-series",
       "wgp",
       "qualifier"
     ],
-    "notes": "Premier Series公式投稿で11月14日の配信予定を確認。配信開始時刻と試合実施時刻は未確認。",
+    "notes": "Official Premier Series announcement confirms broadcast at 10:00 JST on November 14. End time unconfirmed.",
     "priority": "major",
-    "verified_at": "2026-11-09T06:58:39.724956+09:00",
-    "lastChecked": "2026-11-09T06:58:39.724956+09:00",
+    "verified_at": "2026-11-11T07:00:02.818328+09:00",
+    "lastChecked": "2026-11-11T07:00:02.818328+09:00",
     "source": "official",
     "official": true,
     "region": "jp",
     "persons": [],
     "sourceUrls": [
-      "https://x.com/shadowversePS/status/2116492896560103747"
+      "https://x.com/shadowversePS/status/2119731731834282307",
+      "https://ps.shadowverse-wb.com/26-27/news/375/"
     ],
     "confidence": "high",
     "status": "confirmed"
