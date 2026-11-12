@@ -1,37 +1,104 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T07:00:02.818328+09:00",
+  "generated_at": "2026-11-13T07:04:57.675987+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-premier-series-wgp-qualifier-2026-broadcast",
-        "title": "Shadowverse Premier Series WGP Qualifier 2026 配信",
+        "id": "svwb-online-championship-2026-november-day2-finals",
+        "title": "Shadowverse Online Championship 2026 November Day 2・決勝トーナメント",
         "category": "shadowverse_wb",
-        "type": "stream",
+        "type": "tournament",
         "game": "shadowverse_wb",
-        "start": "2026-11-14T10:00:00+09:00",
-        "allDay": false,
-        "url": "https://x.com/shadowversePS/status/2119731731834282307",
-        "tags": [
-          "premier-series",
-          "wgp",
-          "qualifier"
-        ],
-        "notes": "Official Premier Series announcement confirms broadcast at 10:00 JST on November 14. End time unconfirmed.",
         "priority": "major",
-        "verified_at": "2026-11-11T07:00:02.818328+09:00",
-        "lastChecked": "2026-11-11T07:00:02.818328+09:00",
+        "source": "official",
+        "official": true,
+        "region": "global",
+        "tags": [
+          "online-championship",
+          "november",
+          "day2",
+          "finals",
+          "online"
+        ],
+        "verified_at": "2026-11-13T07:04:57.675987+09:00",
+        "persons": [],
+        "start": "2026-11-15",
+        "end": "2026-11-16",
+        "allDay": true,
+        "location": "オンライン",
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
+        "sourceUrls": [
+          "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
+          "https://ocs.shadowverse-wb.com/ja/2026/november/"
+        ],
+        "status": "confirmed",
+        "confidence": "high",
+        "lastChecked": "2026-11-13T07:04:57.675987+09:00",
+        "notes": "11月15日のDay 2予選と決勝トーナメント。公式告知で決勝配信は15:00開始。https://youtube.com/live/OOAr2oek_1o 予選開始時刻は未確認のため終日予定を維持。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-premier-series-2026-round11-second",
+        "title": "Shadowverse Premier Series 26-27 第11節 後半",
+        "category": "shadowverse_wb",
+        "type": "tournament",
+        "game": "shadowverse_wb",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
-        "persons": [],
-        "sourceUrls": [
-          "https://x.com/shadowversePS/status/2119731731834282307",
-          "https://ps.shadowverse-wb.com/26-27/news/375/"
+        "tags": [
+          "pro-league",
+          "premier-series",
+          "regular-season"
         ],
+        "persons": [],
+        "allDay": false,
+        "location": "オンライン配信",
+        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
+        "status": "confirmed",
         "confidence": "high",
-        "status": "confirmed"
+        "verified_at": "2026-11-13T07:04:57.675987+09:00",
+        "start": "2026-11-18T17:30:00+09:00",
+        "sourceUrls": [
+          "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500"
+        ],
+        "lastChecked": "2026-11-13T07:04:57.675987+09:00",
+        "notes": "公式ゲーム告知で第11節後半の11月18日17:30配信開始を確認。https://youtube.com/live/ZJXPRGt0DF4 終了時刻未確認。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "sf6-tokoyami-festival-3-20261220",
+        "title": "常闇祭3（ストリートファイター6 3on3大会）",
+        "category": "sf6",
+        "type": "tournament",
+        "game": "sf6",
+        "priority": "major",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "sf6",
+          "3on3",
+          "open-tournament"
+        ],
+        "persons": [],
+        "start": "2026-12-20T12:00:00+09:00",
+        "allDay": false,
+        "url": "https://x.com/tokoyamitowa/status/2120148255355109406",
+        "sourceUrls": [
+          "https://x.com/tokoyamitowa/status/2120148255355109406"
+        ],
+        "status": "confirmed",
+        "confidence": "high",
+        "notes": "主催者の常闇トワの公式告知で12月20日12時開始予定を確認。3on3オープントーナメント。時刻は変更の可能性あり。終了時刻未確認。",
+        "verified_at": "2026-11-13T07:04:57.675987+09:00",
+        "lastChecked": "2026-11-13T07:04:57.675987+09:00"
       }
     }
   ]
