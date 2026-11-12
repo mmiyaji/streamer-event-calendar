@@ -1006,6 +1006,39 @@
     "status": "confirmed"
   },
   {
+    "id": "svwb-online-championship-2026-november-day2-finals",
+    "title": "Shadowverse Online Championship 2026 November Day 2・決勝トーナメント",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "global",
+    "tags": [
+      "online-championship",
+      "november",
+      "day2",
+      "finals",
+      "online"
+    ],
+    "verified_at": "2026-11-13T07:04:57.675987+09:00",
+    "persons": [],
+    "start": "2026-11-15",
+    "end": "2026-11-16",
+    "allDay": true,
+    "location": "オンライン",
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
+      "https://ocs.shadowverse-wb.com/ja/2026/november/"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "lastChecked": "2026-11-13T07:04:57.675987+09:00",
+    "notes": "11月15日のDay 2予選と決勝トーナメント。公式告知で決勝配信は15:00開始。https://youtube.com/live/OOAr2oek_1o 予選開始時刻は未確認のため終日予定を維持。"
+  },
+  {
     "id": "sf6-scarz-cup-vol2-20261115",
     "title": "SCARZ CUP STREET FIGHTER6 Vol.2",
     "category": "sf6",
@@ -1032,6 +1065,35 @@
     ],
     "confidence": "high",
     "status": "confirmed"
+  },
+  {
+    "id": "svwb-premier-series-2026-round11-second",
+    "title": "Shadowverse Premier Series 26-27 第11節 後半",
+    "category": "shadowverse_wb",
+    "type": "tournament",
+    "game": "shadowverse_wb",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pro-league",
+      "premier-series",
+      "regular-season"
+    ],
+    "persons": [],
+    "allDay": false,
+    "location": "オンライン配信",
+    "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
+    "status": "confirmed",
+    "confidence": "high",
+    "verified_at": "2026-11-13T07:04:57.675987+09:00",
+    "start": "2026-11-18T17:30:00+09:00",
+    "sourceUrls": [
+      "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500"
+    ],
+    "lastChecked": "2026-11-13T07:04:57.675987+09:00",
+    "notes": "公式ゲーム告知で第11節後半の11月18日17:30配信開始を確認。https://youtube.com/live/ZJXPRGt0DF4 終了時刻未確認。"
   },
   {
     "id": "pokemon30-fender-lottery-20261119",
@@ -1268,5 +1330,33 @@
     "status": "confirmed",
     "confidence": "high",
     "notes": "Cygames公式ニュース本文を公開Information API経由で確認。Winter Grand Finalsは12月19日開催・配信予定。11月予選は11月23日、エントリーは10月30日〜11月15日23:59。Grand Finals優勝賞金30万円、準優勝15万円。開始時刻・会場は本文未記載のため終日登録。"
+  },
+  {
+    "id": "sf6-tokoyami-festival-3-20261220",
+    "title": "常闇祭3（ストリートファイター6 3on3大会）",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "3on3",
+      "open-tournament"
+    ],
+    "persons": [],
+    "start": "2026-12-20T12:00:00+09:00",
+    "allDay": false,
+    "url": "https://x.com/tokoyamitowa/status/2120148255355109406",
+    "sourceUrls": [
+      "https://x.com/tokoyamitowa/status/2120148255355109406"
+    ],
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "主催者の常闇トワの公式告知で12月20日12時開始予定を確認。3on3オープントーナメント。時刻は変更の可能性あり。終了時刻未確認。",
+    "verified_at": "2026-11-13T07:04:57.675987+09:00",
+    "lastChecked": "2026-11-13T07:04:57.675987+09:00"
   }
 ]
