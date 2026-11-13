@@ -1358,5 +1358,35 @@
     "notes": "主催者の常闇トワの公式告知で12月20日12時開始予定を確認。3on3オープントーナメント。時刻は変更の可能性あり。終了時刻未確認。",
     "verified_at": "2026-11-13T07:04:57.675987+09:00",
     "lastChecked": "2026-11-13T07:04:57.675987+09:00"
+  },
+  {
+    "id": "streamer-lmtm-the-k4sen-20261227",
+    "title": "LMTM The k4sen",
+    "category": "streamer",
+    "type": "stream",
+    "game": null,
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "k4sen",
+      "The k4sen",
+      "UltraLMTM"
+    ],
+    "verified_at": "2026-11-13T19:08:50.579626+09:00",
+    "lastChecked": "2026-11-13T19:08:50.579626+09:00",
+    "persons": [
+      "k4sen"
+    ],
+    "start": "2026-12-27T19:00:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000239.000041650.html"
+    ],
+    "url": "https://prtimes.jp/main/html/rd/p/000000239.000041650.html",
+    "status": "confirmed",
+    "confidence": "high",
+    "notes": "GANYMEDE株式会社の公式発表。k4senプロデュースのUltraLMTM企画として、8名のCREWがゲストとさまざまなゲームに挑戦する「The k4sen」シリーズ。2026年12月27日19:00開始。終了時刻・ゲストは未発表。"
   }
 ]
