@@ -1,104 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T07:04:57.675987+09:00",
+  "generated_at": "2026-11-13T19:08:50.579626+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "svwb-online-championship-2026-november-day2-finals",
-        "title": "Shadowverse Online Championship 2026 November Day 2・決勝トーナメント",
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "global",
-        "tags": [
-          "online-championship",
-          "november",
-          "day2",
-          "finals",
-          "online"
-        ],
-        "verified_at": "2026-11-13T07:04:57.675987+09:00",
-        "persons": [],
-        "start": "2026-11-15",
-        "end": "2026-11-16",
-        "allDay": true,
-        "location": "オンライン",
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
-        "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M4AE4XXXR7NNMXEFD95BM8F1",
-          "https://ocs.shadowverse-wb.com/ja/2026/november/"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "lastChecked": "2026-11-13T07:04:57.675987+09:00",
-        "notes": "11月15日のDay 2予選と決勝トーナメント。公式告知で決勝配信は15:00開始。https://youtube.com/live/OOAr2oek_1o 予選開始時刻は未確認のため終日予定を維持。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "svwb-premier-series-2026-round11-second",
-        "title": "Shadowverse Premier Series 26-27 第11節 後半",
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
+        "id": "streamer-lmtm-the-k4sen-20261227",
+        "title": "LMTM The k4sen",
+        "category": "streamer",
+        "type": "stream",
+        "game": null,
         "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "pro-league",
-          "premier-series",
-          "regular-season"
+          "k4sen",
+          "The k4sen",
+          "UltraLMTM"
         ],
-        "persons": [],
+        "verified_at": "2026-11-13T19:08:50.579626+09:00",
+        "lastChecked": "2026-11-13T19:08:50.579626+09:00",
+        "persons": [
+          "k4sen"
+        ],
+        "start": "2026-12-27T19:00:00+09:00",
         "allDay": false,
-        "location": "オンライン配信",
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500",
+        "sourceUrls": [
+          "https://prtimes.jp/main/html/rd/p/000000239.000041650.html"
+        ],
+        "url": "https://prtimes.jp/main/html/rd/p/000000239.000041650.html",
         "status": "confirmed",
         "confidence": "high",
-        "verified_at": "2026-11-13T07:04:57.675987+09:00",
-        "start": "2026-11-18T17:30:00+09:00",
-        "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01KXF1ZRYDMW741ZXN5BMJ4500"
-        ],
-        "lastChecked": "2026-11-13T07:04:57.675987+09:00",
-        "notes": "公式ゲーム告知で第11節後半の11月18日17:30配信開始を確認。https://youtube.com/live/ZJXPRGt0DF4 終了時刻未確認。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "sf6-tokoyami-festival-3-20261220",
-        "title": "常闇祭3（ストリートファイター6 3on3大会）",
-        "category": "sf6",
-        "type": "tournament",
-        "game": "sf6",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "sf6",
-          "3on3",
-          "open-tournament"
-        ],
-        "persons": [],
-        "start": "2026-12-20T12:00:00+09:00",
-        "allDay": false,
-        "url": "https://x.com/tokoyamitowa/status/2120148255355109406",
-        "sourceUrls": [
-          "https://x.com/tokoyamitowa/status/2120148255355109406"
-        ],
-        "status": "confirmed",
-        "confidence": "high",
-        "notes": "主催者の常闇トワの公式告知で12月20日12時開始予定を確認。3on3オープントーナメント。時刻は変更の可能性あり。終了時刻未確認。",
-        "verified_at": "2026-11-13T07:04:57.675987+09:00",
-        "lastChecked": "2026-11-13T07:04:57.675987+09:00"
+        "notes": "GANYMEDE株式会社の公式発表。k4senプロデュースのUltraLMTM企画として、8名のCREWがゲストとさまざまなゲームに挑戦する「The k4sen」シリーズ。2026年12月27日19:00開始。終了時刻・ゲストは未発表。"
       }
     }
   ]
