@@ -1247,6 +1247,36 @@
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。スイスドロー7回戦とプレーオフ最大2回戦。開始時刻未発表。"
   },
   {
+    "id": "sf6-zenkoku-todofuken-2026-exhibition",
+    "title": "全国都道府県対抗eスポーツ選手権2026 SF6東西対抗エキシビション",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "jesu",
+      "zenkoku-todofuken-2026",
+      "exhibition"
+    ],
+    "verified_at": "2026-11-15T07:02:28+09:00",
+    "lastChecked": "2026-11-15T07:02:28+09:00",
+    "persons": [],
+    "start": "2026-12-12",
+    "end": "2026-12-14",
+    "allDay": true,
+    "url": "https://prtimes.jp/a/?c=39144&f=d39144-230-d18dce1b340bc001bd5ee21b2eb11e03.pdf&r=230",
+    "sourceUrls": [
+      "https://prtimes.jp/a/?c=39144&f=d39144-230-d18dce1b340bc001bd5ee21b2eb11e03.pdf&r=230"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "JESUの2026年11月5日発表で、全国都道府県対抗eスポーツ選手権2026のストリートファイター6エキシビションを確認。東日本代表4チームと西日本代表4チームの東西対抗団体戦。大会全体の日程は12月12日（土）・13日（日）。SF6試合の個別日・時刻は未公表のため、2日間の開催範囲を終日で記載。"
+  },
+  {
     "id": "svwb-world-grand-prix-2026-grand-finals",
     "title": "Shadowverse World Grand Prix 2026 Grand Finals",
     "category": "shadowverse_wb",
@@ -1388,5 +1418,35 @@
     "status": "confirmed",
     "confidence": "high",
     "notes": "GANYMEDE株式会社の公式発表。k4senプロデュースのUltraLMTM企画として、8名のCREWがゲストとさまざまなゲームに挑戦する「The k4sen」シリーズ。2026年12月27日19:00開始。終了時刻・ゲストは未発表。"
+  },
+  {
+    "id": "sf6-tokyo-esports-festa-2027",
+    "title": "東京eスポーツフェスタ2027「TOPANGAチャリティーカップ」",
+    "category": "sf6",
+    "type": "tournament",
+    "game": "sf6",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "tokyo-esports-festa",
+      "topanga-charity-cup"
+    ],
+    "verified_at": "2026-11-15T07:02:28+09:00",
+    "lastChecked": "2026-11-15T07:02:28+09:00",
+    "persons": [],
+    "start": "2027-01-23",
+    "end": "2027-01-25",
+    "allDay": true,
+    "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111234",
+    "sourceUrls": [
+      "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111234",
+      "https://www.metro.tokyo.lg.jp/documents/d/tosei/20261112_08_02"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "東京都の2026年11月12日発表および別紙2で確認。東京eスポーツフェスタ2027内の「TOPANGAチャリティーカップ」として実施。大会日程は2027年1月23日（土）〜24日（日）、5人1組のチーム戦でダブルエリミネーション、FT1/BO1形式。会場は東京国際フォーラム。開始時刻は未発表のため終日扱い。エントリー期間は大会開始日時として扱っていない。"
   }
 ]
