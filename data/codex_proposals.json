@@ -1,71 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T07:02:28+09:00",
+  "generated_at": "2026-11-16T18:59:30+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "sf6-tokyo-esports-festa-2027",
-        "title": "東京eスポーツフェスタ2027「TOPANGAチャリティーカップ」",
-        "category": "sf6",
-        "type": "tournament",
-        "game": "sf6",
-        "priority": "major",
+        "id": "streamer-hyg-road-to-hyper-4-20261119",
+        "title": "配信者ハイパーゲーム大会FINAL ROAD TO HYPER #4 公開",
+        "category": "streamer",
+        "type": "stream",
+        "game": null,
+        "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "sf6",
-          "tokyo-esports-festa",
-          "topanga-charity-cup"
+          "streamer",
+          "hyg-final",
+          "road-to-hyper"
         ],
-        "verified_at": "2026-11-15T07:02:28+09:00",
-        "lastChecked": "2026-11-15T07:02:28+09:00",
+        "verified_at": "2026-11-16T18:59:30+09:00",
+        "lastChecked": "2026-11-16T18:59:30+09:00",
         "persons": [],
-        "start": "2027-01-23",
-        "end": "2027-01-25",
+        "start": "2026-11-19",
         "allDay": true,
-        "url": "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111234",
+        "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
         "sourceUrls": [
-          "https://www.metro.tokyo.lg.jp/information/press/2026/11/2026111234",
-          "https://www.metro.tokyo.lg.jp/documents/d/tosei/20261112_08_02"
+          "https://www.mellow-fan.com/ppv/hyper-game-event3"
         ],
         "confidence": "high",
         "status": "confirmed",
-        "notes": "東京都の2026年11月12日発表および別紙2で確認。東京eスポーツフェスタ2027内の「TOPANGAチャリティーカップ」として実施。大会日程は2027年1月23日（土）〜24日（日）、5人1組のチーム戦でダブルエリミネーション、FT1/BO1形式。会場は東京国際フォーラム。開始時刻は未発表のため終日扱い。エントリー期間は大会開始日時として扱っていない。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "id": "sf6-zenkoku-todofuken-2026-exhibition",
-        "title": "全国都道府県対抗eスポーツ選手権2026 SF6東西対抗エキシビション",
-        "category": "sf6",
-        "type": "tournament",
-        "game": "sf6",
-        "priority": "major",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "tags": [
-          "sf6",
-          "jesu",
-          "zenkoku-todofuken-2026",
-          "exhibition"
-        ],
-        "verified_at": "2026-11-15T07:02:28+09:00",
-        "lastChecked": "2026-11-15T07:02:28+09:00",
-        "persons": [],
-        "start": "2026-12-12",
-        "end": "2026-12-14",
-        "allDay": true,
-        "url": "https://prtimes.jp/a/?c=39144&f=d39144-230-d18dce1b340bc001bd5ee21b2eb11e03.pdf&r=230",
-        "sourceUrls": [
-          "https://prtimes.jp/a/?c=39144&f=d39144-230-d18dce1b340bc001bd5ee21b2eb11e03.pdf&r=230"
-        ],
-        "confidence": "high",
-        "status": "confirmed",
-        "notes": "JESUの2026年11月5日発表で、全国都道府県対抗eスポーツ選手権2026のストリートファイター6エキシビションを確認。東日本代表4チームと西日本代表4チームの東西対抗団体戦。大会全体の日程は12月12日（土）・13日（日）。SF6試合の個別日・時刻は未公表のため、2日間の開催範囲を終日で記載。"
+        "notes": "OPENRECの公式mellow-fan PPVページで、ドキュメンタリー「ROAD TO HYPER」#4「リハ＆本番密着」のプレミア公開予定日を2026年11月19日（木）と確認。公開時刻は記載なし。ページ上でスケジュールは予定と明記されているため終日扱いとし、時刻は設定していない。"
       }
     }
   ]
