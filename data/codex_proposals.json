@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T18:59:30+09:00",
+  "generated_at": "2026-11-18T18:58:50+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-hyg-road-to-hyper-4-20261119",
-        "title": "配信者ハイパーゲーム大会FINAL ROAD TO HYPER #4 公開",
+        "id": "streamer-zuzu-block-20270109",
+        "title": "ズズ お笑いネタ単独ライブ「BLOCK」",
         "category": "streamer",
-        "type": "stream",
+        "type": "offline_event",
         "game": null,
         "priority": "normal",
         "source": "official",
@@ -16,21 +16,27 @@
         "region": "jp",
         "tags": [
           "streamer",
-          "hyg-final",
-          "road-to-hyper"
+          "zuzu",
+          "reject",
+          "live",
+          "comedy"
         ],
-        "verified_at": "2026-11-16T18:59:30+09:00",
-        "lastChecked": "2026-11-16T18:59:30+09:00",
-        "persons": [],
-        "start": "2026-11-19",
+        "verified_at": "2026-11-18T18:58:50+09:00",
+        "lastChecked": "2026-11-18T18:58:50+09:00",
+        "persons": [
+          "ズズ"
+        ],
+        "start": "2027-01-09",
         "allDay": true,
-        "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
+        "location": "草月ホール（東京都港区）",
+        "url": "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
         "sourceUrls": [
-          "https://www.mellow-fan.com/ppv/hyper-game-event3"
+          "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
+          "https://reject.jp/member/zuzu/"
         ],
         "confidence": "high",
         "status": "confirmed",
-        "notes": "OPENRECの公式mellow-fan PPVページで、ドキュメンタリー「ROAD TO HYPER」#4「リハ＆本番密着」のプレミア公開予定日を2026年11月19日（木）と確認。公開時刻は記載なし。ページ上でスケジュールは予定と明記されているため終日扱いとし、時刻は設定していない。"
+        "notes": "REJECT公式発表にて、所属ストリーマー・ズズによる単独ライブ「BLOCK」を2027年1月9日に草月ホールで昼夜2公演開催と確認。昼公演は13:15開演、夜公演は18:00開演。複数公演のため同日終日予定として登録。公式プロフィールで所属を確認。"
       }
     }
   ]
