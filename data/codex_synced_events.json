@@ -1448,6 +1448,40 @@
     "notes": "GANYMEDE株式会社の公式発表。k4senプロデュースのUltraLMTM企画として、8名のCREWがゲストとさまざまなゲームに挑戦する「The k4sen」シリーズ。2026年12月27日19:00開始。終了時刻・ゲストは未発表。"
   },
   {
+    "id": "streamer-zuzu-block-20270109",
+    "title": "ズズ お笑いネタ単独ライブ「BLOCK」",
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "streamer",
+      "zuzu",
+      "reject",
+      "live",
+      "comedy"
+    ],
+    "verified_at": "2026-11-18T18:58:50+09:00",
+    "lastChecked": "2026-11-18T18:58:50+09:00",
+    "persons": [
+      "ズズ"
+    ],
+    "start": "2027-01-09",
+    "allDay": true,
+    "location": "草月ホール（東京都港区）",
+    "url": "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
+    "sourceUrls": [
+      "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
+      "https://reject.jp/member/zuzu/"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "REJECT公式発表にて、所属ストリーマー・ズズによる単独ライブ「BLOCK」を2027年1月9日に草月ホールで昼夜2公演開催と確認。昼公演は13:15開演、夜公演は18:00開演。複数公演のため同日終日予定として登録。公式プロフィールで所属を確認。"
+  },
+  {
     "id": "sf6-tokyo-esports-festa-2027",
     "title": "東京eスポーツフェスタ2027「TOPANGAチャリティーカップ」",
     "category": "sf6",
