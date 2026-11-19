@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T18:58:50+09:00",
+  "generated_at": "2026-11-19T18:59:31+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-zuzu-block-20270109",
-        "title": "ズズ お笑いネタ単独ライブ「BLOCK」",
+        "id": "streamer-hyg-hyper-draft-meeting-20261119",
+        "title": "配信者ハイパーゲーム大会 FINAL ハイパードラフト会議",
         "category": "streamer",
-        "type": "offline_event",
+        "type": "stream",
         "game": null,
         "priority": "normal",
         "source": "official",
@@ -16,27 +16,25 @@
         "region": "jp",
         "tags": [
           "streamer",
-          "zuzu",
-          "reject",
-          "live",
-          "comedy"
+          "hyper-game-final",
+          "draft"
         ],
-        "verified_at": "2026-11-18T18:58:50+09:00",
-        "lastChecked": "2026-11-18T18:58:50+09:00",
+        "verified_at": "2026-11-19T18:59:31+09:00",
+        "lastChecked": "2026-11-19T18:59:31+09:00",
         "persons": [
-          "ズズ"
+          "加藤純一"
         ],
-        "start": "2027-01-09",
-        "allDay": true,
-        "location": "草月ホール（東京都港区）",
-        "url": "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
+        "start": "2026-11-19T20:00:00+09:00",
+        "allDay": false,
         "sourceUrls": [
-          "https://reject.jp/2026/11/17/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E3%82%BA%E3%82%BA%E3%80%81%E3%80%8E%E3%82%BA%E3%82%BA-%E3%81%8A%E7%AC%91%E3%81%84%E3%83%8D%E3%82%BF%E5%8D%98/",
-          "https://reject.jp/member/zuzu/"
+          "https://www.youtube.com/live/iWpysPgxGLk",
+          "https://lp.openrec.jp/hyper-game-event-final/",
+          "https://x.com/unkochan1234567/status/2122564886589022713"
         ],
+        "url": "https://www.youtube.com/live/iWpysPgxGLk",
         "confidence": "high",
         "status": "confirmed",
-        "notes": "REJECT公式発表にて、所属ストリーマー・ズズによる単独ライブ「BLOCK」を2027年1月9日に草月ホールで昼夜2公演開催と確認。昼公演は13:15開演、夜公演は18:00開演。複数公演のため同日終日予定として登録。公式プロフィールで所属を確認。"
+        "notes": "配信者ハイパーゲーム大会 FINAL公式アカウントの告知で、ハイパードラフト会議を11月19日20:00からYouTubeおよび加藤純一Twitchで配信すると確認。加藤純一公式アカウントも「ハイゲのドラフトは19日」と案内。公式イベントサイトはドラフト会議後に各チームのメンバーを発表予定と案内。"
       }
     }
   ]
