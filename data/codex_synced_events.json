@@ -1279,6 +1279,37 @@
     "lastChecked": "2026-10-25T19:03:46+09:00"
   },
   {
+    "id": "streamer-hyg-road-to-hyper-5-20261126",
+    "title": "ROAD TO HYPER #5",
+    "category": "streamer",
+    "type": "stream",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "streamer",
+      "hyper-game-final",
+      "road-to-hyper"
+    ],
+    "verified_at": "2026-11-20T19:01:11+09:00",
+    "lastChecked": "2026-11-20T19:01:11+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "start": "2026-11-26",
+    "allDay": true,
+    "sourceUrls": [
+      "https://www.mellow-fan.com/ppv/hyper-game-event3",
+      "https://lp.openrec.jp/hyper-game-event-final/"
+    ],
+    "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "公式mellow-fanのPPV案内で、全6話のROAD TO HYPER公開スケジュールに#5を11月26日(木)プレミア公開予定と掲載。開始時刻と個別エピソード名は未発表。公式イベントサイトでは加藤純一をMAIN CASTER、ROAD TO HYPERを大会舞台裏のドキュメンタリーと案内。"
+  },
+  {
     "id": "svwb-world-grand-prix-2026-day1",
     "title": "Shadowverse World Grand Prix 2026 Day 1",
     "category": "shadowverse_wb",
@@ -1363,6 +1394,37 @@
     "status": "confirmed",
     "confidence": "high",
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。公式記載は開催日・開場時間10:00（チケット購入者は9:30入場可）。試合開始時刻との区別が不明なため終日登録。"
+  },
+  {
+    "id": "streamer-hyg-road-to-hyper-6-20261216",
+    "title": "ROAD TO HYPER #6（最終回）",
+    "category": "streamer",
+    "type": "stream",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "streamer",
+      "hyper-game-final",
+      "road-to-hyper"
+    ],
+    "verified_at": "2026-11-20T19:01:11+09:00",
+    "lastChecked": "2026-11-20T19:01:11+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "start": "2026-12-16",
+    "allDay": true,
+    "sourceUrls": [
+      "https://www.mellow-fan.com/ppv/hyper-game-event3",
+      "https://lp.openrec.jp/hyper-game-event-final/"
+    ],
+    "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "公式mellow-fanのPPV案内で、全6話のROAD TO HYPER公開スケジュールに#6（最終話）を12月16日(水)プレミア公開予定と掲載。開始時刻と個別エピソード名は未発表。公式イベントサイトでは加藤純一をMAIN CASTER、ROAD TO HYPERを大会舞台裏のドキュメンタリーと案内。"
   },
   {
     "id": "svwb-girls-battle-fes-2026-season4-final",
