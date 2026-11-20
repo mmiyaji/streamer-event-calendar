@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T18:59:31+09:00",
+  "generated_at": "2026-11-20T19:01:11+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-hyg-hyper-draft-meeting-20261119",
-        "title": "配信者ハイパーゲーム大会 FINAL ハイパードラフト会議",
+        "id": "streamer-hyg-road-to-hyper-5-20261126",
+        "title": "ROAD TO HYPER #5",
         "category": "streamer",
         "type": "stream",
         "game": null,
@@ -17,24 +17,57 @@
         "tags": [
           "streamer",
           "hyper-game-final",
-          "draft"
+          "road-to-hyper"
         ],
-        "verified_at": "2026-11-19T18:59:31+09:00",
-        "lastChecked": "2026-11-19T18:59:31+09:00",
+        "verified_at": "2026-11-20T19:01:11+09:00",
+        "lastChecked": "2026-11-20T19:01:11+09:00",
         "persons": [
           "加藤純一"
         ],
-        "start": "2026-11-19T20:00:00+09:00",
-        "allDay": false,
+        "start": "2026-11-26",
+        "allDay": true,
         "sourceUrls": [
-          "https://www.youtube.com/live/iWpysPgxGLk",
-          "https://lp.openrec.jp/hyper-game-event-final/",
-          "https://x.com/unkochan1234567/status/2122564886589022713"
+          "https://www.mellow-fan.com/ppv/hyper-game-event3",
+          "https://lp.openrec.jp/hyper-game-event-final/"
         ],
-        "url": "https://www.youtube.com/live/iWpysPgxGLk",
+        "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
         "confidence": "high",
         "status": "confirmed",
-        "notes": "配信者ハイパーゲーム大会 FINAL公式アカウントの告知で、ハイパードラフト会議を11月19日20:00からYouTubeおよび加藤純一Twitchで配信すると確認。加藤純一公式アカウントも「ハイゲのドラフトは19日」と案内。公式イベントサイトはドラフト会議後に各チームのメンバーを発表予定と案内。"
+        "notes": "公式mellow-fanのPPV案内で、全6話のROAD TO HYPER公開スケジュールに#5を11月26日(木)プレミア公開予定と掲載。開始時刻と個別エピソード名は未発表。公式イベントサイトでは加藤純一をMAIN CASTER、ROAD TO HYPERを大会舞台裏のドキュメンタリーと案内。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "streamer-hyg-road-to-hyper-6-20261216",
+        "title": "ROAD TO HYPER #6（最終回）",
+        "category": "streamer",
+        "type": "stream",
+        "game": null,
+        "priority": "normal",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "streamer",
+          "hyper-game-final",
+          "road-to-hyper"
+        ],
+        "verified_at": "2026-11-20T19:01:11+09:00",
+        "lastChecked": "2026-11-20T19:01:11+09:00",
+        "persons": [
+          "加藤純一"
+        ],
+        "start": "2026-12-16",
+        "allDay": true,
+        "sourceUrls": [
+          "https://www.mellow-fan.com/ppv/hyper-game-event3",
+          "https://lp.openrec.jp/hyper-game-event-final/"
+        ],
+        "url": "https://www.mellow-fan.com/ppv/hyper-game-event3",
+        "confidence": "high",
+        "status": "confirmed",
+        "notes": "公式mellow-fanのPPV案内で、全6話のROAD TO HYPER公開スケジュールに#6（最終話）を12月16日(水)プレミア公開予定と掲載。開始時刻と個別エピソード名は未発表。公式イベントサイトでは加藤純一をMAIN CASTER、ROAD TO HYPERを大会舞台裏のドキュメンタリーと案内。"
       }
     }
   ]
