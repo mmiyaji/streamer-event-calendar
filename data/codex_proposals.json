@@ -1,40 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T07:02:21+09:00",
+  "generated_at": "2026-11-22T06:59:21+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "streamer-niconico-20th-special-20261212",
-        "title": "ニコニコ20年分のほっこり話をひろゆきが全部ぶち壊すのを百花繚乱が止めますスペシャル",
-        "category": "streamer",
-        "type": "stream",
-        "game": null,
-        "priority": "normal",
+        "id": "pokemon30-card-illustration-figures-20261127",
+        "title": "ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATION 発売（抽選販売）",
+        "category": "pokemon",
+        "type": "offline_event",
+        "game": "pokemon",
+        "priority": "major",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "streamer",
-          "niconico",
-          "20th-anniversary"
+          "pokemon",
+          "pokemon30th",
+          "goods",
+          "release"
         ],
-        "verified_at": "2026-11-21T07:02:21+09:00",
-        "lastChecked": "2026-11-21T07:02:21+09:00",
-        "persons": [
-          "加藤純一"
-        ],
-        "start": "2026-12-12T19:00:00+09:00",
-        "end": "2026-12-12T21:30:00+09:00",
-        "allDay": false,
+        "verified_at": "2026-11-22T06:59:21+09:00",
+        "lastChecked": "2026-11-22T06:59:21+09:00",
+        "persons": [],
+        "start": "2026-11-27",
+        "allDay": true,
+        "url": "https://www.pokemon-card.com/info/005764.html",
         "sourceUrls": [
-          "https://dwango.co.jp/news/5136919772004352/?lang=ja",
-          "https://live.nicovideo.jp/watch/lv351755512"
+          "https://www.pokemon-card.com/info/005764.html",
+          "https://www.pokemoncenter-online.com/news/?id=20261120"
         ],
-        "url": "https://live.nicovideo.jp/watch/lv351755512",
         "confidence": "high",
         "status": "confirmed",
-        "notes": "ドワンゴの2026年11月12日付公式発表で、ニコニコ20周年記念特番として12月12日(土)19:00〜21:30に放送、加藤純一が出演、視聴先はニコニコ生放送と確認。ニコニコ公式発表を根拠とする。"
+        "notes": "ポケモンカードゲーム公式が2026年11月20日に商品名と2026年11月27日発売、販売店舗をポケモンセンターオンラインと告知。ポケモンセンターオンラインは抽選販売と発表。抽選応募の受付期間は告知ページ内の画像情報から確認できず未確認。"
       }
     }
   ]
