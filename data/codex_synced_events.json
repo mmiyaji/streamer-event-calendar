@@ -1310,6 +1310,36 @@
     "notes": "公式mellow-fanのPPV案内で、全6話のROAD TO HYPER公開スケジュールに#5を11月26日(木)プレミア公開予定と掲載。開始時刻と個別エピソード名は未発表。公式イベントサイトでは加藤純一をMAIN CASTER、ROAD TO HYPERを大会舞台裏のドキュメンタリーと案内。"
   },
   {
+    "id": "pokemon30-card-illustration-figures-20261127",
+    "title": "ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATION 発売（抽選販売）",
+    "category": "pokemon",
+    "type": "offline_event",
+    "game": "pokemon",
+    "priority": "major",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "pokemon",
+      "pokemon30th",
+      "goods",
+      "release"
+    ],
+    "verified_at": "2026-11-22T06:59:21+09:00",
+    "lastChecked": "2026-11-22T06:59:21+09:00",
+    "persons": [],
+    "start": "2026-11-27",
+    "allDay": true,
+    "url": "https://www.pokemon-card.com/info/005764.html",
+    "sourceUrls": [
+      "https://www.pokemon-card.com/info/005764.html",
+      "https://www.pokemoncenter-online.com/news/?id=20261120"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "ポケモンカードゲーム公式が2026年11月20日に商品名と2026年11月27日発売、販売店舗をポケモンセンターオンラインと告知。ポケモンセンターオンラインは抽選販売と発表。抽選応募の受付期間は告知ページ内の画像情報から確認できず未確認。"
+  },
+  {
     "id": "svwb-world-grand-prix-2026-day1",
     "title": "Shadowverse World Grand Prix 2026 Day 1",
     "category": "shadowverse_wb",
