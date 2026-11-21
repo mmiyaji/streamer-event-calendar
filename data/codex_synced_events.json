@@ -1396,6 +1396,38 @@
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。公式記載は開催日・開場時間10:00（チケット購入者は9:30入場可）。試合開始時刻との区別が不明なため終日登録。"
   },
   {
+    "id": "streamer-niconico-20th-special-20261212",
+    "title": "ニコニコ20年分のほっこり話をひろゆきが全部ぶち壊すのを百花繚乱が止めますスペシャル",
+    "category": "streamer",
+    "type": "stream",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "streamer",
+      "niconico",
+      "20th-anniversary"
+    ],
+    "verified_at": "2026-11-21T07:02:21+09:00",
+    "lastChecked": "2026-11-21T07:02:21+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "start": "2026-12-12T19:00:00+09:00",
+    "end": "2026-12-12T21:30:00+09:00",
+    "allDay": false,
+    "sourceUrls": [
+      "https://dwango.co.jp/news/5136919772004352/?lang=ja",
+      "https://live.nicovideo.jp/watch/lv351755512"
+    ],
+    "url": "https://live.nicovideo.jp/watch/lv351755512",
+    "confidence": "high",
+    "status": "confirmed",
+    "notes": "ドワンゴの2026年11月12日付公式発表で、ニコニコ20周年記念特番として12月12日(土)19:00〜21:30に放送、加藤純一が出演、視聴先はニコニコ生放送と確認。ニコニコ公式発表を根拠とする。"
+  },
+  {
     "id": "streamer-hyg-road-to-hyper-6-20261216",
     "title": "ROAD TO HYPER #6（最終回）",
     "category": "streamer",
