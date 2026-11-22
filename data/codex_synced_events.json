@@ -1458,6 +1458,39 @@
     "notes": "ドワンゴの2026年11月12日付公式発表で、ニコニコ20周年記念特番として12月12日(土)19:00〜21:30に放送、加藤純一が出演、視聴先はニコニコ生放送と確認。ニコニコ公式発表を根拠とする。"
   },
   {
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "hyper-game-final",
+      "memorial-cafe",
+      "collaboration-cafe"
+    ],
+    "verified_at": "2026-11-22T19:00:44+09:00",
+    "lastChecked": "2026-11-22T19:00:44+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "allDay": true,
+    "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+    "sourceUrls": [
+      "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+      "https://towershibuya.jp/news/2026/11/21/237728"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "id": "hypergame-final-memorial-cafe-shibuya-20261215",
+    "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（渋谷）",
+    "start": "2026-12-15",
+    "end": "2027-01-12",
+    "location": "TOWER RECORDS CAFE 渋谷店",
+    "notes": "2026年12月15日から2027年1月11日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
+  },
+  {
     "id": "streamer-hyg-road-to-hyper-6-20261216",
     "title": "ROAD TO HYPER #6（最終回）",
     "category": "streamer",
@@ -1574,6 +1607,39 @@
     "lastChecked": "2026-11-13T07:04:57.675987+09:00"
   },
   {
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "hyper-game-final",
+      "memorial-cafe",
+      "collaboration-cafe"
+    ],
+    "verified_at": "2026-11-22T19:00:44+09:00",
+    "lastChecked": "2026-11-22T19:00:44+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "allDay": true,
+    "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+    "sourceUrls": [
+      "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+      "https://towershibuya.jp/news/2026/11/21/237728"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "id": "hypergame-final-memorial-cafe-fukuoka-20261224",
+    "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（福岡）",
+    "start": "2026-12-24",
+    "end": "2027-01-16",
+    "location": "TOWER RECORDS CAFE 福岡店",
+    "notes": "2026年12月24日から2027年1月15日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
+  },
+  {
     "id": "streamer-lmtm-the-k4sen-20261227",
     "title": "LMTM The k4sen",
     "category": "streamer",
@@ -1602,6 +1668,39 @@
     "status": "confirmed",
     "confidence": "high",
     "notes": "GANYMEDE株式会社の公式発表。k4senプロデュースのUltraLMTM企画として、8名のCREWがゲストとさまざまなゲームに挑戦する「The k4sen」シリーズ。2026年12月27日19:00開始。終了時刻・ゲストは未発表。"
+  },
+  {
+    "category": "streamer",
+    "type": "offline_event",
+    "game": null,
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "hyper-game-final",
+      "memorial-cafe",
+      "collaboration-cafe"
+    ],
+    "verified_at": "2026-11-22T19:00:44+09:00",
+    "lastChecked": "2026-11-22T19:00:44+09:00",
+    "persons": [
+      "加藤純一"
+    ],
+    "allDay": true,
+    "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+    "sourceUrls": [
+      "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+      "https://towershibuya.jp/news/2026/11/21/237728"
+    ],
+    "confidence": "high",
+    "status": "confirmed",
+    "id": "hypergame-final-memorial-cafe-umeda-20261228",
+    "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（梅田）",
+    "start": "2026-12-28",
+    "end": "2027-01-16",
+    "location": "TOWER RECORDS CAFE 梅田NU茶屋町店",
+    "notes": "2026年12月28日から2027年1月15日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
   },
   {
     "id": "streamer-zuzu-block-20270109",
