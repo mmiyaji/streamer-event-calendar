@@ -1,38 +1,113 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T06:59:21+09:00",
+  "generated_at": "2026-11-22T19:00:44+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "pokemon30-card-illustration-figures-20261127",
-        "title": "ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATION 発売（抽選販売）",
-        "category": "pokemon",
+        "category": "streamer",
         "type": "offline_event",
-        "game": "pokemon",
-        "priority": "major",
+        "game": null,
+        "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
         "tags": [
-          "pokemon",
-          "pokemon30th",
-          "goods",
-          "release"
+          "hyper-game-final",
+          "memorial-cafe",
+          "collaboration-cafe"
         ],
-        "verified_at": "2026-11-22T06:59:21+09:00",
-        "lastChecked": "2026-11-22T06:59:21+09:00",
-        "persons": [],
-        "start": "2026-11-27",
+        "verified_at": "2026-11-22T19:00:44+09:00",
+        "lastChecked": "2026-11-22T19:00:44+09:00",
+        "persons": [
+          "加藤純一"
+        ],
         "allDay": true,
-        "url": "https://www.pokemon-card.com/info/005764.html",
+        "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
         "sourceUrls": [
-          "https://www.pokemon-card.com/info/005764.html",
-          "https://www.pokemoncenter-online.com/news/?id=20261120"
+          "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+          "https://towershibuya.jp/news/2026/11/21/237728"
         ],
         "confidence": "high",
         "status": "confirmed",
-        "notes": "ポケモンカードゲーム公式が2026年11月20日に商品名と2026年11月27日発売、販売店舗をポケモンセンターオンラインと告知。ポケモンセンターオンラインは抽選販売と発表。抽選応募の受付期間は告知ページ内の画像情報から確認できず未確認。"
+        "id": "hypergame-final-memorial-cafe-shibuya-20261215",
+        "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（渋谷）",
+        "start": "2026-12-15",
+        "end": "2027-01-12",
+        "location": "TOWER RECORDS CAFE 渋谷店",
+        "notes": "2026年12月15日から2027年1月11日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "category": "streamer",
+        "type": "offline_event",
+        "game": null,
+        "priority": "normal",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "hyper-game-final",
+          "memorial-cafe",
+          "collaboration-cafe"
+        ],
+        "verified_at": "2026-11-22T19:00:44+09:00",
+        "lastChecked": "2026-11-22T19:00:44+09:00",
+        "persons": [
+          "加藤純一"
+        ],
+        "allDay": true,
+        "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+        "sourceUrls": [
+          "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+          "https://towershibuya.jp/news/2026/11/21/237728"
+        ],
+        "confidence": "high",
+        "status": "confirmed",
+        "id": "hypergame-final-memorial-cafe-umeda-20261228",
+        "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（梅田）",
+        "start": "2026-12-28",
+        "end": "2027-01-16",
+        "location": "TOWER RECORDS CAFE 梅田NU茶屋町店",
+        "notes": "2026年12月28日から2027年1月15日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "category": "streamer",
+        "type": "offline_event",
+        "game": null,
+        "priority": "normal",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": [
+          "hyper-game-final",
+          "memorial-cafe",
+          "collaboration-cafe"
+        ],
+        "verified_at": "2026-11-22T19:00:44+09:00",
+        "lastChecked": "2026-11-22T19:00:44+09:00",
+        "persons": [
+          "加藤純一"
+        ],
+        "allDay": true,
+        "url": "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+        "sourceUrls": [
+          "https://openrec.store/blogs/news/hygfinal-memorial-cafe-tower-records-cafe",
+          "https://towershibuya.jp/news/2026/11/21/237728"
+        ],
+        "confidence": "high",
+        "status": "confirmed",
+        "id": "hypergame-final-memorial-cafe-fukuoka-20261224",
+        "title": "配信者ハイパーゲーム大会 FINAL Memorial Cafe（福岡）",
+        "start": "2026-12-24",
+        "end": "2027-01-16",
+        "location": "TOWER RECORDS CAFE 福岡店",
+        "notes": "2026年12月24日から2027年1月15日まで開催。12月31日から1月4日は休業。加藤純一プロデュースメニューを公式告知で確認。"
       }
     }
   ]
