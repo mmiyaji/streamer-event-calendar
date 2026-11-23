@@ -10,7 +10,7 @@ $log = Join-Path $logs ('transfer-' + (Get-Date -Format 'yyyyMMdd-HHmmss') + '-'
 $result = 1
 try {
   Start-Transcript -LiteralPath $log | Out-Null
-  & powershell.exe -NoProfile -NonInteractive -ExecutionPolicy Bypass `
+  & powershell.exe -NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass `
     -File (Join-Path $PSScriptRoot 'publish_codex_proposals.ps1')
   $result = $LASTEXITCODE
   Write-Output "Transfer exit code: $result"

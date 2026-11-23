@@ -80,5 +80,38 @@ class TransferTests(unittest.TestCase):
         self.assertFalse((self.root / "published.sha256").exists())
 
 
+@unittest.skipUnless(os.name == "nt" and shutil.which("powershell.exe"), "Windows task installer")
+class TaskInstallerTests(unittest.TestCase):
+    def test_action_runs_from_profile_with_spaces(self):
+        with tempfile.TemporaryDirectory(prefix="calendar profile ") as folder:
+            root = Path(folder) / "StreamerEventCalendar"
+            publisher = root / "publisher"
+            publisher.mkdir(parents=True)
+            runner = publisher / "run_calendar_transfer_hidden.vbs"
+            for name in (SCRIPT.name, runner.name, "run_calendar_transfer.ps1"):
+                shutil.copyfile(SCRIPT.with_name(name), publisher / name)
+            # Only construct the definition. The installer owns registration.
+            script = """
+            $ErrorActionPreference = 'Stop'
+            $task = & $env:CALENDAR_DEFINITION -HiddenRunner $env:CALENDAR_TEST_RUNNER
+            $trigger = $task.Triggers[0]
+            if ($trigger.Repetition.Interval -ne 'PT1H' -or
+                ([datetime]$trigger.StartBoundary).ToLocalTime().Minute -ne 5) { throw 'Unexpected schedule' }
+            if (!$task.Settings.StartWhenAvailable) { throw 'Missing catch-up setting' }
+            $action = $task.Actions[0]
+            $p = Start-Process -FilePath $action.Execute -ArgumentList $action.Arguments -Wait -PassThru -WindowStyle Hidden
+            exit $p.ExitCode
+            """
+            result = subprocess.run(
+                ["powershell.exe", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-Command", script],
+                env={**os.environ, "LOCALAPPDATA": folder,
+                     "CALENDAR_DEFINITION": str(SCRIPT.with_name("new_calendar_transfer_task.ps1")),
+                     "CALENDAR_TEST_RUNNER": str(runner)},
+                capture_output=True, timeout=90,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertEqual(len(list((root / "logs").glob("transfer-*.log"))), 1)
+
+
 if __name__ == "__main__":
     unittest.main()

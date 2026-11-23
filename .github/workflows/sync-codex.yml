@@ -53,29 +53,8 @@ jobs:
         if: steps.validate.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          set -euo pipefail
-          git fetch origin main
-          git fetch origin automation/codex-sync || true
-          git switch -C automation/codex-sync origin/main
-          cp /tmp/codex_synced_events.json data/codex_synced_events.json
-          if git show origin/automation/codex-sync:data/codex_synced_events.json > /tmp/current-bot-events.json 2>/dev/null &&
-             cmp -s /tmp/current-bot-events.json data/codex_synced_events.json; then
-            echo "Open PR already has the same event data"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- data/codex_synced_events.json
-          git diff --cached --quiet && exit 0
-          git commit -m "chore(calendar): sync verified Codex event changes"
-          git push --force-with-lease origin HEAD:refs/heads/automation/codex-sync
-          if ! gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number // empty' | grep -q '[0-9]'; then
-            gh pr create --base main --head automation/codex-sync \
-              --title "Calendar: apply Codex-verified event changes" \
-              --body "Automated data-only sync from Codex. Validation and complete calendar build ran on trusted main code. Verified data is automatically merged and published when ENABLE_CALENDAR_AUTO_MERGE is true. No Codex-provided scripts are executed."
-          fi
-      - name: Merge validated data and dispatch publication
+        run: bash scripts/refresh_calendar_pr.sh /tmp/codex_synced_events.json
+      - name: Merge validated data
         if: steps.validate.outputs.changed == 'true' && vars.ENABLE_CALENDAR_AUTO_MERGE == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
@@ -92,7 +71,7 @@ jobs:
             echo "Auto-merge disabled: no active main PR ruleset"
             exit 1
           fi
-          PR="$(gh pr list --head automation/codex-sync --base main --state open --json number --jq '.[0].number')"
+          PR="$(gh pr list --head automation/codex-sync --base main --state open --json number,isCrossRepository --jq 'map(select(.isCrossRepository == false))[0].number // empty')"
           test -n "$PR"
           HEAD_SHA="$(gh pr view "$PR" --json headRefOid --jq '.headRefOid')"
           # A fork can use the same branch name: verify repository identity too.
@@ -104,5 +83,8 @@ jobs:
           git show "$HEAD_SHA:data/codex_synced_events.json" > /tmp/pr-validated-events.json
           cmp /tmp/codex_synced_events.json /tmp/pr-validated-events.json
           gh pr merge "$PR" --squash --match-head-commit "$HEAD_SHA"
-          # A merge made with GITHUB_TOKEN does not trigger a push workflow.
-          gh workflow run pages.yml --ref main
+      - name: Recover any missing publication of main
+        if: ${{ !cancelled() && vars.ENABLE_CALENDAR_AUTO_MERGE == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/reconcile_calendar_pages.sh
