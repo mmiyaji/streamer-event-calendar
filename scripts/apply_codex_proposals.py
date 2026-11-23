@@ -53,6 +53,14 @@ def normalize_title(value):
     return s
 
 
+def with_defaults(event):
+    result = {"status": "confirmed", "confidence": "high", "persons": [], **event}
+    urls = event.get("sourceUrls")
+    if isinstance(urls, list) and urls:
+        result.setdefault("url", urls[0])
+    return result
+
+
 def validate(e, operation, today):
     if not isinstance(e, dict):
         raise ValueError("event must be an object")
@@ -112,11 +120,7 @@ def validate(e, operation, today):
         raise ValueError(f"{eid}: upsert status must be confirmed")
     if e.get("confidence", "high") != "high":
         raise ValueError(f"{eid}: confidence must be high")
-    e.setdefault("status", "confirmed")
-    e.setdefault("confidence", "high")
-    e.setdefault("persons", [])
-    e.setdefault("url", e["sourceUrls"][0])
-    return e
+    return with_defaults(e)
 
 
 def baseline():
@@ -141,14 +145,14 @@ def apply(proposal, current, existing, today):
         raise ValueError("changes must be an array with <=100 entries")
     # Hourly polling sees the last proposal long after it was merged. Exact
     # matches to the trusted overlay need no new verification or data write.
-    current_by_id = {e["id"]: e for e in current}
+    current_by_id = {e["id"]: with_defaults(e) for e in current}
     if changes and all(
         isinstance(item, dict)
         and item.get("operation") in {"upsert", "cancel"}
         and isinstance(item.get("event"), dict)
         and isinstance(item["event"].get("id"), str)
-        and item["event"] == current_by_id.get(item["event"]["id"])
-        and item["event"].get("status") == ("cancelled" if item["operation"] == "cancel" else "confirmed")
+        and with_defaults(item["event"]) == current_by_id.get(item["event"]["id"])
+        and item["event"].get("status", "confirmed") == ("cancelled" if item["operation"] == "cancel" else "confirmed")
         for item in changes
     ):
         ids = [item["event"]["id"] for item in changes]

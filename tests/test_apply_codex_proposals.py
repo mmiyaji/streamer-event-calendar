@@ -52,6 +52,16 @@ class ApplyCodexTests(unittest.TestCase):
         result, count = mod.apply(proposal([]), [], {}, TODAY)
         self.assertEqual((result, count), ([], 0))
 
+    def test_ics_uses_single_crlf_on_every_line(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "test.ics"
+            mod.build.write_ics(path, [event()], "配信者")
+            data = path.read_bytes()
+            self.assertIn("X-WR-CALNAME:配信者\r\n".encode(), data)
+            self.assertTrue(data.endswith(b"END:VCALENDAR\r\n"))
+            self.assertEqual(data, b"\r\n".join(data.splitlines()) + b"\r\n")
+            self.assertNotIn(b"\r\r", data)
+
     def test_new_event(self):
         e = event()
         result, count = mod.apply(proposal([{"operation": "upsert", "event": e}]), [], {}, TODAY)
@@ -106,6 +116,21 @@ class ApplyCodexTests(unittest.TestCase):
         e["start"] = "2026-10"
         with self.assertRaisesRegex(ValueError, "all-day start"):
             mod.apply(proposal([{"operation": "upsert", "event": e}]), [], {}, TODAY)
+
+    def test_stale_replay_with_omitted_defaults(self):
+        e = event()
+        for field in ("status", "confidence", "persons", "url"):
+            del e[field]
+        p = proposal([{"operation": "upsert", "event": e}])
+        current, count = mod.apply(copy.deepcopy(p), [], {}, TODAY)
+        self.assertEqual(count, 1)
+        self.assertEqual(current[0]["persons"], [])
+        self.assertEqual(current[0]["url"], e["sourceUrls"][0])
+        later = TODAY + dt.timedelta(days=9)
+        self.assertEqual(mod.apply(p, current, {}, later), (current, 0))
+        p["changes"][0]["operation"] = "cancel"
+        with self.assertRaisesRegex(ValueError, "stale"):
+            mod.apply(p, current, {}, later)
 
 
 if __name__ == "__main__":
