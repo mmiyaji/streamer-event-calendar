@@ -1,104 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T19:05:20+09:00",
+  "generated_at": "2026-11-25T07:07:58+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "verified_at": "2026-11-23T19:05:20+09:00",
-        "lastChecked": "2026-11-23T19:05:20+09:00",
-        "persons": [],
-        "allDay": false,
-        "confidence": "high",
-        "status": "confirmed",
-        "id": "svwb-masters-cup-vol4-20261127",
-        "title": "Shadowverse Masters Cup Vol.4",
+        "id": "sf6-gunma-league-2026-qualifier",
+        "title": "GUNMA LEAGUE 2026 ストリートファイター6部門 予選",
+        "category": "sf6",
+        "type": "qualifier",
+        "game": "sf6",
         "priority": "normal",
-        "tags": [
-          "shadowverse-wb",
-          "masters-cup",
-          "vol4",
-          "online"
-        ],
-        "start": "2026-11-27T15:00:00+09:00",
-        "end": "2026-11-28T20:59:00+09:00",
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M6N76AT4EN7VWN0W8FRVMAXQ",
-        "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M6N76AT4EN7VWN0W8FRVMAXQ"
-        ],
-        "notes": "公式告知で参加期間11月27日15:00〜11月28日14:59、対戦期間11月27日15:00〜11月28日20:59を確認。Master 0以上が参加対象のオンライン大会。 公式ニュースページ本文はHTML抽出で確認できず、公式アカウント告知の表示内容を照合。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
         "source": "official",
         "official": true,
         "region": "jp",
-        "verified_at": "2026-11-23T19:05:20+09:00",
-        "lastChecked": "2026-11-23T19:05:20+09:00",
+        "tags": [
+          "sf6",
+          "gunma-league",
+          "qualifier",
+          "regional"
+        ],
+        "verified_at": "2026-11-25T07:07:58+09:00",
+        "lastChecked": "2026-11-25T07:07:58+09:00",
         "persons": [],
+        "start": "2026-12-12",
         "allDay": true,
+        "location": "GUNMA eSPORTS（群馬県前橋市）",
+        "url": "https://www.pref.gunma.jp/site/houdou/782927.html",
+        "sourceUrls": [
+          "https://www.pref.gunma.jp/site/houdou/782927.html"
+        ],
         "confidence": "high",
         "status": "confirmed",
-        "id": "svwb-bo3-showdown-vol4-prelim-20261129",
-        "title": "Shadowverse BO3 Showdown Vol.4 予選",
-        "priority": "major",
-        "tags": [
-          "shadowverse-wb",
-          "bo3-showdown",
-          "vol4",
-          "online"
-        ],
-        "start": "2026-11-29",
-        "end": null,
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M60SHVK48GBHTDSAV0XB80Z8",
-        "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M60SHVK48GBHTDSAV0XB80Z8"
-        ],
-        "notes": "大会公式アカウント告知で予選日11月29日を確認。Masters Cup優勝者など参加権利取得者限定。開始時刻は告知で未確認。 公式ニュースページ本文はHTML抽出で確認できず、公式アカウント告知の表示内容を照合。"
-      }
-    },
-    {
-      "operation": "upsert",
-      "event": {
-        "category": "shadowverse_wb",
-        "type": "tournament",
-        "game": "shadowverse_wb",
-        "source": "official",
-        "official": true,
-        "region": "jp",
-        "verified_at": "2026-11-23T19:05:20+09:00",
-        "lastChecked": "2026-11-23T19:05:20+09:00",
-        "persons": [],
-        "allDay": true,
-        "confidence": "high",
-        "status": "confirmed",
-        "id": "svwb-bo3-showdown-vol4-grand-finals-20261219",
-        "title": "Shadowverse BO3 Showdown Vol.4 Grand Finals",
-        "priority": "major",
-        "tags": [
-          "shadowverse-wb",
-          "bo3-showdown",
-          "vol4",
-          "online"
-        ],
-        "start": "2026-12-19",
-        "end": null,
-        "url": "https://shadowverse-wb.com/ja/news/detail/?id=01M60SHVK48GBHTDSAV0XB80Z8",
-        "sourceUrls": [
-          "https://shadowverse-wb.com/ja/news/detail/?id=01M60SHVK48GBHTDSAV0XB80Z8"
-        ],
-        "notes": "大会公式アカウント告知でGrand Finals日12月19日を確認。Masters Cup優勝者など参加権利取得者限定。開始時刻は告知で未確認。 公式ニュースページ本文はHTML抽出で確認できず、公式アカウント告知の表示内容を照合。"
+        "notes": "群馬県eスポーツ・クリエイティブ推進課の2026年11月18日付発表で確認。第6回GUNMA LEAGUE（群馬県企業等対抗社会人eスポーツリーグ）のストリートファイター6部門予選を2026年12月12日にGUNMA eSPORTSで開催。参加対象は国内に本社・支店等を持つ企業、団体、学校、自治体（1チーム2人以上）。開始時刻は未発表。申込期限は11月23日（終了済）。決勝は2027年2月28日にオープンハウスアリーナ太田 メインステージで開催予定。"
       }
     }
   ]
