@@ -1,38 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T07:07:58+09:00",
+  "generated_at": "2026-11-26T07:06:00+09:00",
   "changes": [
     {
       "operation": "upsert",
       "event": {
-        "id": "sf6-gunma-league-2026-qualifier",
-        "title": "GUNMA LEAGUE 2026 ストリートファイター6部門 予選",
-        "category": "sf6",
+        "id": "svwb-girls-battle-fes-2026-season4-osaka-qualifier",
+        "title": "Shadowverse Girls Battle Fes 2026 Season 4 大阪予選",
+        "category": "shadowverse_wb",
         "type": "qualifier",
-        "game": "sf6",
+        "game": "shadowverse_wb",
         "priority": "normal",
         "source": "official",
         "official": true,
         "region": "jp",
-        "tags": [
-          "sf6",
-          "gunma-league",
-          "qualifier",
-          "regional"
-        ],
-        "verified_at": "2026-11-25T07:07:58+09:00",
-        "lastChecked": "2026-11-25T07:07:58+09:00",
+        "tags": ["girls-battle-fes", "season-4", "qualifier", "offline"],
+        "verified_at": "2026-11-26T07:06:00+09:00",
+        "lastChecked": "2026-11-26T07:06:00+09:00",
         "persons": [],
-        "start": "2026-12-12",
+        "start": "2026-12-05",
         "allDay": true,
-        "location": "GUNMA eSPORTS（群馬県前橋市）",
-        "url": "https://www.pref.gunma.jp/site/houdou/782927.html",
-        "sourceUrls": [
-          "https://www.pref.gunma.jp/site/houdou/782927.html"
-        ],
+        "location": "グランキューブ大阪",
+        "url": "https://girlsbattlefes.shadowverse-wb.com/",
+        "sourceUrls": ["https://girlsbattlefes.shadowverse-wb.com/"],
         "confidence": "high",
         "status": "confirmed",
-        "notes": "群馬県eスポーツ・クリエイティブ推進課の2026年11月18日付発表で確認。第6回GUNMA LEAGUE（群馬県企業等対抗社会人eスポーツリーグ）のストリートファイター6部門予選を2026年12月12日にGUNMA eSPORTSで開催。参加対象は国内に本社・支店等を持つ企業、団体、学校、自治体（1チーム2人以上）。開始時刻は未発表。申込期限は11月23日（終了済）。決勝は2027年2月28日にオープンハウスアリーナ太田 メインステージで開催予定。"
+        "notes": "Cygames運営のGirls Battle Fes公式ページで開催日・会場を確認。女性限定の大型大会Season 4の大阪予選で、同会場のShadowverse Japan Wildcard Qualifier 2026と併催。参加受付は2026年11月15日で終了。大会開始時刻は確認できないため終日予定で登録。"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-girls-battle-fes-2026-season4-tokyo-qualifier",
+        "title": "Shadowverse Girls Battle Fes 2026 Season 4 東京予選",
+        "category": "shadowverse_wb",
+        "type": "qualifier",
+        "game": "shadowverse_wb",
+        "priority": "normal",
+        "source": "official",
+        "official": true,
+        "region": "jp",
+        "tags": ["girls-battle-fes", "season-4", "qualifier", "offline"],
+        "verified_at": "2026-11-26T07:06:00+09:00",
+        "lastChecked": "2026-11-26T07:06:00+09:00",
+        "persons": [],
+        "start": "2026-12-06",
+        "allDay": true,
+        "location": "ベルサール高田馬場",
+        "url": "https://girlsbattlefes.shadowverse-wb.com/",
+        "sourceUrls": ["https://girlsbattlefes.shadowverse-wb.com/"],
+        "confidence": "high",
+        "status": "confirmed",
+        "notes": "Cygames運営のGirls Battle Fes公式ページで開催日・会場を確認。女性限定の大型大会Season 4の東京予選で、同会場のShadowverse Japan Wildcard Qualifier 2026と併催。参加受付は2026年11月15日で終了。大会開始時刻は確認できないため終日予定で登録。"
       }
     }
   ]
