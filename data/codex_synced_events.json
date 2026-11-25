@@ -1428,6 +1428,36 @@
     "notes": "Cygames公式WGP 2026特設サイトで開催日・会場を確認。スイスドロー7回戦とプレーオフ最大2回戦。開始時刻未発表。"
   },
   {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "id": "sf6-gunma-league-2026-qualifier",
+    "title": "GUNMA LEAGUE 2026 ストリートファイター6部門 予選",
+    "category": "sf6",
+    "type": "qualifier",
+    "game": "sf6",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "sf6",
+      "gunma-league",
+      "qualifier",
+      "regional"
+    ],
+    "verified_at": "2026-11-25T07:07:58+09:00",
+    "lastChecked": "2026-11-25T07:07:58+09:00",
+    "start": "2026-12-12",
+    "allDay": true,
+    "location": "GUNMA eSPORTS（群馬県前橋市）",
+    "url": "https://www.pref.gunma.jp/site/houdou/782927.html",
+    "sourceUrls": [
+      "https://www.pref.gunma.jp/site/houdou/782927.html"
+    ],
+    "notes": "群馬県eスポーツ・クリエイティブ推進課の2026年11月18日付発表で確認。第6回GUNMA LEAGUE（群馬県企業等対抗社会人eスポーツリーグ）のストリートファイター6部門予選を2026年12月12日にGUNMA eSPORTSで開催。参加対象は国内に本社・支店等を持つ企業、団体、学校、自治体（1チーム2人以上）。開始時刻は未発表。申込期限は11月23日（終了済）。決勝は2027年2月28日にオープンハウスアリーナ太田 メインステージで開催予定。"
+  },
+  {
     "id": "sf6-zenkoku-todofuken-2026-exhibition",
     "title": "全国都道府県対抗eスポーツ選手権2026 SF6東西対抗エキシビション",
     "category": "sf6",
