@@ -1400,6 +1400,66 @@
     "notes": "大会公式アカウント告知で予選日11月29日を確認。Masters Cup優勝者など参加権利取得者限定。開始時刻は告知で未確認。 公式ニュースページ本文はHTML抽出で確認できず、公式アカウント告知の表示内容を照合。"
   },
   {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "id": "svwb-girls-battle-fes-2026-season4-osaka-qualifier",
+    "title": "Shadowverse Girls Battle Fes 2026 Season 4 大阪予選",
+    "category": "shadowverse_wb",
+    "type": "qualifier",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "girls-battle-fes",
+      "season-4",
+      "qualifier",
+      "offline"
+    ],
+    "verified_at": "2026-11-26T07:06:00+09:00",
+    "lastChecked": "2026-11-26T07:06:00+09:00",
+    "start": "2026-12-05",
+    "allDay": true,
+    "location": "グランキューブ大阪",
+    "url": "https://girlsbattlefes.shadowverse-wb.com/",
+    "sourceUrls": [
+      "https://girlsbattlefes.shadowverse-wb.com/"
+    ],
+    "notes": "Cygames運営のGirls Battle Fes公式ページで開催日・会場を確認。女性限定の大型大会Season 4の大阪予選で、同会場のShadowverse Japan Wildcard Qualifier 2026と併催。参加受付は2026年11月15日で終了。大会開始時刻は確認できないため終日予定で登録。"
+  },
+  {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "id": "svwb-girls-battle-fes-2026-season4-tokyo-qualifier",
+    "title": "Shadowverse Girls Battle Fes 2026 Season 4 東京予選",
+    "category": "shadowverse_wb",
+    "type": "qualifier",
+    "game": "shadowverse_wb",
+    "priority": "normal",
+    "source": "official",
+    "official": true,
+    "region": "jp",
+    "tags": [
+      "girls-battle-fes",
+      "season-4",
+      "qualifier",
+      "offline"
+    ],
+    "verified_at": "2026-11-26T07:06:00+09:00",
+    "lastChecked": "2026-11-26T07:06:00+09:00",
+    "start": "2026-12-06",
+    "allDay": true,
+    "location": "ベルサール高田馬場",
+    "url": "https://girlsbattlefes.shadowverse-wb.com/",
+    "sourceUrls": [
+      "https://girlsbattlefes.shadowverse-wb.com/"
+    ],
+    "notes": "Cygames運営のGirls Battle Fes公式ページで開催日・会場を確認。女性限定の大型大会Season 4の東京予選で、同会場のShadowverse Japan Wildcard Qualifier 2026と併催。参加受付は2026年11月15日で終了。大会開始時刻は確認できないため終日予定で登録。"
+  },
+  {
     "id": "svwb-world-grand-prix-2026-day1",
     "title": "Shadowverse World Grand Prix 2026 Day 1",
     "category": "shadowverse_wb",
