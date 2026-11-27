@@ -1373,6 +1373,68 @@
     "status": "confirmed",
     "confidence": "high",
     "persons": [],
+    "allDay": false,
+    "notes": "カプコン公式告知（2026年10月31日）で、オンライン開催の女性大会部門を2026年11月28日16:00開始と確認。シングルエリミネーション。告知ページへの直接アクセスはHTTP応答202で本文を取得できなかったが、公式検索結果に日付・時刻が掲載されている。",
+    "game": "sf6",
+    "start": "2026-11-28T16:00:00+09:00",
+    "region": "jp",
+    "tags": [
+      "capcom-esports-club",
+      "monthly-tournament",
+      "women",
+      "online",
+      "sf6"
+    ],
+    "verified_at": "2026-11-27T07:05:22+09:00",
+    "url": "https://www.capcom.co.jp/amusement/game/shop/news/kichijyoji/8928",
+    "title": "CAPCOM e-Sports club Street Fighter 6 2026年11月度 月例トーナメント 女性大会部門",
+    "type": "tournament",
+    "category": "sf6",
+    "lastChecked": "2026-11-27T07:05:22+09:00",
+    "official": true,
+    "location": "オンライン",
+    "source": "official",
+    "priority": "normal",
+    "id": "sf6-capcom-esports-club-monthly-2026-11-women",
+    "sourceUrls": [
+      "https://www.capcom.co.jp/amusement/game/shop/news/kichijyoji/8928"
+    ]
+  },
+  {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "allDay": false,
+    "notes": "カプコン公式告知（2026年10月31日）で、オンライン開催の無差別大会部門を2026年11月28日18:00開始と確認。シングルエリミネーション。告知ページへの直接アクセスはHTTP応答202で本文を取得できなかったが、公式検索結果に日付・時刻が掲載されている。",
+    "game": "sf6",
+    "start": "2026-11-28T18:00:00+09:00",
+    "region": "jp",
+    "tags": [
+      "capcom-esports-club",
+      "monthly-tournament",
+      "open",
+      "online",
+      "sf6"
+    ],
+    "verified_at": "2026-11-27T07:05:22+09:00",
+    "url": "https://www.capcom.co.jp/amusement/game/shop/news/kichijyoji/8928",
+    "title": "CAPCOM e-Sports club Street Fighter 6 2026年11月度 月例トーナメント 無差別大会部門",
+    "type": "tournament",
+    "category": "sf6",
+    "lastChecked": "2026-11-27T07:05:22+09:00",
+    "official": true,
+    "location": "オンライン",
+    "source": "official",
+    "priority": "normal",
+    "id": "sf6-capcom-esports-club-monthly-2026-11-open",
+    "sourceUrls": [
+      "https://www.capcom.co.jp/amusement/game/shop/news/kichijyoji/8928"
+    ]
+  },
+  {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
     "category": "shadowverse_wb",
     "type": "tournament",
     "game": "shadowverse_wb",
@@ -1428,6 +1490,68 @@
       "https://girlsbattlefes.shadowverse-wb.com/"
     ],
     "notes": "Cygames運営のGirls Battle Fes公式ページで開催日・会場を確認。女性限定の大型大会Season 4の大阪予選で、同会場のShadowverse Japan Wildcard Qualifier 2026と併催。参加受付は2026年11月15日で終了。大会開始時刻は確認できないため終日予定で登録。"
+  },
+  {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "allDay": false,
+    "notes": "CAPCOM eSPORTS CLUB主催者ページの構造化イベント情報で、2026年12月5日16:00開始、オンライン開催を確認。女性大会、シングルエリミネーション。",
+    "game": "sf6",
+    "start": "2026-12-05T16:00:00+09:00",
+    "region": "jp",
+    "tags": [
+      "capcom-esports-club",
+      "monthly-tournament",
+      "women",
+      "online",
+      "sf6"
+    ],
+    "verified_at": "2026-11-27T07:05:22+09:00",
+    "url": "https://tonamel.com/competition/RonWt",
+    "title": "2026/12/5（土） CAPCOM eSPORTS CLUB 月例トーナメント 女性大会",
+    "type": "tournament",
+    "category": "sf6",
+    "lastChecked": "2026-11-27T07:05:22+09:00",
+    "official": true,
+    "location": "オンライン",
+    "source": "official",
+    "priority": "normal",
+    "id": "sf6-capcom-esports-club-monthly-2026-12-women",
+    "sourceUrls": [
+      "https://tonamel.com/competition/RonWt"
+    ]
+  },
+  {
+    "status": "confirmed",
+    "confidence": "high",
+    "persons": [],
+    "allDay": false,
+    "notes": "CAPCOM eSPORTS CLUB主催者ページの構造化イベント情報で、2026年12月5日18:00開始、オンライン開催を確認。無差別大会、シングルエリミネーション。",
+    "game": "sf6",
+    "start": "2026-12-05T18:00:00+09:00",
+    "region": "jp",
+    "tags": [
+      "capcom-esports-club",
+      "monthly-tournament",
+      "open",
+      "online",
+      "sf6"
+    ],
+    "verified_at": "2026-11-27T07:05:22+09:00",
+    "url": "https://tonamel.com/competition/RXUah",
+    "title": "2026/12/5（土） CAPCOM eSPORTS CLUB 月例トーナメント 無差別大会",
+    "type": "tournament",
+    "category": "sf6",
+    "lastChecked": "2026-11-27T07:05:22+09:00",
+    "official": true,
+    "location": "オンライン",
+    "source": "official",
+    "priority": "normal",
+    "id": "sf6-capcom-esports-club-monthly-2026-12-open",
+    "sourceUrls": [
+      "https://tonamel.com/competition/RXUah"
+    ]
   },
   {
     "status": "confirmed",
