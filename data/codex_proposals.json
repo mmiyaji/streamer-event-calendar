@@ -1,47 +1,76 @@
 {
+  "schema_version": 1,
   "changes": [
     {
+      "operation": "upsert",
       "event": {
-        "title": "REJECT Fes. Vol.1 “Shine as One”",
-        "verified_at": "2026-11-28T07:05:51+09:00",
-        "sourceUrls": [
-          "https://reject.jp/2026/11/27/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E6%89%80%E5%B1%9Evtuber6%E5%90%8D%E3%81%8C%E5%87%BA%E6%BC%94%E3%81%99%E3%82%8B3d%E3%83%A9%E3%82%A4%E3%83%96-r/"
-        ],
+        "id": "svwb-bo3-showdown-vol4-qualifier-2026",
+        "game": "shadowverse_wb",
+        "source": "official",
+        "url": "https://shadowverse-wb.com/ja/event/schedule/detail/?id=4070538632",
+        "type": "tournament",
+        "verified_at": "2026-11-28T19:02:52+09:00",
+        "persons": [],
+        "notes": "Cygames公式イベント詳細で、オンライン大会「Shadowverse BO3 Showdown Vol.4」の予選を2026年11月29日開催と確認。大会はBO3、予選スイスドローから決勝シングルエリミネーション。開始時刻の記載がないため終日予定として登録。",
+        "end": "2026-11-30",
         "official": true,
-        "confidence": "high",
-        "persons": [
-          "天鬼ぷるる",
-          "dtto.",
-          "とおこ",
-          "乾伸一郎",
-          "ラクシャーナ",
-          "カプラ・リブラス"
-        ],
-        "lastChecked": "2026-11-28T07:05:51+09:00",
-        "notes": "REJECT公式発表で所属VTuber6名の3Dライブ開催を確認。2027年2月22日（月）、開場17:00・開演18:00、会場はKT Zepp Yokohama。出演者は天鬼ぷるる、dtto.、とおこ、乾伸一郎、ラクシャーナ、カプラ・リブラス。",
-        "location": "KT Zepp Yokohama",
+        "location": "オンライン",
         "region": "jp",
+        "start": "2026-11-29",
+        "allDay": true,
+        "lastChecked": "2026-11-28T19:02:52+09:00",
+        "category": "shadowverse_wb",
         "priority": "major",
         "tags": [
-          "streamer",
-          "reject",
-          "reject-fes",
-          "3d-live",
-          "offline"
+          "bo3-showdown",
+          "vol-4",
+          "qualifier",
+          "online",
+          "official-tournament"
         ],
-        "source": "official",
-        "category": "streamer",
-        "allDay": false,
-        "type": "offline_event",
-        "game": null,
-        "start": "2027-02-22T18:00:00+09:00",
-        "url": "https://reject.jp/2026/11/27/%E3%80%90%E3%82%B9%E3%83%88%E3%83%AA%E3%83%BC%E3%83%9E%E3%83%BC%E9%83%A8%E9%96%80%E3%80%91%E6%89%80%E5%B1%9Evtuber6%E5%90%8D%E3%81%8C%E5%87%BA%E6%BC%94%E3%81%99%E3%82%8B3d%E3%83%A9%E3%82%A4%E3%83%96-r/",
+        "sourceUrls": [
+          "https://shadowverse-wb.com/ja/event/schedule/detail/?id=4070538632"
+        ],
         "status": "confirmed",
-        "id": "streamer-reject-fes-vol1-shine-as-one-20270222"
-      },
-      "operation": "upsert"
+        "confidence": "high",
+        "title": "【予選】Shadowverse BO3 Showdown Vol.4 予選"
+      }
+    },
+    {
+      "operation": "upsert",
+      "event": {
+        "id": "svwb-bo3-showdown-vol4-grand-finals-2026",
+        "game": "shadowverse_wb",
+        "source": "official",
+        "url": "https://shadowverse-wb.com/ja/event/schedule/detail/?id=4070538632",
+        "type": "tournament",
+        "verified_at": "2026-11-28T19:02:52+09:00",
+        "persons": [],
+        "notes": "Cygames公式イベント詳細で、オンライン大会「Shadowverse BO3 Showdown Vol.4」のGrand Finalsを2026年12月19日開催と確認。開始時刻の記載がないため終日予定として登録。",
+        "end": "2026-12-20",
+        "official": true,
+        "location": "オンライン",
+        "region": "jp",
+        "start": "2026-12-19",
+        "allDay": true,
+        "lastChecked": "2026-11-28T19:02:52+09:00",
+        "category": "shadowverse_wb",
+        "priority": "major",
+        "tags": [
+          "bo3-showdown",
+          "vol-4",
+          "grand-finals",
+          "online",
+          "official-tournament"
+        ],
+        "sourceUrls": [
+          "https://shadowverse-wb.com/ja/event/schedule/detail/?id=4070538632"
+        ],
+        "status": "confirmed",
+        "confidence": "high",
+        "title": "Shadowverse BO3 Showdown Vol.4 Grand Finals"
+      }
     }
   ],
-  "generated_at": "2026-11-28T07:05:51+09:00",
-  "schema_version": 1
+  "generated_at": "2026-11-28T19:02:52+09:00"
 }
